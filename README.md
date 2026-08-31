@@ -11,6 +11,20 @@
 
 ---
 
+## 畫面
+
+<img src="docs/screenshot-title.png" width="100%" alt="標題畫面：薩爾達傳說 風之律動 HD">
+
+<img src="docs/screenshot-dialogue.png" width="100%" alt="遊戲內對話">
+
+對話字型 `CKingMsg`，5,371 字，缺字 0。
+
+<img src="docs/screenshot-menu.png" width="100%" alt="道具選單">
+
+選單字型 `CKingMain`，731 字。
+
+---
+
 ## 成果
 
 | 項目 | 內容 |
