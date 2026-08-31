@@ -80,6 +80,20 @@ BFFNT 的字圖頁是 **BC4 壓縮 + Wii U GX2 2D tiling（tileMode 4）**。
 
 `tools/verify_font.py` 會確認「既有字元索引改變數 = 0」。
 
+**字圖必須反鋸齒。** 遊戲原本的字圖是 `0 →(漸變)→ 128 →(漸變)→ 255` 的連續灰階，
+把算繪結果二值化再加一圈平坦灰邊，放大看就是明顯的毛邊：
+
+```
+原版「一」： 0  0  99 126 128 147 227 255 ... 255 149 127 127  21  0
+二值化版本： 0  0   0   0   0 145 145 255 ... 128 128 128 128   0  0
+```
+
+所以 `tools/glyph_render.py` 全程以浮點覆蓋率運算，而且**在超取樣解析度下做描邊膨脹**
+再一起降取樣，最後 `128 * halo + 127 * core`，自然得到三個平台與其間的漸變。
+
+`tools/glyph_quality.py` 可以量測：修正前新增字只有 4 個灰階，修正後 80–149，
+與原版的 33–165 同級。
+
 ### 4. 貼圖層
 
 `tools/dump_bflim.py` / `tools/pack_bflim.py` 解碼與編碼 BFLIM（RGBA8 與 BC4）。
@@ -218,8 +232,11 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 | `fit_logo.py` `retitle.py` `retitle_word.py` | 標題美術處理 |
 | `repack.py` `install.py` | 重打包與安裝 |
 | `verify_release.py` `verify_font.py` `validate_msbt.py` `check_repack.py` | 驗證 |
+| `glyph_quality.py` | 量測字圖灰階層數，抓出沒反鋸齒的字 |
 | `audit_terms.py` `find_text.py` `rare_chars.py` | 用語稽核 |
 | `diff_sarc.py` `compare_device.py` | 比對封存 / 裝置 |
+| `audit_tools.py` | 列出哪些腳本是 `build.ps1` 真正會用到的 |
+| `scan_privacy.py` `png_metadata.py` `strip_png_metadata.py` | 發布前檢查個資與圖片中繼資料 |
 
 `validate_msbt.py` 特別針對上游 v1.0.0 出現過的 **"TXT2 chunk size error"**
 （v1.0.1 才修掉）做結構驗證：檔頭尺寸、區段銜接、TXT2 偏移表越界、字串終止。

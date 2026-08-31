@@ -1,5 +1,11 @@
-"""Render new glyphs in the game's style (white core + grey outline) and
-calibrate size/offset/outline against the existing glyphs."""
+"""Render new glyphs in the game's style and calibrate size/offset/outline
+against the existing glyphs.
+
+The game's glyphs are a white core sitting on a mid-grey outline, with
+antialiased ramps between 0, ~128 and 255. Coverage is therefore kept as a
+float all the way through - thresholding here is what makes added characters
+look jagged next to the originals.
+"""
 import os
 import sys
 
@@ -12,12 +18,14 @@ SUPERSAMPLE = 4
 
 
 class GlyphRenderer:
-    def __init__(self, font_path, size, dx, dy, outline, variation=None, index=0):
+    def __init__(self, font_path, size, dx, dy, outline, variation=None, index=0,
+                 blur=0.0):
         self.font_path = font_path
         self.size = size
         self.dx = dx
         self.dy = dy
         self.outline = outline
+        self.blur = blur
         self.variation = variation
         self.font = ImageFont.truetype(font_path, size * SUPERSAMPLE, index=index)
         if variation:
@@ -33,17 +41,25 @@ class GlyphRenderer:
         big = Image.new("L", (cell_w * SUPERSAMPLE * 2, cell_h * SUPERSAMPLE * 2), 0)
         d = ImageDraw.Draw(big)
         d.text((big.width // 4, big.height // 4), ch, fill=255, font=self.font, anchor="lt")
-        small = big.resize((big.width // SUPERSAMPLE, big.height // SUPERSAMPLE),
-                           Image.LANCZOS)
-        core = small.point(lambda v: 255 if v >= 110 else 0)
-        halo = core
-        if self.outline > 0:
-            halo = core.filter(ImageFilter.MaxFilter(2 * self.outline + 1))
-        a = np.asarray(core, dtype=np.uint8)
-        b = np.asarray(halo, dtype=np.uint8)
-        img = np.where(a > 0, CORE, np.where(b > 0, HALO, 0)).astype(np.uint8)
 
-        ys, xs = np.nonzero(img)
+        small = (cell_w * 2, cell_h * 2)
+        # dilate at the supersampled scale so the outline edge stays antialiased
+        core = np.asarray(big.resize(small, Image.BOX), dtype=np.float32) / 255.0
+        if self.outline > 0:
+            radius = self.outline * SUPERSAMPLE
+            halo_big = big.point(lambda v: 255 if v >= 128 else 0).filter(
+                ImageFilter.MaxFilter(2 * radius + 1))
+            if self.blur:
+                halo_big = halo_big.filter(
+                    ImageFilter.GaussianBlur(self.blur * SUPERSAMPLE))
+            halo = np.asarray(halo_big.resize(small, Image.BOX), dtype=np.float32) / 255.0
+            halo = np.maximum(halo, core)
+        else:
+            halo = core
+
+        img = np.clip(HALO * halo + (CORE - HALO) * core, 0, 255).astype(np.uint8)
+
+        ys, xs = np.nonzero(img > 8)
         if len(xs) == 0:
             return np.zeros((cell_h, cell_w), dtype=np.uint8)
         crop = img[ys.min():ys.max() + 1, xs.min():xs.max() + 1]
@@ -65,23 +81,24 @@ def calibrate(font_path, refs, cell_w, cell_h, variation=None, index=0, log=None
     margin = 4   # neighbouring cells bleed a couple of pixels into every cell
     for size in range(32, 52):
         for outline in (1, 2):
-            r = GlyphRenderer(font_path, size, 0, 0, outline, variation, index)
-            rendered = {ch: r.render(ch, cell_w, cell_h) for ch in refs}
-            for dy in range(-5, 6):
-                for dx in range(-5, 6):
-                    total = 0.0
-                    for ch, ref in refs.items():
-                        shifted = np.roll(np.roll(rendered[ch], dy, axis=0), dx, axis=1)
-                        total += np.abs(
-                            shifted[margin:cell_h - margin,
-                                    margin:cell_w - margin].astype(np.int16) -
-                            ref[margin:cell_h - margin,
-                                margin:cell_w - margin].astype(np.int16)).mean()
-                    score = total / max(1, len(refs))
-                    if best is None or score < best[0]:
-                        best = (score, size, dx, dy, outline)
-    score, size, dx, dy, outline = best
+            for blur in (0.0, 0.5, 1.0):
+                r = GlyphRenderer(font_path, size, 0, 0, outline, variation, index, blur)
+                rendered = {ch: r.render(ch, cell_w, cell_h) for ch in refs}
+                for dy in range(-5, 6):
+                    for dx in range(-5, 6):
+                        total = 0.0
+                        for ch, ref in refs.items():
+                            shifted = np.roll(np.roll(rendered[ch], dy, axis=0), dx, axis=1)
+                            total += np.abs(
+                                shifted[margin:cell_h - margin,
+                                        margin:cell_w - margin].astype(np.int16) -
+                                ref[margin:cell_h - margin,
+                                    margin:cell_w - margin].astype(np.int16)).mean()
+                        score = total / max(1, len(refs))
+                        if best is None or score < best[0]:
+                            best = (score, size, dx, dy, outline, blur)
+    score, size, dx, dy, outline, blur = best
     if log is not None:
         log.append(f"calibrated: size={size} dx={dx} dy={dy} outline={outline} "
-                   f"mean_abs_err={score:.2f}")
-    return GlyphRenderer(font_path, size, dx, dy, outline, variation, index), score
+                   f"blur={blur} mean_abs_err={score:.2f}")
+    return GlyphRenderer(font_path, size, dx, dy, outline, variation, index, blur), score
