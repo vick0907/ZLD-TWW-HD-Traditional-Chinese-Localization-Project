@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010143500
+name = Traditional Chinese (zh-TW)
+path = "The Legend of Zelda: The Wind Waker HD/Mods/Traditional Chinese"
+description = Replaces the English text and fonts with a Traditional Chinese (Taiwan) translation, converted from the Simplified Chinese fan patch by wmltogether. The title logo is redrawn as well. USA version only - the game language must be set to English.
+version = 7

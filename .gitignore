@@ -1,0 +1,16 @@
+# Never commit game assets. Everything below is derived from a retail dump or
+# from the upstream Simplified Chinese release, and must be obtained by the user.
+work/
+out/
+.venv/
+__pycache__/
+*.pyc
+
+# build artefacts
+*.pack
+*.szs
+*.bffnt
+*.msbt
+*.bflim
+*.wux
+*.wud
