@@ -2,6 +2,9 @@
 
 Any message whose characters are all inside the original menu font's repertoire
 could have been drawn with it, so its converted form must be renderable too.
+
+A codepoint that is mapped but whose cell is empty does not count as usable --
+the Simplified patch left several of those behind and they show up as gaps.
 """
 import os
 import sys
@@ -9,6 +12,23 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bffnt  # noqa: E402
 import msbt  # noqa: E402
+from atlas import Atlas  # noqa: E402
+
+ALWAYS_BLANK = {0x0A, 0x0D, 0x20, 0xA0, 0x3000}
+
+
+def drawn_repertoire(font):
+    atlas = Atlas(font)
+    chars = set()
+    for cp in font.charmap:
+        ch = chr(cp)
+        if cp in ALWAYS_BLANK:
+            chars.add(ch)
+            continue
+        cell = atlas.cell_for_char(ch)
+        if cell is None or cell.any():
+            chars.add(ch)
+    return chars
 
 
 def text_of(segs):
@@ -18,7 +38,8 @@ def text_of(segs):
 def main():
     font_path, old_root, new_root, out = sys.argv[1:5]
     font = bffnt.parse(open(font_path, "rb").read())
-    repertoire = {chr(c) for c in font.charmap}
+    repertoire = drawn_repertoire(font)
+    blank = len(font.charmap) - len(repertoire)
 
     needed = set()
     candidates = 0
@@ -44,6 +65,7 @@ def main():
         f.write("".join(extra))
     print(f"menu-renderable messages: {candidates}")
     print(f"font repertoire: {len(repertoire)}  needed extra glyphs: {len(extra)}")
+    print(f"mapped but blank (unusable): {blank}")
     print(f"free slots: {font.tglp.capacity - len(font.charmap)}")
     print("wrote", out)
 

@@ -22,6 +22,9 @@ from PIL import Image  # noqa: E402
 CALIB = "日月山川人大中小天王正方五百千文本立平田目口"
 FULLWIDTH_CJK = (1, 40, 42)
 
+# codepoints whose glyph is legitimately empty
+ALWAYS_BLANK = {0x0A, 0x0D, 0x20, 0xA0, 0x3000}
+
 
 def is_fullwidth(ch):
     o = ord(ch)
@@ -79,8 +82,20 @@ def main():
     data = open(args.bffnt, "rb").read()
     f = bffnt.parse(data)
     t = f.tglp
+    atlas = Atlas(f)
     existing = {chr(c) for c in f.charmap}
     next_index = max(f.charmap.values()) + 1
+
+    # The Simplified patch left some codepoints mapped to an empty cell (mostly
+    # leftovers from the Japanese font). They are "present" but render as a gap,
+    # so treat them as absent and let them be redrawn at a fresh index.
+    blank = set()
+    for ch in existing:
+        if ord(ch) in ALWAYS_BLANK:
+            continue
+        cell = atlas.cell_for_char(ch)
+        if cell is not None and not cell.any():
+            blank.add(ch)
 
     needed = set()
     if args.text_root:
@@ -94,21 +109,26 @@ def main():
             if "\u4e00" <= ch <= "\u9fff":
                 needed.add(conv.convert(ch))
 
+    # Reclaim every empty CJK cell, not just the ones today's text happens to
+    # hit: they are reachable by text and would otherwise render as a gap.
+    needed |= {ch for ch in blank
+               if "\u4e00" <= ch <= "\u9fff" or "\u3000" <= ch <= "\u30ff"}
+
     # private-use symbols live in CKingPic, control codes are not glyphs
-    new_chars = sorted(c for c in needed - existing
+    new_chars = sorted(c for c in needed - (existing - blank)
                        if ord(c) >= 0x20 and not (0xE000 <= ord(c) <= 0xF8FF))
 
     log = {"font": os.path.basename(args.bffnt),
            "existing_glyphs": len(f.charmap),
            "capacity": t.capacity,
            "free_slots": t.capacity - next_index,
-           "new_chars_requested": len(new_chars)}
+           "new_chars_requested": len(new_chars),
+           "redrawn_blank": "".join(sorted(blank & set(new_chars)))}
 
     if len(new_chars) > t.capacity - next_index:
         raise SystemExit(f"not enough slots: need {len(new_chars)}, "
                          f"have {t.capacity - next_index}")
 
-    atlas = Atlas(f)
     refs = {ch: atlas.cell_for_char(ch) for ch in CALIB
             if atlas.cell_for_char(ch) is not None}
     calib_log = []
