@@ -146,16 +146,12 @@ out\TWWHD_zhTW_CemuGraphicPack.zip   Cemu graphic pack 版
 
 ## 安裝
 
-### 資料夾格式的 dump（推薦）
+部署方式有兩種，擇一即可。
 
-把 `content\` 覆蓋到遊戲資料的相同路徑即可，之後不需要任何外掛。
+### 方式一　外掛式：不動到遊戲本體（限 Cemu）
 
-```
-content\Common\Pack\permanent_2d_UsEnglish.pack
-content\Common\Layout\Title_00.szs
-```
-
-### Cemu graphic pack
+中文以 graphic pack 的形式疊在遊戲上，**原始遊戲檔案不會被修改**，
+取消勾選就切回英文。
 
 把 `TWWHD_zhTW` 放進 `graphicPacks\`（**不要**放 `downloadedGraphicPacks\`，
 那個資料夾會被 Cemu 更新覆蓋），重開 Cemu 後在
@@ -163,10 +159,20 @@ content\Common\Layout\Title_00.szs
 
 這個方式可以直接疊在 `.wud` / `.wux` 上，但那些格式**需要光碟金鑰**才讀得到。
 
-### Android
+### 方式二　整合式：直接覆蓋遊戲檔案
 
-整個遊戲資料夾複製過去即可，補丁已經在檔案裡。`tools/compare_device.py`
-可以比對 PC 與裝置，只推送有變動的檔案。
+把 `content\` 覆蓋到遊戲資料的相同路徑，做出一份「本來就是中文」的
+遊戲資料，之後不需要任何外掛。實機（Loadiine）只能用這種方式。
+
+```
+content\Common\Pack\permanent_2d_UsEnglish.pack
+content\Common\Layout\Title_00.szs
+```
+
+會改寫遊戲檔案，請先備份上面這兩個檔。
+
+Android 掌機屬於這一種：整個遊戲資料夾複製過去即可，補丁已經在檔案裡。
+`tools/compare_device.py` 可以比對 PC 與裝置，只推送有變動的檔案。
 
 ---
 

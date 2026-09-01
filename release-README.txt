@@ -64,11 +64,42 @@ content\Common\Layout\Title_00.szs                標題畫面點陣圖
 
 安裝
 ----------------------------------------------------------------
-1. 準備一份你自己合法持有的《The Legend of Zelda: The Wind Waker HD》
-   美版遊戲資料。
-2. 把 content 資料夾內的檔案覆蓋到遊戲資料的相同路徑。
-3. 以 Loadiine（WiiU 5.3.2 或更早韌體）或 Cemu 執行。
-   Cemu 也可以放進 graphicPacks 以檔案取代的方式載入。
+開始前請確認：
+
+  * 遊戲是美版（USA）WUP-P-BCZE，Title ID 0005000010143500
+  * 遊戲／主機語言設為「English」
+    （設成法文或西班牙文的話，遊戲會去讀 UsFrench / UsSpanish，中文不會出現）
+
+部署方式有兩種，擇一即可：
+
+
+─── 方式一　外掛式：不動到遊戲本體（推薦，限 Cemu）────────────────
+
+中文以「圖形封包」的形式疊在遊戲上，原始遊戲檔案完全不會被修改，
+想切回英文只要取消勾選就好，不必重灌。
+
+  1. 下載 TWWHD_zhTW_CemuGraphicPack.zip
+  2. 解壓後，把整個 TWWHD_zhTW 資料夾放進 Cemu 的 graphicPacks\
+  3. 重開 Cemu，到「選項 → 圖形封包」勾選
+     Traditional Chinese (zh-TW)
+  4. 啟動遊戲
+
+  ※ 要放在 graphicPacks\，別放進 downloadedGraphicPacks\ ──
+    後者在更新圖形封包時會被清空。
+
+
+─── 方式二　整合式：直接覆蓋遊戲檔案 ──────────────────────────
+
+把中文檔案寫進遊戲資料本身，做出一份「本來就是中文」的遊戲資料。
+實機（Loadiine）只能用這種方式。
+
+  1. 下載 ZLD-TWW-HD-zhTW-v1.0.2-tw1.zip
+  2. 先備份上面「檔案」列出的那兩個原始檔案
+  3. 把 content 資料夾內的檔案覆蓋到遊戲資料的相同路徑
+  4. 以 Loadiine（WiiU 5.3.2 或更早韌體）或 Cemu 執行
+
+  ※ 這個方式會改寫遊戲檔案，沒備份就回不去了，請先備份。
+
 
 ※ 日版鏡像請把 permanent_2d_UsEnglish.pack 改名為
   permanent_2d_JpJapanese.pack。
