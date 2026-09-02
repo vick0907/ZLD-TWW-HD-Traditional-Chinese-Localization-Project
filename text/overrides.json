@@ -396,5 +396,2127 @@
     "key": "message4#12130",
     "find": "本店的所有商品已經全賣光了！",
     "replace": "本店所有商品都賣光了！"
+  },
+  {
+    "key": "message#03027",
+    "note": "EN: You're still half asleep, aren't you?",
+    "find": "你還沒睡覺吧？",
+    "replace": "你還沒睡醒吧？"
+  },
+  {
+    "key": "message#00122",
+    "find": "U用它可以",
+    "replace": "用它可以"
+  },
+  {
+    "key": "message#00132",
+    "note": "stray tabs",
+    "find": "這東西能用百寶囊來存放\t。\t",
+    "replace": "這東西可以收在百寶囊裡。"
+  },
+  {
+    "key": "message#00138",
+    "find": "打撈海底的物品..",
+    "replace": "打撈海底的物品。"
+  },
+  {
+    "key": "message#00154",
+    "note": "duplicated word",
+    "find": "變換箭頭箭頭",
+    "replace": "變換箭頭"
+  },
+  {
+    "key": "message#00156",
+    "note": "EN: They're really light - weight, not brightness",
+    "find": "很亮...",
+    "replace": "好輕..."
+  },
+  {
+    "key": "message#00157",
+    "find": "你獲得的這柄",
+    "replace": "你獲得了這柄"
+  },
+  {
+    "key": "message#00157",
+    "find": "想亮劍時",
+    "replace": "想揮劍時"
+  },
+  {
+    "key": "message#00170",
+    "note": "the Chinese was copy-pasted from the Joy Pendant",
+    "find": "這些吊墜據說一直在吸引",
+    "replace": "這個飾品看起來不討喜，"
+  },
+  {
+    "key": "message#00170",
+    "find": "傳播歡樂的人，就像盛開",
+    "replace": "似乎也不值什麼錢，"
+  },
+  {
+    "key": "message#00170",
+    "find": "的花朵能招來蝴蝶一樣。",
+    "replace": "但識貨的人會出高價。"
+  },
+  {
+    "key": "message#00174",
+    "find": "是沒法發揮出效力的..",
+    "replace": "是沒法發揮出效力的。"
+  },
+  {
+    "key": "message#00177",
+    "find": "非常有用的東西。!",
+    "replace": "非常有用的東西！"
+  },
+  {
+    "key": "message#00186",
+    "note": "EN: Isn't she the sweetest?",
+    "find": "奶奶能不是最疼你的人嗎?",
+    "replace": "奶奶真是太疼你了，對吧?"
+  },
+  {
+    "key": "message#00220",
+    "find": "沒有比較再變更風向了！",
+    "replace": "不必再手動改變風向了！"
+  },
+  {
+    "key": "message#00231",
+    "note": "missing passive marker",
+    "find": "這美味的寵物食品給吸引過來。",
+    "replace": "被這美味的寵物食品吸引過來。"
+  },
+  {
+    "key": "message#00241",
+    "find": "這隻嬌小的",
+    "replace": "這朵嬌小的"
+  },
+  {
+    "key": "message#00245",
+    "find": "異國的漁民所制",
+    "replace": "異國的漁民所製"
+  },
+  {
+    "key": "message#00254",
+    "find": "你收得了",
+    "replace": "你收下了"
+  },
+  {
+    "key": "message#00266",
+    "note": "EN: Its salty seawater coating is kind of gross",
+    "find": "它上面的苦澀的海水塗料像長了毛一樣。",
+    "replace": "上面那層鹹鹹的海水黏黏的，有點噁心。"
+  },
+  {
+    "key": "message#00267",
+    "note": "EN: smells like mold - not a model",
+    "find": "這東西聞起來就是又涼又溼的模型。",
+    "replace": "又涼又溼，還聞得到一股霉味。"
+  },
+  {
+    "key": "message#00268",
+    "note": "EN: It's sandy and kind of rough. It feels weird.",
+    "find": "這是沙制的因此很粗糙。看起來真怪異。",
+    "replace": "沾滿了沙子，摸起來粗粗的，感覺真怪。"
+  },
+  {
+    "key": "message#00276",
+    "note": "EN says arrows, not bombs",
+    "find": "隨身攜帶的炸彈上限為",
+    "replace": "隨身攜帶的箭上限為"
+  },
+  {
+    "key": "message#00277",
+    "note": "EN says arrows, not bombs",
+    "find": "隨身攜帶的炸彈上限為",
+    "replace": "隨身攜帶的箭上限為"
+  },
+  {
+    "key": "message#00279",
+    "find": "魔力了！",
+    "replace": "魔力了！",
+    "note": "handled by global TERMS now"
+  },
+  {
+    "key": "message#00296",
+    "find": "N現在你知道",
+    "replace": "現在你知道"
+  },
+  {
+    "key": "message#00303",
+    "note": "Big Octo is not an Octorok",
+    "find": "大八爪投石怪",
+    "replace": "大章魚"
+  },
+  {
+    "key": "message#00303",
+    "find": "八爪投石怪海圖",
+    "replace": "大章魚海圖"
+  },
+  {
+    "key": "message#00622",
+    "note": "duplicated clause",
+    "find": "來抓住並舉起物品來抓住並舉起物品。",
+    "replace": "來抓住並舉起物品。"
+  },
+  {
+    "key": "message#00626",
+    "note": "EN: can hold up to eight pieces of bait",
+    "find": "這個特殊的口袋能裝下",
+    "replace": "這個口袋最多能裝八種"
+  },
+  {
+    "key": "message#00631",
+    "find": "，時，可以在空中",
+    "replace": "時，就可以在空中"
+  },
+  {
+    "key": "message#00666",
+    "note": "EN: this bait = Hyoi Pear, not All-Purpose Bait",
+    "find": "運用萬能餌料能控制海鷗。",
+    "replace": "用這種餌料就能控制海鷗。"
+  },
+  {
+    "key": "message#00696",
+    "note": "EN: This is one helping",
+    "find": "這是兩次份量",
+    "replace": "這是一次份量"
+  },
+  {
+    "key": "message#00808",
+    "note": "EN: Pay depends on experience",
+    "find": "按業結支付酬勞。",
+    "replace": "薪資依經驗而定。"
+  },
+  {
+    "key": "message#00813",
+    "note": "EN: replenish health with a potion or fairy",
+    "find": "就得去砍砍草尋找心。",
+    "replace": "就得喝藥水或用妖精。"
+  },
+  {
+    "key": "message#00821",
+    "find": "盧比少的人會生活地很艱苦。",
+    "replace": "盧比少的人會過得很艱苦。"
+  },
+  {
+    "key": "message#00821",
+    "find": "盡多地收集盧比..",
+    "replace": "盡量多收集盧比。"
+  },
+  {
+    "key": "message#00846",
+    "note": "EN: With 40, you'll find a map to great treasure",
+    "find": "擁有20份快樂，你會找到寶藏地圖。",
+    "replace": "擁有40份快樂，你會找到寶藏地圖。"
+  },
+  {
+    "key": "message#01101",
+    "note": "EN: Your sword landed all the way up there?",
+    "find": "你的劍不小掉下去了呀？",
+    "replace": "你的劍飛到那上面去了？"
+  },
+  {
+    "key": "message#01113",
+    "find": "。裡面。",
+    "replace": "裡面。"
+  },
+  {
+    "key": "message#01505",
+    "find": "雲用",
+    "replace": "用"
+  },
+  {
+    "key": "message#01505",
+    "find": "就是那個出現在我後面的是",
+    "replace": "是出現在我後面的箭頭，"
+  },
+  {
+    "key": "message#01513",
+    "note": "EN: Oh, I almost forgot! Wait just a moment!",
+    "find": "族人拜見巨龍的方法!",
+    "replace": "哦，我差點忘了！稍等一下！"
+  },
+  {
+    "key": "message#01550",
+    "note": "EN: You are surprisingly dull witted...",
+    "find": "哎?你已經恢復知覺了",
+    "replace": "你還真是遲鈍啊..."
+  },
+  {
+    "key": "message#01543",
+    "note": "two lines were duplicated and the last one truncated",
+    "find": " 肯定知道\r\n加布藏身的那個洞穴。\r\n不如我們先去然後\r\n在那裡找到他們吧?",
+    "replace": "\r\n找找他們吧？"
+  },
+  {
+    "key": "message#01574",
+    "note": "EN: if you do nothing else, then at least do this",
+    "find": "所以說，你就算無所事事，",
+    "replace": "所以，就算其他都不做，"
+  },
+  {
+    "key": "message#01574",
+    "find": "也不要到這裡來...",
+    "replace": "也要記住這件事..."
+  },
+  {
+    "key": "message#01579",
+    "note": "EN: And, Medli, protect Link",
+    "find": "梅德麗會幫助",
+    "replace": "梅德麗，也要保護"
+  },
+  {
+    "key": "message#01582",
+    "find": "我感肯定",
+    "replace": "我很肯定"
+  },
+  {
+    "key": "message#01584",
+    "find": "落在地上聲音!",
+    "replace": "落在地上的聲音!"
+  },
+  {
+    "key": "message#02045",
+    "find": "哦1",
+    "replace": "哦"
+  },
+  {
+    "key": "message#02053",
+    "note": "four lines were duplicated",
+    "find": "你總是那麼努力工作\r\n\r\n\r\n你餓了嗎?你還暖和嗎?\r\n有傷到自己嗎?\r\n\r\n你總是那麼努力工作",
+    "replace": "你總是那麼努力工作"
+  },
+  {
+    "key": "message#02053",
+    "find": "祖母",
+    "replace": "奶奶",
+    "all": true
+  },
+  {
+    "key": "message#02059",
+    "find": "阿利爾l...",
+    "replace": "阿利爾..."
+  },
+  {
+    "key": "message#02206",
+    "find": "那底是艘",
+    "replace": "那到底是艘"
+  },
+  {
+    "key": "message#02211",
+    "find": "恩，看起來",
+    "replace": "嗯，看起來"
+  },
+  {
+    "key": "message#02302",
+    "find": "呢，要嗎，",
+    "replace": "呢，"
+  },
+  {
+    "key": "message#02398",
+    "find": "現在{0E:2:0:0}現在，!",
+    "replace": "現在，{0E:2:0:0}!"
+  },
+  {
+    "key": "message#02460",
+    "note": "EN: Knight!",
+    "find": "武士!",
+    "replace": "劍士!"
+  },
+  {
+    "key": "message#02462",
+    "note": "EN: Swordsman!",
+    "find": "半吊子！",
+    "replace": "劍豪！"
+  },
+  {
+    "key": "message#02503",
+    "find": "舉例來說，就經常用這個方法",
+    "replace": "舉例來說，我就常用這方法"
+  },
+  {
+    "key": "message#02507",
+    "note": "EN: I can tell you're a smart lad",
+    "find": "你想你應該是一個聰明的小傢伙",
+    "replace": "我看得出你是個聰明的小傢伙"
+  },
+  {
+    "key": "message#02605",
+    "note": "EN: You're not going to board that ship, are you?",
+    "find": "你打算不登上那艘船，",
+    "replace": "你該不會打算登上那艘船"
+  },
+  {
+    "key": "message#02605",
+    "find": "而是打算去救她，你說真的嗎？",
+    "replace": "去救她吧？你說真的嗎？"
+  },
+  {
+    "key": "message#02616",
+    "note": "EN: You're a powerhouse!",
+    "find": "你簡直就像座發電站嗎!",
+    "replace": "你簡直就是個大力士！"
+  },
+  {
+    "key": "message#02727",
+    "find": "不太好啊l...",
+    "replace": "不太好啊..."
+  },
+  {
+    "key": "message#02909",
+    "note": "EN: Don't you pay any attention to him",
+    "find": "注意他麼...",
+    "replace": "別理他吧..."
+  },
+  {
+    "key": "message#02914",
+    "find": "你祖母在叫你呢",
+    "replace": "你奶奶在叫你呢"
+  },
+  {
+    "key": "message#02814",
+    "note": "EN: Talk about a dummy!",
+    "find": "真是沒想到!",
+    "replace": "真是個笨蛋!"
+  },
+  {
+    "key": "message#03103",
+    "note": "EN: Wow. What's with that getup?",
+    "find": "哎呀。我是怎麼跑到樹上去的?",
+    "replace": "哎呀。你這身打扮是怎麼回事?"
+  },
+  {
+    "key": "message#03115",
+    "note": "EN: Get ahold of yourself!",
+    "find": "你以為你會飛呀！",
+    "replace": "給我振作一點！"
+  },
+  {
+    "key": "message#03203",
+    "note": "EN: And how do you figure that...?",
+    "find": "請容我說句話...?",
+    "replace": "你這麼說有何根據...?"
+  },
+  {
+    "key": "message#03218",
+    "note": "EN: This is a terrible situation",
+    "find": "有個情況要宣告一下，",
+    "replace": "情況真是糟透了，"
+  },
+  {
+    "key": "message#03233",
+    "find": "? 的東西?",
+    "replace": "的東西嗎?"
+  },
+  {
+    "key": "message2#03323",
+    "note": "EN: It sounds like you're doing amazing stuff",
+    "find": "你正在說一件非常驚人的工作",
+    "replace": "你正在做一件非常了不起的事"
+  },
+  {
+    "key": "message2#03409",
+    "note": "EN: Promise? - refers to the promise Link shows",
+    "find": "你保證？",
+    "replace": "可能性？"
+  },
+  {
+    "key": "message2#03419",
+    "note": "EN: finish any business here on Outset so you have no regrets",
+    "find": "你得繼續完成你的冒險。",
+    "replace": "趁現在把島上該辦的事辦完，"
+  },
+  {
+    "key": "message2#03419",
+    "find": "現在已經不能回頭了。",
+    "replace": "免得將來留下遺憾。"
+  },
+  {
+    "key": "message2#03450",
+    "note": "EN: enter the column of darkness",
+    "find": "進入這光之中！",
+    "replace": "進入這黑暗之中！"
+  },
+  {
+    "key": "message2#03536",
+    "note": "EN: That is the last thing I remember",
+    "find": " 是我唯一記得的情況。",
+    "replace": " 是我最後記得的事了。"
+  },
+  {
+    "key": "message2#03562",
+    "note": "EN: it is quite amusing",
+    "find": "它真的很有用",
+    "replace": "它真的很有趣"
+  },
+  {
+    "key": "message2#03940",
+    "find": "超出我的預期了，I",
+    "replace": "超出我的預期了，"
+  },
+  {
+    "key": "message2#03954",
+    "note": "EN: Isn't it nice to be complimented once in a while?",
+    "find": "你要走了嗎！",
+    "replace": "好啦，就是這樣！"
+  },
+  {
+    "key": "message2#03954",
+    "find": "待一會然後接受再一次的獎勵不是很好嗎？",
+    "replace": "偶爾被人稱讚一下也不錯吧？"
+  },
+  {
+    "key": "message2#04013",
+    "note": "EN: Your loss, kiddo!",
+    "find": "太可惜了！你輸了！",
+    "replace": "算了！是你的損失，小子！"
+  },
+  {
+    "key": "message2#04017",
+    "note": "EN: When you fall into the ocean, you GET BACK OUT!",
+    "find": "就直接出局！出局！",
+    "replace": "就快點爬回船上！馬上！"
+  },
+  {
+    "key": "message2#04142",
+    "note": "EN: that's why you've gotta be sure to shout",
+    "find": "一定要閉嘴的",
+    "replace": "一定要大聲喊的"
+  },
+  {
+    "key": "message2#04211",
+    "note": "EN: Look, don't struggle.",
+    "find": "別怕怕別顫抖。",
+    "replace": "聽好，別掙扎。"
+  },
+  {
+    "key": "message2#04305",
+    "note": "EN: I was mistaken for a troublemaker and put into this place",
+    "find": "我還錯認了一些麻煩的傢伙",
+    "replace": "我還被誤認成搗亂的傢伙"
+  },
+  {
+    "key": "message2#04305",
+    "find": "並聚集到這個可怕的地方！",
+    "replace": "被關進了這種可怕的地方！"
+  },
+  {
+    "key": "message2#04405",
+    "note": "EN: There you go... Acting before you think, as usual...",
+    "find": "你只需要...跟著感覺走，",
+    "replace": "你又來了...老是不經大腦，"
+  },
+  {
+    "key": "message2#04405",
+    "find": "保持平常心..",
+    "replace": "想都不想就衝..."
+  },
+  {
+    "key": "message2#04406",
+    "note": "EN: we had to draw that monster bird off for you",
+    "find": "把那隻怪鳥給畫下來？",
+    "replace": "幫你把那隻怪鳥引開？"
+  },
+  {
+    "key": "message2#04411",
+    "find": "會為她們的迴歸準備一點厚道的謝禮的。",
+    "replace": "會為她們平安歸來準備豐厚的謝禮。"
+  },
+  {
+    "key": "message2#04415",
+    "note": "EN: Big, important, grown-up things",
+    "find": "還在不斷擴大的事件。",
+    "replace": "屬於大人的事情。"
+  },
+  {
+    "key": "message2#04424",
+    "note": "EN: ever since Miss Tetra left, he's been crying like a baby",
+    "find": "但是自從特托拉小姐就像孩子一樣一直在那哭",
+    "replace": "但是自從特托拉小姐離開後，他就一直哭個不停"
+  },
+  {
+    "key": "message2#04424",
+    "note": "EN: Senza's beard makes him look pretty mean",
+    "find": "和森扎一樣...他們的鬍鬚讓",
+    "replace": "但人很好。至於森扎...他的鬍子讓"
+  },
+  {
+    "key": "message2#04424",
+    "find": "他們看起來很漂亮，當他們心情正好的時候",
+    "replace": "他看起來有點兇，不過他心情好的時候"
+  },
+  {
+    "key": "message2#04424",
+    "find": "祖寇有點吵了，",
+    "replace": "祖寇有點怪，"
+  },
+  {
+    "key": "message2#04424",
+    "note": "EN: he seems sad not to have you around anymore",
+    "find": "他從來不在你面前",
+    "replace": "你不在了他好像很"
+  },
+  {
+    "key": "message2#04424",
+    "find": "悲傷。你是這樣的朋友嗎？",
+    "replace": "失落。你們感情很好嗎？"
+  },
+  {
+    "key": "message2#04424",
+    "note": "EN: I'll loan you my telescope for a little longer",
+    "find": "你可以借我的望遠鏡稍微",
+    "replace": "我的望遠鏡可以再借你"
+  },
+  {
+    "key": "message2#04456",
+    "find": "那邊是壓制著吾之魔族的可惡",
+    "replace": "那便是壓制著吾之魔力的可惡"
+  },
+  {
+    "key": "message2#04471",
+    "note": "EN: You arrived not a moment too soon",
+    "find": "您已經好久沒回來了",
+    "replace": "您來得正是時候"
+  },
+  {
+    "key": "message2#05015",
+    "note": "EN: The Forbidden Woods are right beside the Forest Haven",
+    "find": "右邊",
+    "replace": "旁邊"
+  },
+  {
+    "key": "message2#05015",
+    "find": "貼近我們森林的孤島",
+    "replace": "緊鄰我們森之島的孤島"
+  },
+  {
+    "key": "message2#05032",
+    "note": "EN: How are things in the world?",
+    "find": "世間的規則是怎樣的，",
+    "replace": "外面的世界如何呢，"
+  },
+  {
+    "key": "message2#05060",
+    "note": "EN: I haven't seen him of late",
+    "find": "我從沒見過",
+    "replace": "我最近沒見過"
+  },
+  {
+    "key": "message2#05060",
+    "find": "他遲到過。",
+    "replace": "他呢。"
+  },
+  {
+    "key": "message2#05104",
+    "note": "EN: If we are unable to hold our ceremony",
+    "find": "如果我們無法保證慣例的儀式，",
+    "replace": "如果我們無法舉行慣例的儀式，"
+  },
+  {
+    "key": "message2#05108",
+    "note": "EN: a branch that hangs out over the sea",
+    "find": "有一條",
+    "replace": "有一根"
+  },
+  {
+    "key": "message2#05108",
+    "find": "岔路",
+    "replace": "樹枝"
+  },
+  {
+    "key": "message2#05118",
+    "find": "你看起來給比我們重太多了。",
+    "replace": "你看起來可比我們重太多了。"
+  },
+  {
+    "key": "message2#05118",
+    "find": "你覺得這種差別沒什麼影響啊？",
+    "replace": "你覺得自己真的沒問題嗎？"
+  },
+  {
+    "key": "message2#05142",
+    "note": "EN: I'm using the fruit of the forest to create potions. I'm called Hollo.",
+    "find": "我實用森林裡的漿果",
+    "replace": "我用森林裡的漿果"
+  },
+  {
+    "key": "message2#05142",
+    "find": "製成了一種藥水。我把它命名為",
+    "replace": "製作藥水。我的名字叫"
+  },
+  {
+    "key": "message2#05250",
+    "note": "EN: You must find more of my fellow Koroks",
+    "find": "收集",
+    "replace": "找到"
+  },
+  {
+    "key": "message2#05278",
+    "note": "EN: who guard the withered forest trees",
+    "find": "他們也守護在紅色小樹旁。",
+    "replace": "他們都守護著枯萎的森之樹。"
+  },
+  {
+    "key": "message2#05289",
+    "note": "EN: You can conduct here, but it will not do anything.",
+    "find": "你可以在這裡繼續，",
+    "replace": "你可以在這裡指揮，"
+  },
+  {
+    "key": "message2#05304",
+    "note": "EN: this pearl",
+    "find": "我也一直希望這",
+    "replace": "我衷心期盼這顆"
+  },
+  {
+    "key": "message2#05304",
+    "find": "項鍊",
+    "replace": "寶珠"
+  },
+  {
+    "key": "message2#05412",
+    "note": "EN: Did you hear that? I guess that was kind of rude!",
+    "find": "你覺得自己如何？",
+    "replace": "你聽到了嗎？"
+  },
+  {
+    "key": "message2#05412",
+    "find": "我覺得那強姦了我的耳朵！",
+    "replace": "我剛才好像有點失禮！"
+  },
+  {
+    "key": "message2#05413",
+    "note": "EN: I was looking forward to your song.",
+    "find": "我還以為會是什麼沁人心脾的歌呢。",
+    "replace": "我還很期待你的歌呢。"
+  },
+  {
+    "key": "message2#05606",
+    "note": "EN: the room where you got the Master Sword",
+    "find": "在那裡，你能夠獲得",
+    "replace": "就是你當初取得"
+  },
+  {
+    "key": "message2#05659",
+    "note": "EN: no need to reveal my identity so long as the sword could defeat Ganon",
+    "find": "已經沒有必要對你隱瞞我的真實身份了",
+    "replace": "只要那柄劍還能擊敗加儂，"
+  },
+  {
+    "key": "message2#05659",
+    "find": "就像我沒有必要隱瞞這柄",
+    "replace": "我就沒有必要向你們表明"
+  },
+  {
+    "key": "message2#05659",
+    "find": "能擊敗加儂的大師之劍一樣...",
+    "replace": "自己的真實身份..."
+  },
+  {
+    "key": "message2#05666",
+    "note": "EN: So long as Ganondorf was not revived",
+    "find": "正如加儂多夫沒有再次出現，",
+    "replace": "只要加儂多夫沒有復活，"
+  },
+  {
+    "key": "message2#05690",
+    "find": "他是",
+    "replace": "這裡是"
+  },
+  {
+    "key": "message2#05764",
+    "note": "EN: If you did, you might be able to obtain such a power.",
+    "find": "如果你裝備了它，",
+    "replace": "如果你有了那樣的道具，"
+  },
+  {
+    "key": "message2#05764",
+    "find": "你同時也獲得了這種能力。",
+    "replace": "或許就能得到那種力量。"
+  },
+  {
+    "key": "message2#05772",
+    "note": "EN: which the pearls of the gods have caused to appear",
+    "find": "因精靈守護的神珠作用而出現的這座高塔，",
+    "replace": "因女神的神珠之力而出現的這座高塔，"
+  },
+  {
+    "key": "message2#05901",
+    "note": "EN: You have done well to find your way to this place.",
+    "find": "你做得很好，找到了自己的方法",
+    "replace": "你能憑自己的力量找到"
+  },
+  {
+    "key": "message2#05901",
+    "find": "來到這裡。",
+    "replace": "這裡，做得很好。"
+  },
+  {
+    "key": "message2#06019",
+    "note": "EN: he may just give up on ever getting them",
+    "find": "放棄去拿翅膀",
+    "replace": "他恐怕會就此放棄翅膀"
+  },
+  {
+    "key": "message2#06127",
+    "note": "EN: Oh, please? I wouldn't ask if it wasn't important!",
+    "find": "嗯，什麼意思？我知道那非常重要！",
+    "replace": "拜託嘛？不重要我也不會開口的！"
+  },
+  {
+    "key": "message2#06135",
+    "note": "EN: I had a bad feeling that you weren't going to come back",
+    "find": "我有種不祥的預感",
+    "replace": "我剛才還擔心"
+  },
+  {
+    "key": "message2#06135",
+    "find": "我們將一去不回頭！",
+    "replace": "你不會再回來了呢！"
+  },
+  {
+    "key": "message2#06147",
+    "note": "EN: Where were we? Oh, yeah!",
+    "find": "我們在哪裡？太好了！",
+    "replace": "我們說到哪了？喔對！"
+  },
+  {
+    "key": "message2#06148",
+    "find": "藉助糞...",
+    "replace": "藉助瘋..."
+  },
+  {
+    "key": "message2#06253",
+    "note": "EN: You could not be MORE right, Skett!",
+    "find": "你來的太是時候了，小翼！",
+    "replace": "你說得再正確不過了，小翼！"
+  },
+  {
+    "key": "message2#06282",
+    "note": "EN: I do not think there is any need for alarm",
+    "find": "我想還沒有必要報警，",
+    "replace": "我想還不需要太過驚慌，"
+  },
+  {
+    "key": "message2#06314",
+    "note": "EN: Dragon Roost just up and stopped shaking!",
+    "find": "龍山升起了，也不再震動！",
+    "replace": "龍山突然不再震動了！"
+  },
+  {
+    "key": "message2#06054",
+    "find": "包裡",
+    "replace": "包裹"
+  },
+  {
+    "key": "message2#06055",
+    "find": "包裡",
+    "replace": "包裹"
+  },
+  {
+    "key": "message2#06130",
+    "note": "EN: ledge",
+    "find": "梯子",
+    "replace": "岩臺"
+  },
+  {
+    "key": "message2#06134",
+    "note": "EN: ledge",
+    "find": "梯子",
+    "replace": "岩臺"
+  },
+  {
+    "key": "message2#06136",
+    "note": "EN: ledge",
+    "find": "梯子",
+    "replace": "岩臺"
+  },
+  {
+    "key": "message2#06333",
+    "note": "EN: Maybe I'll go ahead and take a break myself",
+    "find": "我打算自己繼續前進然後",
+    "replace": "我看我自己也該找個時間"
+  },
+  {
+    "key": "message2#06333",
+    "find": "再休息...",
+    "replace": "休息一下了..."
+  },
+  {
+    "key": "message2#06334",
+    "note": "EN: so I wouldn't go inside",
+    "find": "所以我不打算進去。",
+    "replace": "所以我勸你先別進去。"
+  },
+  {
+    "key": "message2#06340",
+    "find": "我好像告訴過你，無論",
+    "replace": "我覺得我該告訴你，無論"
+  },
+  {
+    "key": "message2#06450",
+    "note": "EN: That's a heck of an arm you've got there!",
+    "find": "話說回來，他可真的很不好對付！",
+    "replace": "你的臂力可真不是蓋的！"
+  },
+  {
+    "key": "message2#06552",
+    "find": "你知道它到底有啥用麼....",
+    "replace": "不過你也知道的嘛...."
+  },
+  {
+    "key": "message2#06557",
+    "find": "你真是個好人啊，太好了？",
+    "replace": "你真是個好人，對吧？"
+  },
+  {
+    "key": "message3#06613",
+    "find": "急著獨當一面了吧，",
+    "replace": "急著精進技藝了吧，"
+  },
+  {
+    "key": "message3#06634",
+    "note": "EN: for one more prayer",
+    "find": "找到一個祈禱者。",
+    "replace": "進行一次祈禱。"
+  },
+  {
+    "key": "message3#06645",
+    "find": "可以用",
+    "replace": "可以再用"
+  },
+  {
+    "key": "message3#06703",
+    "note": "EN: Can't say I'm happy to hear that.",
+    "find": "我無法說我聽到這個感到很高興。",
+    "replace": "聽到這個可真讓人高興不起來。"
+  },
+  {
+    "key": "message3#06704",
+    "note": "EN: this hoopla with Valoo has left me without enough help",
+    "find": "瓦魯大人的亢奮",
+    "replace": "瓦魯大人這場騷動"
+  },
+  {
+    "key": "message3#06704",
+    "find": "使我求助無門。",
+    "replace": "害我人手嚴重不足。"
+  },
+  {
+    "key": "message3#06735",
+    "note": "EN: Are you feeling a bit under the weather?",
+    "find": "你是不是有點無地自容的感覺？",
+    "replace": "你是不是身體有點不舒服啊？"
+  },
+  {
+    "key": "message3#06760",
+    "note": "EN: Get to it!",
+    "find": "拿著！",
+    "replace": "快開始吧！"
+  },
+  {
+    "key": "message3#06762",
+    "note": "EN: Youch.",
+    "find": "真好。",
+    "replace": "真慘。"
+  },
+  {
+    "key": "message3#06808",
+    "note": "EN: Amazing, man!",
+    "find": "瘋狂的傢伙！",
+    "replace": "太厲害了，前輩！"
+  },
+  {
+    "key": "message3#06819",
+    "note": "EN: Just go ahead and put that in the postbox",
+    "find": "一直向前走把它投進",
+    "replace": "就麻煩你把它投進"
+  },
+  {
+    "key": "message3#06823",
+    "find": "我有件很重要的有求於您。",
+    "replace": "我有件很重要的事要求您。"
+  },
+  {
+    "key": "message3#06830",
+    "note": "EN: You've really been through some rough times. Way to go.",
+    "find": "你在這裡幹了不少的差事啊，前輩",
+    "replace": "你真的吃了不少苦頭啊，前輩。"
+  },
+  {
+    "key": "message3#06830",
+    "find": "是該離開了。",
+    "replace": "了不起。"
+  },
+  {
+    "key": "message3#06901",
+    "note": "EN: payback for the nasty little monopoly you've been running here",
+    "find": "既然如此我們還是想想哪裡",
+    "replace": "你就當作是你在這裡搞壟斷"
+  },
+  {
+    "key": "message3#06901",
+    "find": "能搞到炸彈吧！",
+    "replace": "的報應吧，"
+  },
+  {
+    "key": "message3#06901",
+    "find": "那個商人是不是賣過？",
+    "replace": "怎麼樣？"
+  },
+  {
+    "key": "message3#06910",
+    "note": "EN: That was smooth!",
+    "find": "嗯？噢！噢，耶！好的！",
+    "replace": "嗯？噢！噢對！那招真漂亮！"
+  },
+  {
+    "key": "message3#06911",
+    "note": "EN: And presto! He spills the beans!",
+    "find": "想瞞過我的眼睛！再等一萬年吧！",
+    "replace": "然後啪一下！他就全招了！"
+  },
+  {
+    "key": "message3#06946",
+    "note": "EN: I had no idea you wanted to be my swabbie so badly!",
+    "find": "我不知道你為什麼想成為我的水手",
+    "replace": "我沒想到你這麼想當我的水手"
+  },
+  {
+    "key": "message3#06946",
+    "find": "太糟了！",
+    "replace": "啊！"
+  },
+  {
+    "key": "message3#06961",
+    "find": "這樣有簡單頭腦的老鼠來看門。",
+    "replace": "這種頭腦簡單的小老鼠來看門。"
+  },
+  {
+    "key": "message3#06965",
+    "note": "EN: Wow! Awesome!",
+    "find": "太可怕了！",
+    "replace": "太厲害了！"
+  },
+  {
+    "key": "message3#07009",
+    "note": "EN: Having a kidnapped daughter doesn't get you a single Rupee",
+    "find": "就算綁架了我的女兒，",
+    "replace": "女兒被綁架了，"
+  },
+  {
+    "key": "message3#07009",
+    "find": "你們也別想拿到一個盧比",
+    "replace": "也換不來半個盧比啊"
+  },
+  {
+    "key": "message3#07103",
+    "note": "EN: what do you want me to do with that bit of rubbish",
+    "find": "你到想知道我是怎麼對待垃圾的",
+    "replace": "你到底要我拿那堆垃圾怎麼辦"
+  },
+  {
+    "key": "message3#07201",
+    "note": "EN: I wonder if a boy like you will do...",
+    "find": "我覺得你看起來很面熟呢...",
+    "replace": "像你這樣的孩子行不行呢..."
+  },
+  {
+    "key": "message3#07205",
+    "find": "只要我能夠年輕十歲。",
+    "replace": "要是能年輕十歲就好了。"
+  },
+  {
+    "key": "message3#07216",
+    "find": "Y你居然沒帶夠錢",
+    "replace": "你居然沒帶夠錢"
+  },
+  {
+    "key": "message3#07223",
+    "find": "我現在要為",
+    "replace": "我現在就要收下"
+  },
+  {
+    "key": "message3#07223",
+    "find": "受理",
+    "replace": "的"
+  },
+  {
+    "key": "message3#07330",
+    "note": "EN: you can say the cheesiest things without blinking an eye",
+    "find": "你會說些混賬話",
+    "replace": "你會說出好肉麻的話"
+  },
+  {
+    "key": "message3#07340",
+    "note": "EN: Take off! Go away!",
+    "find": "走開！別傻了",
+    "replace": "快滾！走開"
+  },
+  {
+    "key": "message3#07410",
+    "note": "EN: always makes my nose run!",
+    "find": "總會讓我的鼻子融化",
+    "replace": "總會讓我直流鼻水"
+  },
+  {
+    "key": "message3#07473",
+    "note": "EN: Grrrgh! I can't stand it! ... Yaaargh!",
+    "find": "啊哈--！真是太棒了！萬事俱備，",
+    "replace": "可惡--！我受不了了！我明明"
+  },
+  {
+    "key": "message3#07473",
+    "find": "只欠東風！！",
+    "replace": "就快得手了！！"
+  },
+  {
+    "key": "message3#07473",
+    "find": "一切都按照計劃進行了！哦耶",
+    "replace": "一切都照計劃進行的啊！啊啊"
+  },
+  {
+    "key": "message3#07478",
+    "note": "EN: try upping the bid by more than just a few Rupees",
+    "find": "只抬高",
+    "replace": "一口氣多加"
+  },
+  {
+    "key": "message3#07478",
+    "find": "幾個盧比。",
+    "replace": "一些盧比。"
+  },
+  {
+    "key": "message3#07494",
+    "note": "EN: This kid means business!",
+    "find": "這孩子是個天生的商人",
+    "replace": "這孩子是來真的"
+  },
+  {
+    "key": "message3#07497",
+    "note": "EN: My word!",
+    "find": "別搶我的臺詞",
+    "replace": "我的老天爺啊"
+  },
+  {
+    "key": "message3#07524",
+    "find": "時候別忘了你的。",
+    "replace": "時候別忘了你的傘。"
+  },
+  {
+    "key": "message3#07603",
+    "note": "EN: the most effective potions around",
+    "find": "環繞身旁特效藥",
+    "replace": "坊間最有效的藥水"
+  },
+  {
+    "key": "message3#07623",
+    "find": "你只有一點點果凍，",
+    "replace": "你只有一點點丘丘膠，"
+  },
+  {
+    "key": "message3#07627",
+    "find": "我的果凍籤賞家同志",
+    "replace": "我的丘丘膠鑑賞家同志"
+  },
+  {
+    "key": "message3#07645",
+    "note": "EN: Zounds!!",
+    "find": "畜生！！",
+    "replace": "我的天啊！！"
+  },
+  {
+    "key": "message3#07706",
+    "note": "EN: there isn't a girl in the world as good as my Maggie",
+    "find": "哎呀，世界上沒有就算有成千上萬的",
+    "replace": "哎呀，這世上就算有成千上萬個"
+  },
+  {
+    "key": "message3#07706",
+    "find": "好女孩，那也完全比不上我的",
+    "replace": "好女孩，也完全比不上我家的"
+  },
+  {
+    "key": "message3#07722",
+    "note": "EN: I'd hate for you to have come all this way for nothing!",
+    "find": "我真不喜歡你這不勞而獲的作風",
+    "replace": "我可不希望你白跑這一趟啊"
+  },
+  {
+    "key": "message3#07818",
+    "find": "想想我能活著透過那",
+    "replace": "想想我竟能熬過那"
+  },
+  {
+    "key": "message3#07838",
+    "note": "EN: Treasure it always!",
+    "find": "財寶就是財寶",
+    "replace": "要好好珍惜喔"
+  },
+  {
+    "key": "message3#08911",
+    "note": "EN: Now let the sun SHINE ON!",
+    "find": "讓夜晚降臨吧，現在",
+    "replace": "讓太陽升起吧，現在"
+  },
+  {
+    "key": "message3#09907",
+    "note": "EN: You're awesome!",
+    "find": "你太可怕了",
+    "replace": "你太厲害了"
+  },
+  {
+    "key": "message3#09912",
+    "note": "EN: You ain't nice!",
+    "find": "你還不行啊",
+    "replace": "你真差勁啊"
+  },
+  {
+    "key": "message3#09917",
+    "note": "EN: This town is our turf",
+    "find": "這個鎮子是我們的賽馬場",
+    "replace": "這個鎮子是我們的地盤"
+  },
+  {
+    "key": "message3#09937",
+    "note": "EN: Looks like we lost our touch, Killer Bees.",
+    "find": "看來我們跟殺人蜂少年團沒什麼關係了。",
+    "replace": "看來我們這回是失手了，殺人蜂們。"
+  },
+  {
+    "key": "message3#09947",
+    "note": "EN: Gimme a break!",
+    "find": "讓我靜一靜",
+    "replace": "饒了我吧"
+  },
+  {
+    "key": "message3#09951",
+    "note": "EN: We ain't no teacher's pets!",
+    "find": "我們可不是沒教養的小孩",
+    "replace": "我們才不是老師的乖寶寶"
+  },
+  {
+    "key": "message3#09953",
+    "note": "EN: Are they just lyin' around?",
+    "find": "找到的？在",
+    "replace": "找到的？它"
+  },
+  {
+    "key": "message3#09953",
+    "find": "是這附近嗎？",
+    "replace": "就在附近嗎？"
+  },
+  {
+    "key": "message3#10003",
+    "note": "EN: My, but wasn't that nice!",
+    "find": "哎呀，沒那麼好的事情啦！",
+    "replace": "哎呀，你真是太好心了！"
+  },
+  {
+    "key": "message3#10006",
+    "find": "二十五年？",
+    "replace": "二十年？"
+  },
+  {
+    "key": "message3#10011",
+    "note": "EN: they won't be so mean to a boy their own age",
+    "find": "但是就這個年紀來說其實他們",
+    "replace": "不過對同齡的孩子，他們應該"
+  },
+  {
+    "key": "message3#10011",
+    "find": "還不是很壞，對吧？我得這麼想。",
+    "replace": "不會那麼壞吧？我想是不會的。"
+  },
+  {
+    "key": "message3#10031",
+    "note": "EN: the society came into being when Zunari arrived here",
+    "find": "才稱得上是個文明世界呀。",
+    "replace": "這個協會才總算成立起來。"
+  },
+  {
+    "key": "message3#10065",
+    "note": "EN: This item is so rare, there are sparse few others like it",
+    "find": "非常特別的",
+    "replace": "非常罕見"
+  },
+  {
+    "key": "message3#10065",
+    "find": ", 在世界上",
+    "replace": "，在世界上"
+  },
+  {
+    "key": "message3#10202",
+    "note": "EN: Good evening!",
+    "find": "晚安吧",
+    "replace": "晚上好"
+  },
+  {
+    "key": "message3#10203",
+    "note": "EN: Hey, now! Here again?",
+    "find": "嗨，什麼！又是這樣嗎",
+    "replace": "嗨！你又來啦"
+  },
+  {
+    "key": "message3#10027",
+    "note": "EN menu has 3 options (Pendants/Volunteering/The kids); zh had only 2 lines",
+    "find": "愛好收集吊墜\r\n的孩子們",
+    "replace": "吊墜\r\n志願活動\r\n孩子們"
+  },
+  {
+    "key": "message3#07313",
+    "note": "EN menu has 2 options (Sure / Quiet, you!); zh had them on one line",
+    "find": "好吧。給我閉嘴",
+    "replace": "好吧\r\n給我閉嘴"
+  },
+  {
+    "key": "message3#10333",
+    "find": "包裡",
+    "replace": "包裹"
+  },
+  {
+    "key": "message3#10380",
+    "find": "請吧我唯一的東西買走吧",
+    "replace": "請把我唯一的東西買走吧"
+  },
+  {
+    "key": "message3#10381",
+    "note": "EN: I have received precisely 80 Rupees",
+    "find": "我已經收了不少的",
+    "replace": "我確實收到了整整"
+  },
+  {
+    "key": "message3#10385",
+    "note": "EN: It just isn't proper! It just isn't done!",
+    "find": "這裡還沒好呢！還沒完工哦",
+    "replace": "這樣很不合規矩！絕對不行"
+  },
+  {
+    "key": "message3#10404",
+    "note": "EN: Thanks to them, my fortune has vanished! (sarcastic)",
+    "find": "感謝他們，我因此破產了！",
+    "replace": "託他們的福，我的家產全沒了！"
+  },
+  {
+    "key": "message3#10407",
+    "find": "不折不扣的天使！?",
+    "replace": "不折不扣的天使！"
+  },
+  {
+    "key": "message3#10415",
+    "note": "stray divider row not present in EN",
+    "find": "------------------------------\r\n",
+    "replace": ""
+  },
+  {
+    "key": "message3#10504",
+    "note": "EN: something of the quality that one could put on sale in a shop",
+    "find": "你會考慮賣掉那些儲存完好，",
+    "replace": "你願意拿那些品相良好、"
+  },
+  {
+    "key": "message3#10505",
+    "note": "EN: If you have something you'd like to trade",
+    "find": "如果其中有你想買的，",
+    "replace": "如果你有想交換的東西，"
+  },
+  {
+    "key": "message3#10601",
+    "note": "EN: cracked and pristine, wild and woolly!",
+    "find": "破碎的和風格原始的",
+    "replace": "破損的、全新的、稀奇古怪的"
+  },
+  {
+    "key": "message3#10602",
+    "note": "EN: it seems as though I am off the mark yet again",
+    "find": "我好像完全是局外人。",
+    "replace": "看來我這回又猜錯了。"
+  },
+  {
+    "key": "message3#10607",
+    "find": "I我聽說有旅行商人",
+    "replace": "我聽說有旅行商人"
+  },
+  {
+    "key": "message3#10706",
+    "find": "希望有一天\r\n你能夠開一家我自己的商店。",
+    "replace": "希望有一天\r\n能夠開一家我自己的商店。"
+  },
+  {
+    "key": "message3#10712",
+    "note": "EN: If you want to know the truth, I was amazed to hear...",
+    "find": "如果你知道真相的話，我聽說在這種",
+    "replace": "老實跟你說，聽到這年頭居然還有"
+  },
+  {
+    "key": "message3#10712",
+    "find": "日子還有旅行商人，真是太驚人了！",
+    "replace": "別的旅行商人，我真是太驚訝了！"
+  },
+  {
+    "key": "message3#10745",
+    "note": "EN: A measly old 10 Rupees will do.",
+    "find": "嗯...有點舊了，",
+    "replace": "嗯...區區"
+  },
+  {
+    "key": "message4#10814",
+    "note": "EN: On the day you complete all three tasks",
+    "find": "只要你能在白天完成全部的三個任務，",
+    "replace": "等你完成全部三個任務的那一天，"
+  },
+  {
+    "key": "message4#10849",
+    "note": "EN: is it me, or is this chap quite the striking individual?",
+    "find": "...說說看，我和這傢伙，究竟誰是比較出名？",
+    "replace": "...話說回來，這傢伙長得還挺有特色的。"
+  },
+  {
+    "key": "message4#10853",
+    "note": "EN: I'd hate to see you leave with nothing",
+    "find": "...你一句話不說就離開讓我很傷心。",
+    "replace": "...你費了這麼大的功夫拿給我看，"
+  },
+  {
+    "key": "message4#10853",
+    "find": "不過你卻帶給了我這麼好的東西。",
+    "replace": "總不能讓你就這樣空手而歸。"
+  },
+  {
+    "key": "message4#10854",
+    "note": "EN: you must travel the world, spreading the joy of pictography",
+    "find": "以後，無論風雨，",
+    "replace": "從今以後，你要走遍世界，"
+  },
+  {
+    "key": "message4#10854",
+    "find": "我都沒什麼需要擔心的了。",
+    "replace": "把攝影的樂趣傳播到各地！"
+  },
+  {
+    "key": "message4#10854",
+    "find": "同時，你的心將會感受到照片裡的愛！",
+    "replace": "等你滿載而歸，再來與我分享照片吧！"
+  },
+  {
+    "key": "message4#10873",
+    "note": "EN: What kind of pictograph is this, you ask?",
+    "find": "你覺得這張照片怎麼樣？",
+    "replace": "你問這是什麼照片嗎？"
+  },
+  {
+    "key": "message4#10883",
+    "note": "EN: If the Picto Box is too zoomed in",
+    "find": "如果照相機放得太大，",
+    "replace": "如果照相機拉得太近，"
+  },
+  {
+    "key": "message4#10885",
+    "find": "我的助手無論何時都\r\n拍不出那種黑白照片！",
+    "replace": "我的助手怎麼可以\r\n只拍得出黑白照片呢！"
+  },
+  {
+    "key": "message4#10914",
+    "note": "EN: That's...not impressive.",
+    "find": "還...不算太壞吧。",
+    "replace": "那...實在不怎麼樣。"
+  },
+  {
+    "key": "message4#10915",
+    "note": "EN: not even remotely in the league of the great and talented",
+    "find": "距離高手和天才",
+    "replace": "離偉大的天才冠軍"
+  },
+  {
+    "key": "message4#10915",
+    "find": "的水準已經不太遠了。",
+    "replace": "的水準還差得遠呢。"
+  },
+  {
+    "key": "message4#10923",
+    "note": "EN: We should have expected as much, O champion!",
+    "find": "我們期待已久了，冠軍！",
+    "replace": "果然不出所料，冠軍！"
+  },
+  {
+    "key": "message4#10927",
+    "find": "。。你是怎麼了，冠軍",
+    "replace": "...你是怎麼了，冠軍"
+  },
+  {
+    "key": "message4#10931",
+    "note": "EN: Splooooosh! (splash) - chars are separated by delay codes",
+    "find": "錢",
+    "replace": "撲"
+  },
+  {
+    "key": "message4#10931",
+    "find": "啊",
+    "replace": "通",
+    "all": true
+  },
+  {
+    "key": "message4#11106",
+    "note": "EN: You know what I'm talking about? Decorating the town?",
+    "find": "合作過吧？猜猜我想到了什麼？",
+    "replace": "合作過吧？你知道我在說什麼吧？"
+  },
+  {
+    "key": "message4#11106",
+    "find": "改變小鎮怎麼樣？",
+    "replace": "就是裝飾小鎮啊。"
+  },
+  {
+    "key": "message4#11110",
+    "note": "EN: I've been a member for a while now, so I can just tell these things.",
+    "find": "耶，我現在是臨時會員了，",
+    "replace": "是啊，我入會也有一陣子了，"
+  },
+  {
+    "key": "message4#11110",
+    "find": "目前只能這麼說。",
+    "replace": "這種事一看就知道。"
+  },
+  {
+    "key": "message4#11205",
+    "note": "EN: I can believe it.",
+    "find": "真不敢相信。",
+    "replace": "這我倒是信。"
+  },
+  {
+    "key": "message4#11407",
+    "note": "EN: That mysterious pictographer, Lenzo",
+    "find": "那張神秘的照片，",
+    "replace": "那位神秘的攝影師，"
+  },
+  {
+    "key": "message4#12010",
+    "note": "EN: The fairies in this fountain",
+    "find": "這座山中的妖精",
+    "replace": "這眼泉中的妖精"
+  },
+  {
+    "key": "message4#12021",
+    "find": "你為了保護一位對你非常重要的",
+    "replace": "你一心想保護一位對你非常重要"
+  },
+  {
+    "key": "message4#12021",
+    "find": "親人。",
+    "replace": "的人。"
+  },
+  {
+    "key": "message4#12024",
+    "note": "EN: Greetings, child!",
+    "find": "恭喜啊，小孩！",
+    "replace": "你好啊，小孩！"
+  },
+  {
+    "key": "message4#12026",
+    "find": "我是仙界的女王。",
+    "replace": "我是妖精世界的女王。"
+  },
+  {
+    "key": "message4#12112",
+    "note": "EN: Come on! Get it together!",
+    "find": "拜託！給點專業精神好不好！",
+    "replace": "拜託！你也振作點好不好！"
+  },
+  {
+    "key": "message4#12115",
+    "note": "EN: You're happy, I'm happy...",
+    "find": "你好，我也好...",
+    "replace": "你開心，我也開心..."
+  },
+  {
+    "key": "message4#12153",
+    "note": "EN: What's that? I don't buy or trade!",
+    "find": "那是什麼？我要！",
+    "replace": "那是什麼？我不收也不換！"
+  },
+  {
+    "key": "message4#12306",
+    "note": "EN: how many people know it sneaks around behind the building?",
+    "find": "小鎮裡能有幾個人知道在那間房子後面的",
+    "replace": "小鎮裡有幾個人知道那條路"
+  },
+  {
+    "key": "message4#12306",
+    "find": "暗潮湧動？恐怕只有我知道，夥計！",
+    "replace": "會繞到房子後面？只有我知道，夥計！"
+  },
+  {
+    "key": "message4#12413",
+    "note": "EN: telling that to a nonsailor like yourself is a bit pointless",
+    "find": "...但是我想告訴你，像你",
+    "replace": "...不過跟你這種不跑船的人"
+  },
+  {
+    "key": "message4#12413",
+    "find": "這樣沒航海過的只能拖累我們，知道嗎？",
+    "replace": "說這些，大概也沒什麼用吧？"
+  },
+  {
+    "key": "message4#12504",
+    "find": "斯西納利商業大師",
+    "replace": "露天店主斯西納利"
+  },
+  {
+    "key": "message4#12509",
+    "note": "EN: whoever did it don't have no sense of pomp and circumstance",
+    "find": "那個人對於炫耀和排場倒",
+    "replace": "那個人對排場可是一點"
+  },
+  {
+    "key": "message4#12509",
+    "find": "還有點品味，是嗎？！",
+    "replace": "品味都沒有，對吧？！"
+  },
+  {
+    "key": "message4#12601",
+    "note": "EN: Yeah, yeah. Step right up.",
+    "find": "是的，是的。趕緊走吧。",
+    "replace": "是啊，是啊。快過來吧。"
+  },
+  {
+    "key": "message4#12610",
+    "note": "EN: Yeah, whatever. Come again. Or not.",
+    "find": "耶，不管怎樣。",
+    "replace": "隨便你啦。"
+  },
+  {
+    "key": "message4#12610",
+    "find": "再來試試吧。試不試？",
+    "replace": "再來也行。不來也行。"
+  },
+  {
+    "key": "message4#12616",
+    "note": "EN: We won't tolerate comments about how the pirate ships look like barrels!",
+    "find": "不過！如果你打到了木桶，可別",
+    "replace": "不過！誰敢說我們的海盜船"
+  },
+  {
+    "key": "message4#12616",
+    "find": "找什麼藉口，桶和船可是完全",
+    "replace": "看起來像木桶，我們可是"
+  },
+  {
+    "key": "message4#12616",
+    "find": "不一樣的哦！",
+    "replace": "絕不饒他！"
+  },
+  {
+    "key": "message4#12630",
+    "find": "你這賤狗",
+    "replace": "你這臭傢伙"
+  },
+  {
+    "key": "message4#12632",
+    "note": "EN: Did that boy beat you guys again!? (at the game)",
+    "find": "那個男孩又把你們打了一頓！？",
+    "replace": "那個男孩又贏了你們一次！？"
+  },
+  {
+    "key": "message4#12634",
+    "note": "EN: Climb down in an orderly manner, if you please...",
+    "find": "如果你願意的話，就像平常",
+    "replace": "麻煩你按規矩慢慢地"
+  },
+  {
+    "key": "message4#12634",
+    "find": "一樣離開...",
+    "replace": "爬下去..."
+  },
+  {
+    "key": "message4#12810",
+    "note": "EN: So the wind is blowing to the northeast? (was a copy of the NW line)",
+    "find": "那麼現在風吹向西北方了？",
+    "replace": "那麼現在風吹向東北方了？"
+  },
+  {
+    "key": "message4#12820",
+    "note": "EN: just getting your hands on that treasure makes you sturdy",
+    "find": "哦，我可聽說只要你把雙手放在",
+    "replace": "哦，我可聽說只要拿到了"
+  },
+  {
+    "key": "message4#12820",
+    "find": "那件寶物上。它就會使你變得堅如磐石，",
+    "replace": "那件寶物，就能讓你穩如磐石，"
+  },
+  {
+    "key": "message4#12821",
+    "note": "EN: Not many know of it",
+    "find": "我對南邊知之甚少，不過在南面很遠的地方，",
+    "replace": "知道的人可不多，在南面很遠的地方，"
+  },
+  {
+    "key": "message4#12905",
+    "note": "EN: they pick up excess flab!",
+    "find": "他們就會變懶！",
+    "replace": "牠們就會長肥肉！"
+  },
+  {
+    "key": "message4#12913",
+    "note": "EN: Has he gotten sick?",
+    "find": "他累嗎？",
+    "replace": "他生病了嗎？"
+  },
+  {
+    "key": "message4#12931",
+    "note": "EN: I'll reward you for your trouble!",
+    "find": "如果你做得好的話，我會幫你",
+    "replace": "如果你做得好的話，我會給你"
+  },
+  {
+    "key": "message4#12931",
+    "find": "處理你的麻煩的！",
+    "replace": "應得的報酬！"
+  },
+  {
+    "key": "message4#12935",
+    "note": "EN: Way to go, chum!",
+    "find": "直說吧，夥計！",
+    "replace": "幹得好啊，夥計！"
+  },
+  {
+    "key": "message4#12944",
+    "note": "EN: They must be out of shape - time for an exercise regimen!",
+    "find": "一定是他們最近太貪玩，",
+    "replace": "一定是牠們疏於運動了，"
+  },
+  {
+    "key": "message4#12944",
+    "find": "太累了！",
+    "replace": "該加強鍛鍊！"
+  },
+  {
+    "key": "message4#13001",
+    "note": "EN: 'Hoy! Hold it right there, small fry!",
+    "find": "'嗬！拿著它別動，小傢伙！",
+    "replace": "喂！給我站住，小傢伙！"
+  },
+  {
+    "key": "message4#13018",
+    "note": "EN: aim those suckers at me (suckers = the arrows)",
+    "find": "的時候，對準那些吸盤放箭！",
+    "replace": "的時候，用那些箭對準我射！"
+  },
+  {
+    "key": "message4#13037",
+    "note": "EN: who can't tell day from night!",
+    "find": "在瘋狂地跳舞，一天到晚一言不發！",
+    "replace": "在瘋狂地跳舞，連白天黑夜都分不清！"
+  },
+  {
+    "key": "message4#13045",
+    "note": "EN: Like an extra-fast sail, among other things.",
+    "find": "...比如說在其中就有",
+    "replace": "...比如說就有那種"
+  },
+  {
+    "key": "message4#13045",
+    "find": "心形",
+    "replace": "超快的帆"
+  },
+  {
+    "key": "message4#13045",
+    "find": "的什麼東西。",
+    "replace": "之類的東西。"
+  },
+  {
+    "key": "message4#13056",
+    "note": "zh text was truncated mid-sentence; restored from EN",
+    "find": "傳說中的聖",
+    "replace": "傳說中的黃金聖魚叉嗎？\r\n就在那裡...就在那座島上...\r\n有一張海圖能指出它的位置。\r\n當然，要拿到手可不容易。"
+  },
+  {
+    "key": "message4#13062",
+    "find": "l那種你一靠近就會消失的東西",
+    "replace": "那種你一靠近就會消失的東西"
+  },
+  {
+    "key": "message4#13063",
+    "find": "很久很久以前，這種大",
+    "replace": "很久很久以前，有一位大"
+  },
+  {
+    "key": "message4#13067",
+    "find": "包裡",
+    "replace": "包裹"
+  },
+  {
+    "key": "message4#13072",
+    "note": "EN: no one has seen the beautiful fairy who bestows magic power",
+    "find": "看不見了美麗的",
+    "replace": "就沒人見過美麗的"
+  },
+  {
+    "key": "message4#13072",
+    "find": "。\r\n她以前是",
+    "replace": "了。\r\n她以前是"
+  },
+  {
+    "key": "message4#13202",
+    "note": "EN: this is how one wins with dignity!",
+    "find": "輕鬆獲勝！",
+    "replace": "贏得有風度！"
+  },
+  {
+    "key": "message4#13206",
+    "note": "EN: there's no beating time... I got a few more wrinkles tonight!",
+    "find": "我想是沒有搶風行駛的機會了...",
+    "replace": "歲月果然是不饒人啊..."
+  },
+  {
+    "key": "message4#13206",
+    "find": "今晚看來又會有不少的麻煩啊！",
+    "replace": "今晚我大概又多了幾條皺紋！"
+  },
+  {
+    "key": "message4#13209",
+    "note": "EN: What's with that person!?",
+    "find": "那個什麼樣的人啊！？",
+    "replace": "那個人是怎麼回事！？"
+  },
+  {
+    "key": "message4#13215",
+    "note": "EN: he's got spunk for such a youngster!",
+    "find": "天啊，他竟然為了那個年輕人",
+    "replace": "天啊，這麼小的孩子居然"
+  },
+  {
+    "key": "message4#13215",
+    "find": "燃起了鬥志！",
+    "replace": "這麼有膽識！"
+  },
+  {
+    "key": "message4#13246",
+    "note": "EN: Did you see that? Did you?!",
+    "find": "你明白了嗎？好好看看？！",
+    "replace": "你看到了嗎？看到沒？！"
+  },
+  {
+    "key": "message4#13317",
+    "note": "EN: It's rough bein' poor, ain't it?",
+    "find": "你真是個窮鬼？",
+    "replace": "窮日子真難過，是吧？"
+  },
+  {
+    "key": "message4#13409",
+    "note": "EN: Do me a favor? Beat it!",
+    "find": "...幫我個忙可以嗎？打它！",
+    "replace": "...幫我個忙好嗎？滾遠一點！"
+  },
+  {
+    "key": "message4#13502",
+    "note": "EN: Mighty-fine boat you got there, bub.",
+    "find": "小傢伙，你航行技巧不錯啊，竟然能到這裡。",
+    "replace": "小傢伙，你那艘船不錯嘛，真氣派。"
+  },
+  {
+    "key": "message4#12907",
+    "note": "EN: You got that look about you",
+    "find": "一看這表情就知道你又在為錢的",
+    "replace": "一看就知道你又在為錢的"
+  },
+  {
+    "key": "message4#13513",
+    "find": "你可以對比左邊的",
+    "replace": "你可以對比右邊的"
+  },
+  {
+    "key": "message4#13513",
+    "find": "和右邊的",
+    "replace": "和左邊的"
+  },
+  {
+    "key": "message4#13515",
+    "find": "然後只需要對比左邊的",
+    "replace": "然後只需要對比右邊的"
+  },
+  {
+    "key": "message4#13515",
+    "find": "和\r\n右邊的",
+    "replace": "和\r\n左邊的"
+  },
+  {
+    "key": "message4#13524",
+    "find": "如果你對比左邊的",
+    "replace": "如果你對比右邊的"
+  },
+  {
+    "key": "message4#13524",
+    "find": "和\r\n右邊的",
+    "replace": "和\r\n左邊的"
+  },
+  {
+    "key": "message4#13527",
+    "find": "，對比左邊的",
+    "replace": "，對比右邊的"
+  },
+  {
+    "key": "message4#13527",
+    "find": "和\r\n右邊的",
+    "replace": "和\r\n左邊的"
+  },
+  {
+    "key": "message4#13537",
+    "find": "然後對比左邊的",
+    "replace": "然後對比右邊的"
+  },
+  {
+    "key": "message4#13537",
+    "find": "和\r\n右邊的",
+    "replace": "和\r\n左邊的"
+  },
+  {
+    "key": "message4#13537",
+    "note": "EN: I know you're probably sick of hearing this",
+    "find": "我知道你可能耳朵不太好使，",
+    "replace": "我知道你大概已經聽膩了，"
+  },
+  {
+    "key": "message4#13542",
+    "note": "zh text was truncated; restored from EN",
+    "find": "那些關於聖",
+    "replace": "那些聖魚叉的事...\r\n一定要告訴我。"
+  },
+  {
+    "key": "message4#13618",
+    "note": "EN: I coveted that wind, I suppose. (zh had the same half twice)",
+    "find": "就是想要那{0E:1:6:2:001E}就是想要那",
+    "replace": "我想，我是渴望著{0E:1:6:2:001E}那樣的風吧。"
+  },
+  {
+    "key": "message4#13620",
+    "note": "EN: lay my hand on that which grants the wishes of the beholder",
+    "find": "我會將我的手放在",
+    "replace": "我終將觸碰到那能實現"
+  },
+  {
+    "key": "message4#13620",
+    "find": "擁有希望的人上",
+    "replace": "持有者願望之物..."
+  },
+  {
+    "key": "message4#13638",
+    "note": "EN: I overslept!",
+    "find": "我昏迷了這麼久！",
+    "replace": "我睡過頭了！"
+  },
+  {
+    "key": "message4#13803",
+    "note": "EN: up toward the top of the Forest Haven",
+    "find": "就在森之島的前面啊...",
+    "replace": "就在森之島的頂上啊..."
+  },
+  {
+    "key": "message4#13807",
+    "note": "EN: at the base of that one branch",
+    "find": "就在其中的一條道上...",
+    "replace": "就在那根樹枝的根部..."
+  },
+  {
+    "key": "message4#13809",
+    "note": "EN: you were a member this whole time!",
+    "find": "所以...你永遠都是我們中的一員！",
+    "replace": "原來...你一直都是會員啊！"
+  },
+  {
+    "key": "message4#13813",
+    "note": "EN: it looks like you'll be with us for a long, long time!",
+    "find": "你和我們在一起已經很長很長時間了！",
+    "replace": "看來你要跟我們相處很長很長時間了！"
+  },
+  {
+    "key": "message4#13817",
+    "note": "EN: They took some liberties with this one, huh?",
+    "find": "他們對這個太無禮了，不是嗎？",
+    "replace": "這一件做了不少改編呢，是吧？"
+  },
+  {
+    "key": "message4#13823",
+    "note": "EN: I almost want to lick it!",
+    "find": "我想要超越它！",
+    "replace": "我簡直想舔它一口！"
+  },
+  {
+    "key": "message4#13902",
+    "note": "EN: It's been a long time since I've done work this exceptional.",
+    "find": "為了他我工作了",
+    "replace": "我已經很久沒做出"
+  },
+  {
+    "key": "message4#13902",
+    "find": "很長時間了。",
+    "replace": "這麼出色的作品了。"
+  },
+  {
+    "key": "message4#13908",
+    "note": "EN: I won't be able to make that many by tomorrow",
+    "find": "雕像的製作過程是商業秘密。",
+    "replace": "製作雕像可是門精細的手藝。"
+  },
+  {
+    "key": "message4#13908",
+    "find": "我是不能讓你在我工作時拍照的。",
+    "replace": "就算照片再多，明天也做不了那麼多。"
+  },
+  {
+    "key": "message4#14009",
+    "note": "EN: If only someone could blow the entire lot of them to bits!",
+    "find": "要是有誰一股把它們全炸掉哈哈哈！",
+    "replace": "要是有誰能把它們全炸個粉碎就好了！"
+  },
+  {
+    "key": "message4#14010",
+    "note": "EN: What a shame!",
+    "find": "真慚愧！",
+    "replace": "真可惜！"
+  },
+  {
+    "key": "message4#14213",
+    "find": "我會把畫放到你的",
+    "replace": "我會把照片放進你的"
+  },
+  {
+    "key": "message4#14302",
+    "find": "努力帶大她的兩個孫女。",
+    "replace": "努力帶大她的兩個孫兒。"
+  },
+  {
+    "key": "message4#14310",
+    "note": "EN: He can often strike a nerve without realizing it.",
+    "find": "他非常勇敢或者說是無知者無畏。",
+    "replace": "他常常無意間就戳到別人的痛處。"
+  },
+  {
+    "key": "message4#14313",
+    "note": "EN: eating them simply steals their hearts",
+    "find": "食用的方式很簡單，就是偷他們的心臟。",
+    "replace": "只要吃到，就會被徹底收服。"
+  },
+  {
+    "key": "message4#14317",
+    "find": "並為此感到歉疚。",
+    "replace": "並為此後悔不已。"
+  },
+  {
+    "key": "message4#14325",
+    "note": "EN: His wry insults can be hard to take.",
+    "find": "想騙倒他是不太可能的。",
+    "replace": "他的毒舌常常讓人受不了。"
+  },
+  {
+    "key": "message4#14325",
+    "find": "豬-羅伯託",
+    "replace": "準-羅伯託"
+  },
+  {
+    "key": "message4#14336",
+    "find": "她就是個普通的中年婦女。",
+    "replace": "她就是個普通的老太太。"
+  },
+  {
+    "key": "message4#14339",
+    "note": "EN: He's still critical of all artistic expression",
+    "find": "他仍然對各種藝術作品品鑑。",
+    "replace": "他對各種藝術表現依然相當挑剔。"
+  },
+  {
+    "key": "message4#14341",
+    "note": "EN: Good at Cooking: Crepes",
+    "find": "擅長的料理:葡萄",
+    "replace": "擅長的料理:可麗餅"
+  },
+  {
+    "key": "message4#14343",
+    "note": "EN: he cries at the drop of a hat (idiom)",
+    "find": "不過他也會因為",
+    "replace": "不過他可是動不動"
+  },
+  {
+    "key": "message4#14343",
+    "find": "遺失了一頂帽子而流淚。",
+    "replace": "就掉眼淚的愛哭鬼。"
+  },
+  {
+    "key": "message4#14351",
+    "note": "EN: The head is his studio",
+    "find": "頭腦就是他的工作室。",
+    "replace": "那顆頭就是他的工作室。"
+  },
+  {
+    "key": "message4#14351",
+    "find": "令他多麼哦不滿意。",
+    "replace": "曾讓他相當不是滋味。"
+  },
+  {
+    "key": "message4#14358",
+    "note": "EN: His Only Fear: The Mermen",
+    "find": "唯一害怕的:摩門",
+    "replace": "唯一害怕的:人魚怪"
+  },
+  {
+    "key": "message4#14364",
+    "note": "zh name was truncated",
+    "find": "達芬尼斯",
+    "replace": "達芬尼斯·諾漢森·海拉魯"
+  },
+  {
+    "key": "message4#14372",
+    "note": "EN: He apparently has a hard time remembering people's faces",
+    "find": "他顯然曾經下了很大功夫來記住",
+    "replace": "他似乎不太擅長記住"
+  },
+  {
+    "key": "message4#14372",
+    "find": "人們的長相...",
+    "replace": "別人的長相..."
+  },
+  {
+    "key": "message4#14374",
+    "note": "EN: Personality: Worrisome",
+    "find": "性格:愛惹麻煩",
+    "replace": "性格:愛操心"
+  },
+  {
+    "key": "message4#14378",
+    "note": "EN: Birthplace: Dragon Roost Island",
+    "find": "出生地:商人島",
+    "replace": "出生地:龍之島"
+  },
+  {
+    "key": "message4#14388",
+    "note": "EN: one square west and one square north (was a copy of Oakin's)",
+    "find": "森之島往西四格往北五格",
+    "replace": "森之島往西一格往北一格"
+  },
+  {
+    "key": "message4#14391",
+    "find": "霍魯",
+    "replace": "翟魯"
+  },
+  {
+    "key": "message4#14391",
+    "find": "恢復力量和魔法，",
+    "replace": "恢復生命力和魔力，"
+  },
+  {
+    "key": "message4#14416",
+    "note": "EN: with arrows or boomerangs",
+    "find": "用箭或炸彈來打它們。",
+    "replace": "用箭或飛旋鏢來打它們。"
+  },
+  {
+    "key": "message4#14421",
+    "find": "搶奪:劍士紋章",
+    "replace": "戰利品:劍士紋章"
+  },
+  {
+    "key": "message4#14421",
+    "note": "EN: before their armor straps can be cut",
+    "find": "比他們的盔甲要好砍多了。",
+    "replace": "才能砍斷他們的盔甲繫帶。"
   }
 ]
