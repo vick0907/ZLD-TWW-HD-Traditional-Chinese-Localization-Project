@@ -1119,8 +1119,9 @@
   },
   {
     "key": "message2#05690",
+    "note": "EN: This is Hyrule; the menu font has no 裡 or 就, so keep it plain",
     "find": "他是",
-    "replace": "這裡是"
+    "replace": "這是"
   },
   {
     "key": "message2#05764",
@@ -1516,7 +1517,7 @@
   {
     "key": "message3#07627",
     "find": "我的果凍籤賞家同志",
-    "replace": "我的丘丘膠鑑賞家同志"
+    "replace": "我的丘丘膠鑑賞家同好"
   },
   {
     "key": "message3#07645",
@@ -2518,5 +2519,85 @@
     "note": "EN: before their armor straps can be cut",
     "find": "比他們的盔甲要好砍多了。",
     "replace": "才能砍斷他們的盔甲繫帶。"
+  },
+  {
+    "key": "message#01521",
+    "note": "classifier for a tree; the colour code kept the global rule from matching",
+    "find": "，那顆",
+    "replace": "，那棵"
+  },
+  {
+    "key": "message#01402",
+    "note": "EN: green forests, tall mountains, and peace - only the forests survived",
+    "find": "王國綠意盎然，美不勝收",
+    "replace": "王國林木蒼鬱、高山巍峨，\r\n一片富饒安詳。"
+  },
+  {
+    "key": "message#02435",
+    "note": "the last instruction line was duplicated instead of translated",
+    "find": "然後快速\r\n按下!",
+    "replace": "使出防禦反擊!"
+  },
+  {
+    "key": "message#02508",
+    "find": "知道了嗎？!",
+    "replace": "知道了嗎？"
+  },
+  {
+    "key": "message#02821",
+    "note": "EN: What am I to do with these boys...?",
+    "find": "我該怎麼對待這些男孩子呢...？",
+    "replace": "我該拿這些孩子怎麼辦才好...？"
+  },
+  {
+    "key": "message2#03505",
+    "note": "EN: give your Tingle Bottles that little extra oomph",
+    "find": "如果你很喜歡給庭格爾瓶",
+    "replace": "如果你想讓庭格爾瓶更帶勁"
+  },
+  {
+    "key": "message2#03505",
+    "find": "牢屋的深處",
+    "replace": "牢房的深處"
+  },
+  {
+    "key": "message2#03931",
+    "note": "EN: If you don't have anything you want to sell, then buy something!",
+    "find": "有東西想出售一點，要照顧我生意哦，",
+    "replace": "如果你沒有東西要賣的話，"
+  },
+  {
+    "key": "message2#03931",
+    "find": "然後買點紀念品回去！買吧！",
+    "replace": "那就買點什麼吧！買啊！"
+  },
+  {
+    "key": "message2#04130",
+    "note": "EN: Falling isn't part of the program, swabbie!",
+    "find": "好好的跳來這裡吧",
+    "replace": "你得跳過來才行啊！\r\n掉下去可不在訓練項目裡，小弟！"
+  },
+  {
+    "key": "message2#04413",
+    "find": "但是是不是有點其他什麼事情，\r\n你也必須要去做的呢？",
+    "replace": "不過，你是不是還有別的事情\r\n非做不可呢？"
+  },
+  {
+    "key": "message2#05703",
+    "note": "an extra 的 sat between the colour spans",
+    "find": "北方的",
+    "replace": "北方"
+  },
+  {
+    "key": "message3#06914",
+    "note": "EN: Don't be so stupid!",
+    "find": "真是麻煩的傢伙！",
+    "replace": "別那麼蠢好嗎！"
+  },
+  {
+    "key": "message4#12221",
+    "note": "EN: I think I've actually missed getting wet!",
+    "find": "偶爾下點小雨也不錯嘛！",
+    "replace": "偶爾下點小雨也不錯嘛！\r\n說起來，我還挺懷念被雨淋的感覺呢！"
   }
 ]

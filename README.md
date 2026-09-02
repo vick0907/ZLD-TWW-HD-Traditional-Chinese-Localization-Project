@@ -116,6 +116,40 @@ MSBT 的 `TXT2` 區塊是 UTF-16BE，中間夾雜控制碼（`0x000E` 帶長度�
 # 中英文出現的數字必須一致（價格、數量、座標）
 ```
 
+#### 把人工找到的錯誤變成機器檢查（tw-v1.0.4）
+
+上面那一輪逐行校對漏掉了兩類東西，是玩的時候被抓到的：
+
+- **語域**：「您走好」語意上完全對應 *Bye!*，所以「跟英文比對」這個框架永遠抓不到它
+  （而「走好」在台灣是對往生者說的）。
+- **同類未推廣**：`message2#04114` 的「通關考驗」被改成「通過」，
+  但七則之後同一個 NPC 的 `message2#04121`「透過的考驗」卻漏了 ——
+  修了個案沒有回頭掃全文。
+
+結論是**人工讀過不等於該類錯誤已清空**，所以把每一種找到的錯誤都寫成偵測器：
+
+```powershell
+.\.venv\Scripts\python.exe tools\qa_align.py out\bilingual.tsv out\qa_report.txt
+.\.venv\Scripts\python.exe tools\audit_register.py out\bilingual.tsv out\register_audit.txt
+```
+
+| 檢查 | 抓什麼 |
+| --- | --- |
+| `stray-latin` | 中文句中夾雜的孤立英文字母（打字殘留） |
+| `punct-residue` | 全形半形標點疊在一起（`？!`、`。.`） |
+| `dup-phrase` | 相鄰重複字串（「然後快速按下然後快速按下」） |
+| `truncated` | 英文有句尾標點、中文沒有 |
+| `too-short` | 中文長度不到英文五分之一（漏譯） |
+| `long-line` | 單行超過 34 全形字（文字框爆版） |
+| `negation-flip` | 英文有強否定、中文沒有（語意顛倒） |
+| `question-flip` | 問句與非問句不對應 |
+| `classifier` | 量詞與名詞不搭 |
+| `audit_register` | 陸語語域、兒化殘留、s2twp 把「通過」轉成「透過」 |
+
+這一輪又挖出 11 條語意錯誤與 40 條語域問題，其中包含一個**只有機器抓得到**的問題：
+`message2#05690` 用了「裡」，但選單字型 `CKingMain` 的字數上限裝不下這個字，
+在選單情境會顯示空白 —— `build.ps1` 的 `menu_chars.py` 後檢查會擋下來。
+
 ### 4. 字型層
 
 BFFNT 的字圖頁是 **BC4 壓縮 + Wii U GX2 2D tiling（tileMode 4）**。

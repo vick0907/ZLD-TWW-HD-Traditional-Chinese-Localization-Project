@@ -348,11 +348,45 @@ TERMS = [
     (re.compile("他的服務生，梅德麗"), "他的侍從，梅德麗"),
     (re.compile("回覆劑"), "恢復劑"),
     (re.compile("大的好一夜暴富"), "大的，好一夜致富"),
+    (re.compile("大地之魂"), "大地精靈"),
+
+    # Taiwanese register: wording that is correct in meaning but reads mainland
+    (re.compile("您走好！今後常來啊！"), "慢走！歡迎再來喔！"),
+    (re.compile("走好！常來啊！"), "慢走！再來喔！"),
+    (re.compile("走好！有空常來！"), "慢走！有空再來！"),
+    (re.compile("哥們"), "老兄"),
+    (re.compile("鑑賞家同志"), "鑑賞家同好"),
+    (re.compile("放鬆警惕"), "放鬆戒心"),
+    (re.compile("還是怎麼著"), "還是怎樣"),
+    (re.compile("好女孩兒"), "好女孩"),
+    (re.compile("小寶貝兒"), "小寶貝"),
+    (re.compile("幹嗎"), "幹嘛"),
+    (re.compile("其它"), "其他"),
+    (re.compile("它人"), "他人"),
+
+
+    # s2twp turns every 通过 into 透過; passing a test or a gap needs 通過
+    (re.compile("你可以透過呢"), "你可以通過呢"),
+    (re.compile("都要透過的考驗"), "都要通過的考驗"),
+    (re.compile("要透過的試煉"), "要通過的試煉"),
+    (re.compile("你透過了"), "你通過了"),
+    (re.compile("沒有透過這個測試"), "沒有通過這個測試"),
+    (re.compile("透過了第一場測試"), "通過了第一場測試"),
+    (re.compile("透過了我的第二場測試"), "通過了我的第二場測試"),
+
+    # message = 訊息, news = 消息, information = 資訊
+    (re.compile("回來的訊息"), "回來的消息"),
+    (re.compile("任何的訊息"), "任何的消息"),
+    (re.compile("編寫後的資訊"), "編寫後的訊息"),
+    (re.compile("收到你的資訊"), "收到你的訊息"),
+    (re.compile("把資訊送進漂流瓶"), "把訊息送進漂流瓶"),
+    (re.compile("閱讀他人的資訊"), "閱讀他人的訊息"),
     # OpenCC picked the wrong Traditional form for these
     (re.compile("丘位元"), "邱比特"),
     (re.compile("東西后"), "東西後"),
     (re.compile("制作"), "製作"),
     (re.compile("併為此"), "並為此"),
+    (re.compile("洋麵向上伸展"), "海平面向上伸展"),
 ]
 
 
