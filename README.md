@@ -17,11 +17,11 @@
 
 <img src="docs/screenshot-dialogue.png" width="100%" alt="遊戲內對話">
 
-對話字型 `CKingMsg`，5,371 字，缺字 0。
+對話字型 `CKingMsg`，5,373 字，缺字 0。
 
 <img src="docs/screenshot-menu.png" width="100%" alt="道具選單">
 
-選單字型 `CKingMain`，731 字。
+選單字型 `CKingMain`，733 字。
 
 ---
 
@@ -29,10 +29,11 @@
 
 | 項目 | 內容 |
 |---|---|
-| 文字 | 5,040 句全數轉繁，4,275 句有變動 |
-| 字型 | `CKingMsg` 4,390 → 5,371 字；`CKingMain`/`MainL` 569 → 731 字 |
+| 文字 | 5,040 句全數轉繁，4,278 句有變動 |
+| 字型 | `CKingMsg` 4,390 → 5,373 字；`CKingMain`/`MainL` 569 → 733 字 |
 | 標題畫面 | 「薩爾達傳說 風之律動」重繪，並修復原簡中版被抹平的光掃遮罩 |
-| 譯名 | 採任天堂官方繁中譯名：薩爾達、海拉魯、加儂多夫、三角神力、大師之劍、迴力鏢 |
+| 譯名 | 以任天堂官方繁中譯名為準，無官方譯名者沿用民間慣用（見下方） |
+| 校潤 | 與美版英文文本逐句對照，依原意修正譯名、錯字與不順的句子 |
 | 缺字 | 0 |
 
 ---
@@ -64,7 +65,35 @@ MSBT 的 `TXT2` 區塊是 UTF-16BE，中間夾雜控制碼（`0x000E` 帶長度�
 
 > ⚠️ **取代字串一律等長或更短。** MSBT 內含手動換行符，字串變長會爆版。
 
-### 3. 字型層
+### 3. 英文原文對照
+
+美版原作的 `permanent_2d_UsEnglish.pack` 與中文語言包是**完全同構**的：
+68 個 MSBT、5,040 則訊息，連 LBL1 標籤都一模一樣，所以可以直接一對一對齊。
+
+```powershell
+.\.venv\Scripts\python.exe tools\expand_tree.py <英文版 pack> work\tree_en out\inventory_en.txt
+.\.venv\Scripts\python.exe tools\align_en.py work\tree_en work\tree_zhtw
+```
+
+產出 `out/bilingual.tsv`（逐句英中對照）、`out/review_flagged.txt`（可疑句）、
+`out/glossary.txt`（專有名詞的中文譯法一致性）。
+
+官方譯名則是抓 Zelda Wiki 的結構化譯名資料（`Data:Translations/<遊戲>`，
+含 `zhT` 繁中欄位）來比對。風之律動本身沒有官方中文，但它與曠野之息、
+王國之淚、智慧的再現、織夢島、天空之劍 HD、大亂鬥特別版共用的術語有：
+
+```powershell
+.\.venv\Scripts\python.exe tools\fetch_glossary.py      # → text/glossary_official.json
+.\.venv\Scripts\python.exe tools\check_glossary.py work\tree_en work\tree_zhtw
+```
+
+需要人工判斷的逐句修正寫在 `text/overrides.json`，由 `tools/apply_overrides.py`
+在繁化之後套用。它會檢查控制碼的多重集合有沒有變，避免改壞文字框。
+
+一個例子：「Fairy」官方是「妖精」，但中文同樣用「精靈」翻過 spirit
+（德庫樹、加布），因此不能一律取代，而是逐句依英文原文判定。
+
+### 4. 字型層
 
 BFFNT 的字圖頁是 **BC4 壓縮 + Wii U GX2 2D tiling（tileMode 4）**。
 
@@ -94,7 +123,7 @@ BFFNT 的字圖頁是 **BC4 壓縮 + Wii U GX2 2D tiling（tileMode 4）**。
 `tools/glyph_quality.py` 可以量測：修正前新增字只有 4 個灰階，修正後 80–149，
 與原版的 33–165 同級。
 
-### 4. 貼圖層
+### 5. 貼圖層
 
 `tools/dump_bflim.py` / `tools/pack_bflim.py` 解碼與編碼 BFLIM（RGBA8 與 BC4）。
 
@@ -197,6 +226,24 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 
 金鑰不足時 Cemu 會**靜默略過**該遊戲，遊戲清單空白且不跳錯誤。
 
+### 譯名
+
+有官方繁中譯名的就用官方（來源見上方「英文原文對照」）：
+
+| 英文 | 本分支 | 出處 |
+|---|---|---|
+| Zelda / Hyrule / Ganondorf | 薩爾達 / 海拉魯 / 加儂多夫 | CoH、EoW、大亂鬥 |
+| Master Sword / Heart Container | 大師之劍 / 心之容器 | BotW、TotK、EoW |
+| Boomerang | 飛旋鏢（原為迴力鏢） | BotW |
+| Fairy / Great Fairy | 妖精 / 大妖精 | BotW、EoW、LANS |
+| Tetra / Medli / Aryll | 特托拉 / 梅德麗 / 阿利爾 | 大亂鬥特別版繁中官網 |
+| Rito / Korok / Zora | 利特 / 克洛格 / 卓拉 | BotW、TotK、EoW |
+| Moblin / Bokoblin / Darknut | 莫力布林 / 波克布林 / 黑甲武士 | BotW、TotK、EoW |
+| Beedle / Deku Tree | 特里 / 德庫樹 | BotW、TotK、EoW |
+
+「Triforce」**沒有**官方繁中譯名（有中文的作品都沒用這個名字），
+風之律動專屬的地名人名也沒有，這些一律沿用民間慣用譯名。
+
 ### 譯文品質
 
 上游作者說明文本是**用 OCR 從 GameCube 版漢化掃出來的**，因此原文就有辨識錯字。
@@ -204,21 +251,40 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 
 | 錯 | 對 |
 |---|---|
+| 掌**提** | 掌**握**（14 處） |
+| 風之**仗** | 風之**杖** |
+| **黴**氣 | **霧**氣（EN: veiled in mist） |
+| **渲**洩 | **宣**洩 |
+| **析**禱 | **祈**禱 |
+| 多麼**醅**的發明 | 多麼**酷**的發明（EN: cool invention） |
 | 眼**睹** | 眼**睛**（6 處以上） |
 | 眼**哞** | 眼**眸** |
 | 磨**躇** | 磨**蹭** |
 | **咋**碎 | **砸**碎 |
 | 初**學**乍到 | 初**來**乍到 |
+| 口**口**相傳 | 口**耳**相傳 |
 
 `tools/rare_chars.py` 會列出只出現一兩次的罕用字，可以用來繼續獵捕同類錯誤。
 
-另外修正了 OpenCC 轉錯的地方，例如 **愛神丘比特 → 丘位元**（詞表把「比特」
-當成電腦術語 bit，台灣譯「位元」）。
+另外也修正了 OpenCC 轉錯的地方。`s2twp` 會把一批台灣的**資訊術語**套進來，
+在奇幻對白裡讀起來很荒謬：
+
+| s2twp 轉出來的 | 本分支換回 |
+|---|---|
+| 型別（类型） | 類型 |
+| 遠端武器（远程） | 遠距離武器 |
+| 專案（项目） | 項目 |
+| 支援（支持） | 支持 |
+| 物件（对象） | 物品 |
+| 血液迴圈（循环） | 血液循環 |
+| 介面（界面） | 畫面（英文原文是 screen） |
+| 丘位元（丘比特） | 邱比特 |
 
 ### 已知問題
 
 - 上游作者註明：**謎題密碼沿用英文版**，卡關請查英文攻略
-- 譯文未逐句校潤，可能仍有殘留錯字
+- 英文版本身也是在地化，與日文原文有落差；本分支以英文為參照校潤
+- 譯文已做過一輪對照校潤，但未逐句潤稿，可能仍有殘留錯字
 - 標題美術以字型算繪，筆形與原版手繪字不完全相同
 - 未經完整通關測試
 
@@ -233,6 +299,9 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 | `bffnt.py` `gx2_addr.py` `bc4.py` `atlas.py` | 字型與 Wii U 貼圖 tiling |
 | `glyph_render.py` `build_font.py` | 算繪並附加新字圖 |
 | `convert_text.py` | 簡→繁 + 詞表 |
+| `align_en.py` | 與美版英文文本逐句對齊，產出對照語料與可疑句清單 |
+| `fetch_glossary.py` `check_glossary.py` | 抓官方繁中譯名並比對本分支用詞 |
+| `apply_overrides.py` | 套用 `text/overrides.json` 的逐句修正（會守住控制碼） |
 | `dump_bflim.py` `pack_bflim.py` | BFLIM 解碼 / 編碼 |
 | `dump_bflyt.py` | 版面 pane 尺寸 |
 | `fit_logo.py` `retitle.py` `retitle_word.py` | 標題美術處理 |

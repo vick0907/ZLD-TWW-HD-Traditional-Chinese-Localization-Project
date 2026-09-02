@@ -16,6 +16,9 @@ import msbt  # noqa: E402
 # Applied to the already-converted text. OpenCC gets the general vocabulary
 # right but not Nintendo's official Traditional Chinese proper nouns, and it
 # leaves Mainland-only wording alone because those words exist in both scripts.
+# Names marked "official" are attested in a Nintendo release with an official
+# Traditional Chinese localisation - see tools/fetch_glossary.py. Everything
+# else keeps the rendering the fan translation has always used.
 TERMS = [
     # Nintendo's official Traditional Chinese names
     (re.compile("塞爾達"), "薩爾達"),
@@ -24,17 +27,86 @@ TERMS = [
     (re.compile("加農(?![砲炮])"), "加儂"),
     (re.compile("黃金聖三角"), "三角神力"),
     (re.compile("王者之劍"), "大師之劍"),
-    (re.compile("迴旋鏢"), "迴力鏢"),
+    (re.compile("迴旋鏢|迴力鏢"), "飛旋鏢"),
+    (re.compile("海拉魯城(?!堡)"), "海拉魯城堡"),
+    (re.compile("地之神殿"), "大地神殿"),
+    (re.compile("紅色藥水"), "紅藥水"),
+    (re.compile("藍色藥水"), "藍藥水"),
+    (re.compile("大精靈"), "大妖精"),
+    (re.compile("精靈女王"), "妖精女王"),
+    (re.compile("精靈島"), "妖精島"),
+
+    # official character, race and enemy names
+    (re.compile("蒂拉"), "特托拉"),
+    (re.compile("梅麗"), "梅德麗"),
+    (re.compile("艾瑞兒"), "阿利爾"),
+    (re.compile("比多"), "特里"),
+    (re.compile("德古大樹"), "德庫樹"),
+    (re.compile("德古"), "德庫"),
+    (re.compile("瑞託"), "利特"),
+    (re.compile("古洛克"), "克洛格"),
+    (re.compile("佐拉"), "卓拉"),
+    (re.compile("大豬怪"), "莫力布林"),
+    (re.compile("惡鼠怪"), "波克布林"),
+    (re.compile("啾啾果凍"), "丘丘膠"),
+    (re.compile("啾啾怪"), "丘丘"),
+    (re.compile("啾啾"), "丘丘"),
+    (re.compile("黑騎士"), "黑甲武士"),
+    (re.compile("阿莫斯"), "阿默斯"),
+    (re.compile("觸手怪"), "八爪投石怪"),
+    (re.compile("豆妖"), "匹哈特"),
+    (re.compile("火山巨蟲"), "哥馬"),
+
+    # s2twp swaps in Taiwanese computing jargon, which reads absurdly in a
+    # fantasy script - put ordinary wording back.
+    (re.compile("任務選單介面"), "任務畫面"),
+    (re.compile("介面"), "畫面"),
+    (re.compile("型別"), "類型"),
+    (re.compile("遠端武器"), "遠距離武器"),
+    (re.compile("專案"), "項目"),
+    (re.compile("支援"), "支持"),
+    (re.compile("訊號燈"), "信號燈"),
+    (re.compile("教匯出"), "教導出"),
+    (re.compile("物件"), "物品"),
+    (re.compile("血液迴圈"), "血液循環"),
+    (re.compile("無資訊"), "無資料"),
+    (re.compile("傳送資訊"), "傳送訊息"),
+    (re.compile("使用者的內心"), "持劍者的內心"),
+    (re.compile("檢視四周"), "環顧四周"),
+
+    # "進行 + verb" is Mainland officialese; Taiwanese Mandarin just uses the verb
+    (re.compile("進行品籤"), "品鑑"),
+    (re.compile("進行埋身戰"), "徒手攻擊"),
+    (re.compile(r"進行\s*(安置|對比|設定|解讀|更改|注視|投擲|戰鬥|防禦|調製|交談|破壞|調查|拍照|攻擊|瞬移)"), r"\1"),
+    (re.compile("品籤"), "品鑑"),
 
     # Mainland vocabulary that OpenCC leaves alone
     (re.compile("質量"), "品質"),
+    (re.compile("品質過硬"), "品質可靠"),
     (re.compile("服務員"), "服務生"),
+    (re.compile("郵遞員"), "郵差"),
     (re.compile("水平"), "水準"),
     (re.compile("撒手"), "放手"),
     (re.compile("頭兒"), "老大"),
     (re.compile("沒門兒"), "不行"),
     (re.compile("一塊兒"), "一起"),
     (re.compile("這塊兒"), "這附近"),
+    (re.compile("咱們"), "我們"),
+    (re.compile("咱倆"), "我們倆"),
+    (re.compile("外婆"), "奶奶"),
+    (re.compile("抓緊時間"), "趕快"),
+    (re.compile(r"是不\?"), "對吧?"),
+    (re.compile("倒黴"), "倒楣"),
+    (re.compile("溜達"), "閒晃"),
+    (re.compile("愛人"), "心上人"),
+    (re.compile("小夥子"), "小伙子"),
+    (re.compile("菜地"), "菜園"),
+    (re.compile("牛皮哄哄"), "吹牛"),
+    (re.compile("爍爍放光"), "閃閃發亮"),
+    (re.compile("十年怕井繩"), "十年怕草繩"),
+    (re.compile("海拉魯語"), "海利亞語"),
+    # a sentence-final 麼 is the Mainland form of the question particle 嗎
+    (re.compile(r"(?<![什怎那這多要甚])麼(?=[!?！？。，\n]|$)"), "嗎"),
 
     # erhua - Taiwanese Mandarin drops it
     (re.compile("這兒"), "這裡"),
@@ -61,6 +133,22 @@ TERMS = [
     (re.compile("磨躇"), "磨蹭"),
     (re.compile("咋碎"), "砸碎"),
     (re.compile("初學乍到"), "初來乍到"),
+    (re.compile("好象"), "好像"),
+    (re.compile("黴氣"), "霧氣"),
+    (re.compile("打裡打水"), "打水"),
+    (re.compile("口口相傳"), "口耳相傳"),
+    (re.compile("掌提"), "掌握"),
+    (re.compile("風之仗"), "風之杖"),
+    (re.compile("渲洩"), "宣洩"),
+    (re.compile("析禱"), "祈禱"),
+    (re.compile("學好它把"), "學好它吧"),
+    (re.compile("被叫羅斯的女人"), "被一個叫羅斯的女人"),
+    (re.compile("粘"), "黏"),
+    (re.compile("的的"), "的"),
+    (re.compile("，，"), "，"),
+    (re.compile("黏乎乎"), "黏呼呼"),
+    (re.compile("溼嗒嗒"), "溼答答"),
+    (re.compile(r"\.。"), "。"),
 
     # OpenCC picked the wrong Traditional form for these
     (re.compile("丘位元"), "邱比特"),

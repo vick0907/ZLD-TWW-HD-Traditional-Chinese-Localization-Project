@@ -37,6 +37,10 @@ Step 1 "unpack the language pack"
 Step 2 "convert every MSBT to Traditional Chinese (OpenCC s2twp)"
 & $py tools\convert_text.py work\tree work\tree_zhtw out\convert_report.json s2twp
 
+Step 2.5 "apply the hand-reviewed per-message corrections"
+& $py tools\apply_overrides.py work\tree_zhtw text\overrides.json
+if ($LASTEXITCODE -ne 0) { throw "text\overrides.json has entries that no longer apply" }
+
 Step 3 "work out which glyphs the menu fonts need"
 & $py tools\menu_chars.py "$origFonts\CKingMain_bffnt.szs\CKingMain.bffnt" `
     work\tree work\tree_zhtw out\menu_chars.txt

@@ -5,6 +5,7 @@ exposed to text processing:
     ("t", "some text")   plain UTF-16 text
     ("c", b"\\x00\\x0e...")  raw control-code bytes, copied through verbatim
 """
+import re
 import struct
 
 MAGIC = b"MsgStdBn"
@@ -116,3 +117,65 @@ def to_display(segs) -> str:
             args = val[8:].hex().upper()
             parts.append("{0E:%X:%X:%X%s}" % (group, typ, ln, ":" + args if args else ""))
     return "".join(parts)
+
+
+_SHORT_CODE = re.compile(r"^[0-9A-F]{4}$")
+_LONG_CODE = re.compile(r"^0E:([0-9A-F]+):([0-9A-F]+):([0-9A-F]+)(?::([0-9A-F]*))?$")
+
+
+def from_display(text: str):
+    """Inverse of to_display. A '{' that is not a valid code stays literal text."""
+    segs = []
+    buf = []
+    pos = 0
+    while pos < len(text):
+        ch = text[pos]
+        if ch == "{":
+            end = text.find("}", pos)
+            token = text[pos + 1:end] if end != -1 else None
+            code = _parse_code(token) if token is not None else None
+            if code is not None:
+                if buf:
+                    segs.append(("t", "".join(buf)))
+                    buf = []
+                segs.append(("c", code))
+                pos = end + 1
+                continue
+        buf.append(ch)
+        pos += 1
+    if buf:
+        segs.append(("t", "".join(buf)))
+    return segs
+
+
+def _parse_code(token: str):
+    if _SHORT_CODE.match(token):
+        return struct.pack(">H", int(token, 16))
+    m = _LONG_CODE.match(token)
+    if not m:
+        return None
+    group, typ, ln = (int(m.group(i), 16) for i in (1, 2, 3))
+    args = bytes.fromhex(m.group(4) or "")
+    if len(args) != ln:
+        return None
+    return struct.pack(">HHHH", 0x000E, group, typ, ln) + args
+
+
+def read_labels(data: bytes):
+    """Return {message index: label} from LBL1, or None when the file has none."""
+    for magic, _, _, body in _sections(data):
+        if magic != b"LBL1":
+            continue
+        groups = struct.unpack_from(">I", data, body)[0]
+        out = {}
+        for i in range(groups):
+            count, offset = struct.unpack_from(">II", data, body + 4 + i * 8)
+            pos = body + offset
+            for _ in range(count):
+                ln = data[pos]
+                name = data[pos + 1:pos + 1 + ln].decode("ascii", "replace")
+                out[struct.unpack_from(">I", data, pos + 1 + ln)[0]] = name
+                pos += 1 + ln + 4
+        return out
+    return None
+
