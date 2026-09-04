@@ -10,7 +10,9 @@ https://github.com/wmltogether/ZLD-TWW-HD-Chinese-Localization-Project/releases
 #>
 param(
     [string]$Upstream = "work\pack102\release",
-    [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf"
+    [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
+    # Bump this for every release; it names both zips and must match the git tag.
+    [string]$Version = "tw-v1.0.5"
 )
 
 $ErrorActionPreference = "Stop"
@@ -85,8 +87,11 @@ if ((Get-Item out\menu_chars_after.txt).Length -ne 0) {
 }
 
 Step 8 "package"
+if ((Get-Content release-README.txt -Raw) -notmatch [regex]::Escape("ZLD-TWW-HD-zhTW-$Version.zip")) {
+    throw "release-README.txt still names an older zip - update its download section for $Version"
+}
 Copy-Item release-README.txt out\release\README.txt -Force
-$zip = "out\ZLD-TWW-HD-zhTW-v1.0.2-tw1.zip"
+$zip = "out\ZLD-TWW-HD-zhTW-$Version.zip"
 Remove-Item $zip -ErrorAction SilentlyContinue
 Compress-Archive -Path out\release\* -DestinationPath $zip -CompressionLevel Optimal
 
@@ -97,7 +102,7 @@ New-Item -ItemType Directory -Force $gp | Out-Null
 Copy-Item cemu-rules.txt "$gp\rules.txt"
 Copy-Item release-README.txt "$gp\README.txt"
 Copy-Item -Recurse out\release\content "$gp\content"
-$gpZip = "out\TWWHD_zhTW_CemuGraphicPack.zip"
+$gpZip = "out\TWWHD_zhTW_CemuGraphicPack-$Version.zip"
 Remove-Item $gpZip -ErrorAction SilentlyContinue
 Compress-Archive -Path $gp -DestinationPath $gpZip -CompressionLevel Optimal
 

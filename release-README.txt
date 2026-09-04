@@ -137,7 +137,7 @@ content\Common\Layout\Title_00.szs                標題畫面點陣圖
 中文以「圖形封包」的形式疊在遊戲上，原始遊戲檔案完全不會被修改，
 想切回英文只要取消勾選就好，不必重灌。
 
-  1. 下載 TWWHD_zhTW_CemuGraphicPack.zip
+  1. 下載 TWWHD_zhTW_CemuGraphicPack-tw-v1.0.5.zip
   2. 解壓後，把整個 TWWHD_zhTW 資料夾放進 Cemu 的 graphicPacks\
   3. 重開 Cemu，到「選項 → 圖形封包」勾選
      Traditional Chinese (zh-TW)
@@ -152,7 +152,7 @@ content\Common\Layout\Title_00.szs                標題畫面點陣圖
 把中文檔案寫進遊戲資料本身，做出一份「本來就是中文」的遊戲資料。
 實機（Loadiine）只能用這種方式。
 
-  1. 下載 ZLD-TWW-HD-zhTW-v1.0.2-tw1.zip
+  1. 下載 ZLD-TWW-HD-zhTW-tw-v1.0.5.zip
   2. 先備份上面「檔案」列出的那兩個原始檔案
   3. 把 content 資料夾內的檔案覆蓋到遊戲資料的相同路徑
   4. 以 Loadiine（WiiU 5.3.2 或更早韌體）或 Cemu 執行

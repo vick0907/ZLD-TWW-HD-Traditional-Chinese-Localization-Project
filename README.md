@@ -247,7 +247,7 @@ pic1  P_WindwakerJ_00       326 x 120   ← 日版分支
 
 ```
 out\ZLD-TWW-HD-zhTW-*.zip            鬆散檔案版
-out\TWWHD_zhTW_CemuGraphicPack.zip   Cemu graphic pack 版
+out\TWWHD_zhTW_CemuGraphicPack-*.zip Cemu graphic pack 版
 ```
 
 `art/` 是**建置的輸入**（手繪標題美術），不是產出。
