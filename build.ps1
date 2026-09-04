@@ -53,6 +53,9 @@ if ($LASTEXITCODE -ne 0) { throw "English/Chinese alignment failed" }
 if ($LASTEXITCODE -ne 0) { throw "localization QA failed" }
 & $py tools\audit_register.py out\bilingual.tsv out\register_audit.txt
 if ($LASTEXITCODE -ne 0) { throw "register audit failed" }
+# Advisory: most hits are fragments that legitimately recur, so a human reads it.
+& $py tools\audit_overrides.py out\bilingual.tsv `
+    text\overrides.json text\review_pass2.json out\override_audit.txt
 
 Step 3 "work out which glyphs the menu fonts need"
 & $py tools\menu_chars.py "$origFonts\CKingMain_bffnt.szs\CKingMain.bffnt" `

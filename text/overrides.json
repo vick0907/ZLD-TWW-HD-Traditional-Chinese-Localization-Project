@@ -542,12 +542,6 @@
   },
   {
     "key": "message#00303",
-    "note": "Big Octo is not an Octorok",
-    "find": "大八爪投石怪",
-    "replace": "大章魚"
-  },
-  {
-    "key": "message#00303",
     "find": "八爪投石怪海圖",
     "replace": "大章魚海圖"
   },
@@ -1444,7 +1438,7 @@
   {
     "key": "message3#07330",
     "note": "EN: you can say the cheesiest things without blinking an eye",
-    "find": "你會說些混賬話",
+    "find": "你會說些混帳話",
     "replace": "你會說出好肉麻的話"
   },
   {

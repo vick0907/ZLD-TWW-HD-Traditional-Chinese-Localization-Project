@@ -3462,12 +3462,6 @@
     "note": "還原現在即可安心繼續旅行的語意。"
   },
   {
-    "key": "message2#06059",
-    "find": "順便問句",
-    "replace": "順便問一句",
-    "note": "補回漏字。"
-  },
-  {
     "key": "message2#06060",
     "find": "放心的繼續你的旅行吧。",
     "replace": "放心地繼續旅行吧。",
@@ -4992,12 +4986,6 @@
     "note": "some tree 指鎮上的某一棵樹。"
   },
   {
-    "key": "message3#10001",
-    "find": "瑪麗夫人的學校",
-    "replace": "瑪麗夫人的歡樂學校",
-    "note": "補回 School of Joy 名稱中的 Joy。"
-  },
-  {
     "key": "message3#10003",
     "find": "這次你又要給我多少呢？",
     "replace": "你上次送了我幾個來著？",
@@ -5032,18 +5020,6 @@
     "find": "只要把它們設定為",
     "replace": "只要把它們裝備到",
     "note": "修正把耳墜裝備到按鍵欄位的操作關係。"
-  },
-  {
-    "key": "message3#10033",
-    "find": "志願者活動",
-    "replace": "志工活動",
-    "note": "改用台灣慣用的志工用語。"
-  },
-  {
-    "key": "message3#10033",
-    "find": "熱心的志願者",
-    "replace": "熱心的志工",
-    "note": "改用台灣慣用的志工稱呼。"
   },
   {
     "key": "message3#10044",
@@ -5110,12 +5086,6 @@
     "find": "...繼續走，用",
     "replace": "...來，用",
     "note": "刪除原文沒有且會誤導教學的移動指令。"
-  },
-  {
-    "key": "message3#10107",
-    "find": "20，000盧比",
-    "replace": "20,000盧比",
-    "note": "修正價格中的錯誤逗號字形。"
   },
   {
     "key": "message3#10107",
@@ -5284,18 +5254,6 @@
     "find": "燦爛微笑小鎮",
     "replace": "燦爛微笑的小鎮",
     "note": "補回定語所缺的結構助詞。"
-  },
-  {
-    "key": "message3#10363",
-    "find": "頭骨塔塑",
-    "replace": "頭骨塔雕塑",
-    "note": "補回遭截斷的既定物品名稱。"
-  },
-  {
-    "key": "message3#10364",
-    "find": "頭骨塔塑",
-    "replace": "頭骨塔雕塑",
-    "note": "補回購買選項中遭截斷的既定物品名稱。"
   },
   {
     "key": "message3#10375",
@@ -6160,12 +6118,6 @@
     "find": "我真是忍不住要把我的",
     "replace": "我真是忍不住要把我們的",
     "note": "The treasure belongs to the pirate group"
-  },
-  {
-    "key": "message4#12723",
-    "find": "飛行控制檯",
-    "replace": "飛行控制台",
-    "note": "Use 台 for a control platform"
   },
   {
     "key": "message4#12808",
@@ -7231,8 +7183,8 @@
   },
   {
     "key": "message4#14307",
-    "find": "約爾書和吉爾的母親，很精神，很樸素...",
-    "replace": "羅斯是約爾書和吉爾的母親，喜好樸實...",
+    "find": "喬爾和吉爾的母親，很精神，很樸素...",
+    "replace": "羅斯是喬爾和吉爾的母親，喜好樸實...",
     "note": "refreshingly simple tastes 指喜好樸實，不是本人很精神。"
   },
   {
@@ -7348,12 +7300,6 @@
     "find": "口頭禪:",
     "replace": "最討厭的諺語:",
     "note": "Least Favorite Proverb 帶有明確否定。"
-  },
-  {
-    "key": "message4#14332",
-    "find": "幸福志願者協會",
-    "replace": "幸福志工協會",
-    "note": "以台灣慣用的「志工」取代中國大陸用語。"
   },
   {
     "key": "message4#14340",
@@ -8386,12 +8332,6 @@
     "find": "對比。",
     "replace": "對比，找出寶藏的位置。",
     "note": "補回比較兩種海圖是為了找出寶藏位置的教學目的。"
-  },
-  {
-    "key": "message4#14307",
-    "find": "約爾書",
-    "replace": "喬爾",
-    "note": "將誤作《約爾書》的 Joel 改回人物音譯。"
   },
   {
     "key": "message4#14325",

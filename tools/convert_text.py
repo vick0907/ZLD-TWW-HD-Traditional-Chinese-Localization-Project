@@ -59,6 +59,9 @@ TERMS = [
     (re.compile("啾啾"), "丘丘"),
     (re.compile("黑騎士"), "黑甲武士"),
     (re.compile("阿莫斯"), "阿默斯"),
+    # a Big Octo is its own creature, not an oversized Octorok, so it has to be
+    # taken out before the Octorok rule claims it
+    (re.compile("大觸手怪"), "大章魚"),
     (re.compile("觸手怪"), "八爪投石怪"),
     (re.compile("豆妖"), "匹哈特"),
     (re.compile("火山巨蟲"), "哥馬"),
@@ -387,9 +390,23 @@ TERMS = [
     # OpenCC picked the wrong Traditional form for these
     (re.compile("丘位元"), "邱比特"),
     (re.compile("東西后"), "東西後"),
+    (re.compile("賬"), "帳"),
     (re.compile("制作"), "製作"),
     (re.compile("併為此"), "並為此"),
     (re.compile("洋麵向上伸展"), "海平面向上伸展"),
+
+    # Wording first corrected in a single message, then found still standing in
+    # its twins by tools/audit_overrides.py. Fixing the term here keeps every
+    # occurrence in step, which a per-message override cannot do.
+    (re.compile("約爾書"), "喬爾"),
+    (re.compile("頭骨塔塑"), "頭骨塔雕塑"),
+    (re.compile("志願者"), "志工"),
+    (re.compile("快樂志工"), "幸福志工"),
+    (re.compile("控制檯"), "控制台"),
+    (re.compile("瑪麗夫人的學校"), "瑪麗夫人的歡樂學校"),
+    (re.compile("順便問句"), "順便問一句"),
+    # a full-width comma inside a price reads as a pause, not a digit separator
+    (re.compile(r"(?<=\d)，(?=\d)"), ","),
 ]
 
 
