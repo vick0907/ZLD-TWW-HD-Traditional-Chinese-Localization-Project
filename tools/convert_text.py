@@ -381,6 +381,9 @@ TERMS = [
     (re.compile("收到你的資訊"), "收到你的訊息"),
     (re.compile("把資訊送進漂流瓶"), "把訊息送進漂流瓶"),
     (re.compile("閱讀他人的資訊"), "閱讀他人的訊息"),
+    # s2twp also swaps in Taiwanese computing jargon: 部分区域 came out as
+    # 部分「分割槽」域, i.e. a disk partition
+    (re.compile("部分割槽域"), "部分區域"),
     # OpenCC picked the wrong Traditional form for these
     (re.compile("丘位元"), "邱比特"),
     (re.compile("東西后"), "東西後"),

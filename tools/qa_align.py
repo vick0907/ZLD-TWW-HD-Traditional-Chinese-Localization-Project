@@ -46,6 +46,32 @@ def stray_latin(key, en, zh):
     return m.group(0) if m else None
 
 
+@check("stray-brace", "文字裡出現裸露的大括號，會原樣顯示在遊戲中")
+def stray_brace(key, en, zh):
+    t = plain(zh)
+    m = re.search(r"[{}]", t)
+    return repr(t[max(0, m.start() - 8):m.start() + 8]) if m else None
+
+
+@check("orphan-punct", "整行只有標點，通常是句號被換行擠到下一行")
+def orphan_punct(key, en, zh):
+    # a name insert or colour reset legitimately opens the line before the
+    # sentence-final mark, so only flag a line that is punctuation and nothing else
+    lines = zh.replace("\\n", "\n").split("\n")
+    for i, ln in enumerate(lines[1:], 1):
+        if not re.fullmatch(r"\s*[。，、！？；：]+\s*", ln):
+            continue
+        if re.search(r"[%s]\s*$" % CJK, lines[i - 1]):
+            return ln.strip()
+    return None
+
+
+@check("latin-fullstop", "英文縮寫用了全形句號")
+def latin_fullstop(key, en, zh):
+    m = re.search(r"[A-Za-z]。[A-Za-z]", plain(zh))
+    return m.group(0) if m else None
+
+
 @check("punct-residue", "全形與半形標點疊在一起")
 def punct_residue(key, en, zh):
     z = re.sub(r"\.\.\.", "\u2026", zh)          # a real ellipsis after ! or ? is fine

@@ -150,6 +150,27 @@ MSBT 的 `TXT2` 區塊是 UTF-16BE，中間夾雜控制碼（`0x000E` 帶長度�
 `message2#05690` 用了「裡」，但選單字型 `CKingMain` 的字數上限裝不下這個字，
 在選單情境會顯示空白 —— `build.ps1` 的 `menu_chars.py` 後檢查會擋下來。
 
+#### 全文重新比對與回歸審核（tw-v1.0.5）
+
+tw-v1.0.5 不沿用前一輪「已經看過」的結論，重新審查最新的 5,040 則英中對照：
+
+1. 切成 24 個不重疊區塊，每區 210 則；另用程式核對起訖 key 與連續覆蓋，缺段 0。
+2. 第一層逐則檢查英文語意與台灣繁中；第二層對照原始 TSV 剔除誤報；
+  第三層排除純潤色、同義詞與既定譯名差異。
+3. 對 810 個修改過的 key 產生 `英文 / 修正前 / 修正後` 對照，分 10 區逐則回歸審核；
+  回歸修正再審兩輪，最後旗標 0。
+
+成果放在獨立的 `text/review_pass2.json`，共 1,400 個精確替換，必須在
+`text/overrides.json` 之後套用。獨立從舊基線重建兩次，最終 TSV 的 SHA-256 完全一致。
+
+這輪找到的代表問題：寄件人與收件人顛倒、`two helpings` 誤成「兩種功效」、
+`grab and lift` 誤成「推或是舉」、靠近門再退開誤成走到觸手後面、
+`makes poor use of Rupees` 誤成「盧比少的人」、Nayru／Farore 寶珠屬性對調，
+以及 Joel 被譯成書名「約爾書」。
+
+最終驗證：MSBT 68/68、訊息 5,040、控制碼差異 0、選單選項錯誤 0、
+新增數字差異 0、單行超寬 0、主字型與選單字型缺字皆為 0。
+
 ### 4. 字型層
 
 BFFNT 的字圖頁是 **BC4 壓縮 + Wii U GX2 2D tiling（tileMode 4）**。
@@ -213,11 +234,14 @@ pic1  P_WindwakerJ_00       326 x 120   ← 日版分支
 ```powershell
 # 前提：把上游 v1.0.2 語言包解壓到 work\pack102\，
 #       使 work\pack102\release\content\ 存在
+#       並把美版 permanent_2d_UsEnglish.pack 展開到 work\tree_en\：
+.\.venv\Scripts\python.exe tools\expand_tree.py <美版 pack> work\tree_en out\inventory_en.txt
 .\build.ps1
 ```
 
-九個步驟：解包 → 轉繁 → 算選單缺字 → 補字型 → 套用標題美術 → 重打包 →
-驗證 → 打包 zip → 產生 Cemu graphic pack。
+建置流程：解包 → 轉繁 → 套用兩輪人工補丁 → 重建英中對照與 QA →
+算選單缺字 → 補字型 → 套用標題美術 → 重打包 → 驗證 → 打包 zip →
+產生 Cemu graphic pack。
 
 產物：
 

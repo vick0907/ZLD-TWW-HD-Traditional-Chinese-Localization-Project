@@ -2599,5 +2599,49 @@
     "note": "EN: I think I've actually missed getting wet!",
     "find": "偶爾下點小雨也不錯嘛！",
     "replace": "偶爾下點小雨也不錯嘛！\r\n說起來，我還挺懷念被雨淋的感覺呢！"
+  },
+  {
+    "key": "message#00829",
+    "note": "physical switches are 啟動, not 啟用",
+    "find": "你必須啟用這個島上全部的四個開關。",
+    "replace": "你必須啟動這個島上全部的四個開關。"
+  },
+  {
+    "key": "message#00829",
+    "find": "而且是必須快速地啟用全部。",
+    "replace": "而且必須迅速地全部啟動。"
+  },
+  {
+    "key": "message3#07458",
+    "note": "EN: Can these dear people recover?",
+    "find": "這些可憐的人們還能夠復原嗎",
+    "replace": "這些可憐的人還回得過神來嗎"
+  },
+  {
+    "key": "message4#12215",
+    "note": "EN: I wonder who got the thing going again?",
+    "find": "是誰讓這一切復原的呢？",
+    "replace": "是誰讓它重新轉起來的呢？"
+  },
+  {
+    "key": "message#00813",
+    "note": "a bare } would be drawn literally in game",
+    "find": " }就會降低",
+    "replace": "就會降低"
+  },
+  {
+    "key": "message#00136",
+    "find": "你拍好的相片\r\n。",
+    "replace": "你拍好的相片。"
+  },
+  {
+    "key": "message#01528",
+    "find": "就在你的航海圖上。\r\n。",
+    "replace": "就在你的海圖上。"
+  },
+  {
+    "key": "message#00829",
+    "find": "S。W。珀切特",
+    "replace": "S.W. 珀切特"
   }
 ]
