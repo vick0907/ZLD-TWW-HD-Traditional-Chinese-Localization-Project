@@ -1,0 +1,471 @@
+[
+  {
+    "key": "DungeonMapDown_00#T_FloorD_00_outdoor",
+    "find": "屋外",
+    "replace": "戶外",
+    "note": "Use the ordinary Taiwan UI term for Ext."
+  },
+  {
+    "key": "DungeonMapUp_00#T_FloorU_00_outdoor",
+    "find": "屋外",
+    "replace": "戶外",
+    "note": "Use the ordinary Taiwan UI term for Ext."
+  },
+  {
+    "key": "DungeonMap_00#L_BtnFloor_00-T_Floor_00_outdoor",
+    "find": "屋外",
+    "replace": "戶外",
+    "note": "Use the ordinary Taiwan UI term for Ext."
+  },
+  {
+    "key": "BatonSignList_00#T_BatonSign_05",
+    "find": "風神之調",
+    "replace": "風神之歌",
+    "note": "Match the other three occurrences of Wind God's Aria."
+  },
+  {
+    "key": "message#00125",
+    "find": "三片",
+    "replace": "三片，",
+    "note": "Separate the completed count from the instruction to collect one more."
+  },
+  {
+    "key": "message#00208",
+    "find": "智慧寶珠",
+    "replace": "勇氣寶珠",
+    "note": "Farore corresponds to courage."
+  },
+  {
+    "key": "message#00245",
+    "find": "{0E:1:6:2:000A}{0E:1:6:2:000A}",
+    "replace": "{0E:1:6:2:000A}",
+    "codes": "changed",
+    "note": "Remove a duplicated line-layout control absent from the English message."
+  },
+  {
+    "key": "message2#03823",
+    "find": "智慧寶珠",
+    "replace": "勇氣寶珠",
+    "note": "Farore corresponds to courage."
+  },
+  {
+    "key": "message2#03824",
+    "find": "勇氣寶珠",
+    "replace": "智慧寶珠",
+    "note": "Nayru corresponds to wisdom."
+  },
+  {
+    "key": "message4#12018",
+    "find": "操縱風的孩子",
+    "replace": "年輕的風之勇者",
+    "note": "Match the identical title in message4#12008."
+  },
+  {
+    "key": "MenuMap_00#L_TreMap_00-T_MapOpen_00",
+    "find": "觸控地圖\r\n開啟",
+    "replace": "輕觸這張地圖\r\n即可開啟",
+    "note": "Make the touch-screen instruction read as a complete action."
+  },
+  {
+    "key": "BoatRaceResult_00#T_GetRupy_00",
+    "find": "贏得盧比數:",
+    "replace": "獲得的盧比:",
+    "note": "Use a natural results-screen label."
+  },
+  {
+    "key": "message#00136",
+    "find": "獲得了",
+    "replace": "你獲得了",
+    "note": "Restore the omitted subject in the item-acquisition message."
+  },
+  {
+    "key": "message#00141",
+    "find": "兩隻手都要比原來強壯了！",
+    "replace": "雙臂變得比以前更有力了！",
+    "note": "Repair the malformed comparison."
+  },
+  {
+    "key": "message#00151",
+    "find": "現在的天氣穿這個的話\r\n好像有點熱",
+    "replace": "這種天氣穿這身衣服\r\n好像有點熱",
+    "note": "Name the clothes instead of using a nested generic pronoun."
+  },
+  {
+    "key": "message#00154",
+    "find": "已經注入到了你的",
+    "replace": "已經注入你的",
+    "note": "Remove the literalized directional complement."
+  },
+  {
+    "key": "message#00154",
+    "find": "弓箭",
+    "replace": "箭矢",
+    "note": "The powers are added to the arrows, not the bow."
+  },
+  {
+    "key": "message#00154",
+    "find": "然後百步穿楊吧",
+    "replace": "然後射擊吧！",
+    "note": "Fire away is an instruction to shoot, not a claim of perfect aim."
+  },
+  {
+    "key": "message#00164",
+    "find": "多令人興奮啊！",
+    "replace": "真令人興奮啊！",
+    "note": "Use a complete Taiwan Mandarin exclamation."
+  },
+  {
+    "key": "message#00172",
+    "find": "單看這漂亮羽毛中空處發出的光芒，\r\n就已經足夠讓人嘖嘖稱奇的了。",
+    "replace": "這根閃耀著美麗金光的羽毛，\r\n散發出一股奇異氣息。",
+    "note": "Match the clearer duplicate item description in message#00640."
+  },
+  {
+    "key": "message#00186",
+    "find": "你被攻擊而受傷為止",
+    "replace": "你受傷為止",
+    "note": "Remove a redundant action-result chain."
+  },
+  {
+    "key": "message#00190",
+    "find": "這些能供你多次使用，但是這些水的\r\n活性只能保持",
+    "replace": "這瓶水可以多次使用，但森之水的\r\n效力只能維持",
+    "note": "Use a singular referent and ordinary wording for the water's effect."
+  },
+  {
+    "key": "message#00241",
+    "find": "如果找到了地方來安放這朵嬌小的\r\n花朵，在物品畫面下選中",
+    "replace": "如果找到適合擺放這朵小花的地方，\r\n請在物品畫面選擇",
+    "note": "Repair the literalized placement and UI instruction."
+  },
+  {
+    "key": "message#00241",
+    "find": "上來使用",
+    "replace": "上使用",
+    "note": "Remove the redundant directional complement."
+  },
+  {
+    "key": "message#00295",
+    "find": "開啟海圖檢視",
+    "replace": "開啟海圖即可查看",
+    "note": "Complete the map-screen instruction."
+  },
+  {
+    "key": "message#00351",
+    "find": "憑你的小腦袋是看不懂的，所以\r\n你最好能找個能破譯的行家。",
+    "replace": "你自己看不懂，所以\r\n最好找個會破譯的行家。",
+    "note": "Remove the doubled auxiliary and make the instruction direct."
+  },
+  {
+    "key": "message#00815",
+    "find": "變更顯示的螢幕",
+    "replace": "切換顯示畫面",
+    "note": "Use the natural Taiwan UI action for switching screens."
+  },
+  {
+    "key": "message#01105",
+    "find": "處理它...",
+    "replace": "處理它們...",
+    "note": "Searchlights is plural."
+  },
+  {
+    "key": "message#02302",
+    "find": "。你一定會大吃一驚。\r\n簡直就像尋寶之旅!但是...",
+    "replace": "，一定會大吃一驚。\r\n簡直就像尋寶一樣！但是...",
+    "note": "Reconnect the broken conditional sentence."
+  },
+  {
+    "key": "message#02304",
+    "find": "丟棄在草叢裡，所以如果你不辭辛苦\r\n的割去野草，你就有資格佔有你發現的東西。",
+    "replace": "掉在草叢裡，所以只要辛苦割草，\r\n找到的東西就歸你。",
+    "note": "Replace legalistic and literal wording with a direct reward explanation."
+  },
+  {
+    "key": "message#02310",
+    "find": "就在那 ",
+    "replace": "就在",
+    "note": "Remove the first half of a repeated locative phrase."
+  },
+  {
+    "key": "message#02310",
+    "find": "，在那乾涸的噴泉旁邊。",
+    "replace": "裡那座乾涸的噴泉旁。",
+    "note": "Finish the Fairy Woods location as one phrase."
+  },
+  {
+    "key": "message#02390",
+    "find": "一種特別的焦慮...遠遠不是\r\n希望在戰場上揮劍那麼簡單...",
+    "replace": "一股急切的渴望...那遠不只是\r\n想在戰場上揮劍而已...",
+    "note": "Repair the comparison and preserve the sword's eagerness."
+  },
+  {
+    "key": "message#02425",
+    "find": "按下{0E:3:0:0}，但必須在奔跑時才能使出",
+    "replace": "奔跑時按下{0E:3:0:0}即可使出",
+    "note": "State the rolling-attack input in action order."
+  },
+  {
+    "key": "message#02425",
+    "find": "{0E:0:3:2:0001}鎖定{0E:0:3:2:FFFF}{0E:0:3:2:0000} 按下 {0E:0:3:2:0000}{0E:3:19:0} {0E:0:3:2:0000}\r\n同時按下 {0E:3:0:0} 並朝{0E:3:12:0}的方向傾斜即可跳躍。",
+    "replace": "按住 {0E:0:3:2:0000}{0E:3:19:0}{0E:0:3:2:0000} {0E:0:3:2:0001}鎖定{0E:0:3:2:FFFF}{0E:0:3:2:0000}，\r\n傾斜{0E:3:12:0}時按下 {0E:3:0:0} 即可跳躍。",
+    "note": "Put the lock-on and jump controls in executable order."
+  },
+  {
+    "key": "message#02425",
+    "find": "注視鎖定狀態下",
+    "replace": "鎖定狀態下",
+    "note": "Use the established lock-on term."
+  },
+  {
+    "key": "message#02425",
+    "find": "，傾斜 ",
+    "replace": "，向後傾斜 ",
+    "note": "Restore the direction required for a backflip."
+  },
+  {
+    "key": "message#02425",
+    "find": " 同時按下 ",
+    "replace": " 並按下 ",
+    "note": "Complete the backflip instruction naturally."
+  },
+  {
+    "key": "message#02496",
+    "find": "怎麼了，",
+    "replace": "你意下如何，",
+    "note": "What say you asks for the player's decision, not what is wrong."
+  },
+  {
+    "key": "message2#03928",
+    "find": "害羞的小鬼頭",
+    "replace": "你這小鬼頭",
+    "note": "Little imp does not describe the player as shy."
+  },
+  {
+    "key": "message2#03958",
+    "find": "所有獲得銀卡的人都將得\r\n 到我們的一份小禮物並記錄下",
+    "replace": "所有銀卡會員都會收到一份\r\n 特別禮物，也就是",
+    "note": "Repair the broken Complimentary ID grant sentence."
+  },
+  {
+    "key": "message2#03958",
+    "find": "。這通用於",
+    "replace": "，可通用於",
+    "note": "Make the card the subject of its validity statement."
+  },
+  {
+    "key": "message2#04005",
+    "find": "你得從",
+    "replace": "只要從",
+    "note": "Begin the barrel instruction as a condition."
+  },
+  {
+    "key": "message2#04005",
+    "find": "獲取",
+    "replace": "，就能取得",
+    "note": "Reconnect the action to its result."
+  },
+  {
+    "key": "message2#04006",
+    "find": "縱向",
+    "replace": "直立",
+    "note": "Match upright and the preceding barrel explanation."
+  },
+  {
+    "key": "message2#04006",
+    "find": "金幣",
+    "replace": "盧比",
+    "note": "Use the actual currency named in the English instruction."
+  },
+  {
+    "key": "message2#04006",
+    "find": "跳躍{0E:0:3:2:FFFF}{0E:0:3:2:0000} !\r\n才行！",
+    "replace": "讓船跳起來{0E:0:3:2:FFFF}{0E:0:3:2:0000}！\r\n這是唯一的辦法！",
+    "note": "Remove the dangling 才行 and name what jumps."
+  },
+  {
+    "key": "message2#04055",
+    "find": "賣瘋了",
+    "replace": "很受歡迎",
+    "note": "Replace Mainland sales slang."
+  },
+  {
+    "key": "message2#04055",
+    "find": "太暢銷了，暢銷的不得了啊",
+    "replace": "賣得可好了，簡直供不應求啊",
+    "note": "Repair the repeated malformed intensifier."
+  },
+  {
+    "key": "message2#04055",
+    "find": "我去銀行的時候笑了一路\r\n笑到下巴脫臼！",
+    "replace": "我一路笑著走去銀行，\r\n笑的就是那些怪物！",
+    "note": "Restore the joke's target instead of inventing an injury."
+  },
+  {
+    "key": "message2#04101",
+    "find": "礙著大家事",
+    "replace": "礙著大家做事",
+    "note": "Restore the missing verb."
+  },
+  {
+    "key": "message2#04143",
+    "find": "新兵總是會陷入難題的。\r\n那可真的是一件麻煩的活，但是",
+    "replace": "新人總是得做最辛苦的工作。\r\n這待遇實在很差，不過呢...",
+    "note": "Restore the hard-work and raw-deal comparison."
+  },
+  {
+    "key": "message2#04143",
+    "find": "我要告訴你...唯一能確認的是尼谷\r\n會很高興不用在海盜裡排名墊底了！",
+    "replace": "我跟你說...尼谷聽到自己終於\r\n不再是海盜團裡地位最低的人，可高興了！",
+    "note": "Repair the malformed certainty phrase and the pirate-rank referent."
+  },
+  {
+    "key": "message2#04143",
+    "find": "信不信隨你！",
+    "replace": "那還用說！",
+    "note": "You bet he is confirms the claim rather than challenging belief."
+  },
+  {
+    "key": "message2#04205",
+    "find": "關於那裡駭人聽聞的傳聞數不勝數。",
+    "replace": "關於那裡流傳著各種奇怪的傳聞。",
+    "note": "Strange rumors are not necessarily horrifying."
+  },
+  {
+    "key": "message2#04205",
+    "find": "一群殘暴海盜",
+    "replace": "一小群海盜",
+    "note": "Restore the small-time rival group without inventing brutality."
+  },
+  {
+    "key": "message2#04205",
+    "find": "我們跟他們幹過架",
+    "replace": "我們以前跟他們競爭過",
+    "note": "Compete does not mean a physical fight."
+  },
+  {
+    "key": "message2#04205",
+    "find": "但是那時候他們羽翼未豐。",
+    "replace": "不過他們當時只是小角色。",
+    "note": "Small time describes minor players, not an early growth stage."
+  },
+  {
+    "key": "message2#04205",
+    "find": "那裡絕對是個危險之地",
+    "replace": "那裡看起來相當危險",
+    "note": "Preserve the source's visual uncertainty."
+  },
+  {
+    "key": "message2#04558",
+    "find": "向神傾訴的樂曲",
+    "replace": "呼喚諸神的樂曲",
+    "note": "Call upon the gods is invocation, not confiding in them."
+  },
+  {
+    "key": "message3#06648",
+    "find": "所有的利特族的少女都迷這種東西！",
+    "replace": "所有利特族少女都對這種東西著迷！",
+    "note": "Remove the doubled possessive construction."
+  },
+  {
+    "key": "message3#06706",
+    "find": "匹配",
+    "replace": "對照",
+    "note": "Use an ordinary instruction verb rather than a technical calque."
+  },
+  {
+    "key": "message3#06706",
+    "find": "和格子上的",
+    "replace": "與格子上的相同",
+    "note": "Restore same icon and connect the two objects."
+  },
+  {
+    "key": "message3#06706",
+    "find": "並且把信投到對應的格子上。",
+    "replace": "，再把信投進對應的格子。",
+    "note": "Make the two-step sorting instruction natural."
+  },
+  {
+    "key": "message3#06817",
+    "find": "來吧...你是真的",
+    "replace": "拜託...你真的是",
+    "note": "Repair the confirmation question before the player name."
+  },
+  {
+    "key": "message3#06817",
+    "find": ", 對不對？",
+    "replace": "，對吧？",
+    "note": "Complete the confirmation naturally."
+  },
+  {
+    "key": "message3#07311",
+    "find": "正義朋友!",
+    "replace": "正義夥伴！",
+    "note": "Use the established collocation for an ally of justice."
+  },
+  {
+    "key": "message3#07312",
+    "find": "正義朋友",
+    "replace": "正義夥伴",
+    "note": "Use the established collocation for an ally of justice."
+  },
+  {
+    "key": "message3#07332",
+    "find": "正義朋友",
+    "replace": "正義夥伴",
+    "note": "Use the established collocation for an ally of justice."
+  },
+  {
+    "key": "message3#07512",
+    "find": "在哪你？！？",
+    "replace": "哪裡？！？",
+    "note": "Keep the accent gag but remove an unintelligible word order."
+  },
+  {
+    "key": "message3#10039",
+    "find": "少年團{0E:0:3:2:FFFF}{0E:0:3:2:0000}!\"",
+    "replace": "少年團{0E:0:3:2:FFFF}{0E:0:3:2:0000}！",
+    "note": "Remove an unmatched closing quote."
+  },
+  {
+    "key": "message3#10060",
+    "find": "我的天啊！",
+    "replace": "親愛的！",
+    "note": "My dear is a salutation, not an exclamation of surprise."
+  },
+  {
+    "key": "message3#10707",
+    "find": "裡的東西\r\n有一絲絲的罕見或是新奇的話，\r\n請您讓我看一眼行嗎？",
+    "replace": "裡有什麼稀有或新奇的東西，\r\n能讓我看一眼嗎？",
+    "note": "Replace a malformed nominalized rarity construction."
+  },
+  {
+    "key": "message4#10909",
+    "find": "不管你用什麼，但願風兒能助你，\r\n嗯...你的道具一臂之力！",
+    "replace": "那就祝你的...呃，那個東西，\r\n能夠乘風而起！",
+    "note": "Preserve the wings joke without the broken sentence structure."
+  },
+  {
+    "key": "message4#13044",
+    "find": "這幾個討債鬼",
+    "replace": "這幾個小鬼頭",
+    "note": "Replace an opaque Mainland expression for troublesome children."
+  },
+  {
+    "key": "message4#13053",
+    "find": "一個可憐兮兮的",
+    "replace": "一艘看起來破破爛爛的",
+    "note": "Use a natural vessel description."
+  },
+  {
+    "key": "message4#13053",
+    "find": "潛水艇似的東西",
+    "replace": "潛水艇",
+    "note": "Name the visible submarine directly."
+  },
+  {
+    "key": "message4#13201",
+    "find": "在完事之後和我去外面喝上\r\n杯咖啡",
+    "replace": "結束後和我去咖啡館\r\n喝杯咖啡",
+    "note": "Replace Mainland verb complements with a natural invitation."
+  }
+]

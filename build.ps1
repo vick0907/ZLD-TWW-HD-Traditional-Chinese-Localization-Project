@@ -12,7 +12,7 @@ param(
     [string]$Upstream = "work\pack102\release",
     [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
     # Bump this for every release; it names both zips and must match the git tag.
-    [string]$Version = "tw-v1.0.7"
+    [string]$Version = "tw-v1.0.8"
 )
 
 $ErrorActionPreference = "Stop"
@@ -39,11 +39,13 @@ Step 1 "unpack the language pack"
 Step 2 "convert every MSBT to Traditional Chinese (OpenCC s2twp)"
 & $py tools\convert_text.py work\tree work\tree_zhtw out\convert_report.json s2twp
 
-Step 2.5 "apply both hand-reviewed correction passes"
+Step 2.5 "apply all hand-reviewed correction passes"
 & $py tools\apply_overrides.py work\tree_zhtw text\overrides.json
 if ($LASTEXITCODE -ne 0) { throw "text\overrides.json has entries that no longer apply" }
 & $py tools\apply_overrides.py work\tree_zhtw text\review_pass2.json
 if ($LASTEXITCODE -ne 0) { throw "text\review_pass2.json has entries that no longer apply" }
+& $py tools\apply_overrides.py work\tree_zhtw text\readability_pass.json
+if ($LASTEXITCODE -ne 0) { throw "text\readability_pass.json has entries that no longer apply" }
 
 Step 2.6 "rebuild the bilingual alignment and run localization QA"
 & $py tools\align_en.py work\tree_en work\tree_zhtw `
@@ -55,7 +57,8 @@ if ($LASTEXITCODE -ne 0) { throw "localization QA failed" }
 if ($LASTEXITCODE -ne 0) { throw "register audit failed" }
 # Advisory: most hits are fragments that legitimately recur, so a human reads it.
 & $py tools\audit_overrides.py out\bilingual.tsv `
-    text\overrides.json text\review_pass2.json out\override_audit.txt
+    text\overrides.json text\review_pass2.json text\readability_pass.json `
+    out\override_audit.txt
 
 Step 3 "work out which glyphs the menu fonts need"
 & $py tools\menu_chars.py "$origFonts\CKingMain_bffnt.szs\CKingMain.bffnt" `
@@ -64,7 +67,13 @@ Step 3 "work out which glyphs the menu fonts need"
 Step 4 "add glyphs to the three fonts that carry Chinese text"
 & $py tools\build_font.py "$origFonts\CKingMsg_bffnt.szs\CKingMsg.bffnt" `
     work\out_font\CKingMsg.bffnt --text-root work\tree_zhtw --ttf $Ttf `
-    --report out\font_build_msg.json
+    --chars-file text\CKingMsg_legacy_chars.txt --report out\font_build_msg.json
+& $py tools\redraw_han_font.py work\out_font\CKingMsg.bffnt `
+    work\out_font\CKingMsg_weight500.bffnt --text-root work\tree_zhtw `
+    --ttf $Ttf --variation 500 --report out\font_redraw_msg.json
+if ($LASTEXITCODE -ne 0) { throw "weight-500 dialogue font redraw failed" }
+Move-Item work\out_font\CKingMsg_weight500.bffnt `
+    work\out_font\CKingMsg.bffnt -Force
 foreach ($f in "CKingMain", "CKingMainL") {
     & $py tools\build_font.py "$origFonts\${f}_bffnt.szs\$f.bffnt" `
         "work\out_font\$f.bffnt" --chars-file out\menu_chars.txt --ttf $Ttf `

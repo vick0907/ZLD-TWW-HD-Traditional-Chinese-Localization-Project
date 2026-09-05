@@ -1884,10 +1884,16 @@
     "replace": "那位神秘的攝影師，"
   },
   {
+    "key": "message4#12006",
+    "note": "EN: The fairies in this fountain; use natural Taiwan wording.",
+    "find": "這眼泉水",
+    "replace": "這處泉水"
+  },
+  {
     "key": "message4#12010",
     "note": "EN: The fairies in this fountain",
     "find": "這座山中的妖精",
-    "replace": "這眼泉中的妖精"
+    "replace": "這處泉水裡的妖精"
   },
   {
     "key": "message4#12021",

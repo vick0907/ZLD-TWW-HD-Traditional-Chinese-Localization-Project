@@ -31,6 +31,11 @@ def load(path):
 
 
 CHECKS = []
+BLOCKING = {
+    "stray-latin", "stray-brace", "orphan-punct", "latin-fullstop",
+    "punct-residue", "long-line", "classifier", "term-mismatch",
+    "readability-residue", "duplicate-layout-control",
+}
 
 
 def check(name, why):
@@ -166,6 +171,42 @@ def classifier(key, en, zh):
     return None
 
 
+EXPECTED_TERMS = (
+    ("Nayru's Pearl", "智慧寶珠"),
+    ("Farore's Pearl", "勇氣寶珠"),
+    ("Din's Pearl", "力量寶珠"),
+    ("Wind God's Aria", "風神之歌"),
+    ("Young waker of the winds", "年輕的風之勇者"),
+)
+
+
+@check("term-mismatch", "已知英文專名沒有使用一致的繁中譯名")
+def term_mismatch(key, en, zh):
+    for english, chinese in EXPECTED_TERMS:
+        if english.lower() in en.lower() and chinese not in zh:
+            return "%s -> %s" % (english, chinese)
+    return None
+
+
+READABILITY_RESIDUE = re.compile(
+    r"[這那一兩幾]眼泉|屋外|操縱風的孩子|正義朋友|在哪你|討債鬼|"
+    r"礙著大家事|暢銷的不得了|一絲絲的罕見|縱向[^，。！？\r\n]{0,8}桶|"
+    r"有資格佔有|完事之後"
+)
+
+
+@check("readability-residue", "已確認會妨礙台灣玩家理解的措辭再次出現")
+def readability_residue(key, en, zh):
+    match = READABILITY_RESIDUE.search(plain(zh))
+    return match.group(0) if match else None
+
+
+@check("duplicate-layout-control", "相鄰重複的版面控制碼會改變訊息顯示")
+def duplicate_layout_control(key, en, zh):
+    token = "{0E:1:6:2:000A}{0E:1:6:2:000A}"
+    return token if token in zh else None
+
+
 def main():
     rows = load(sys.argv[1] if len(sys.argv) > 1 else "out/bilingual.tsv")
     out = open(sys.argv[2] if len(sys.argv) > 2 else "out/qa_report.txt", "w", encoding="utf-8")
@@ -211,7 +252,8 @@ def main():
     out.close()
     for name, why, _ in CHECKS:
         print("%-16s %d" % (name, counts[name]))
+    return 1 if any(counts[name] for name in BLOCKING) else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
