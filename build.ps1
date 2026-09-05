@@ -12,7 +12,7 @@ param(
     [string]$Upstream = "work\pack102\release",
     [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
     # Bump this for every release; it names both zips and must match the git tag.
-    [string]$Version = "tw-v1.0.5"
+    [string]$Version = "tw-v1.0.7"
 )
 
 $ErrorActionPreference = "Stop"
@@ -79,7 +79,11 @@ Get-ChildItem out\title\new | ForEach-Object { "  $($_.Name)" }
 
 Step 6 "repack"
 & $py tools\repack.py $srcPack $outPack --msbt-root work\tree_zhtw --font-dir work\out_font
-& $py tools\pack_bflim.py $srcTitle $outTitle --png-dir out\title\new
+& $py tools\build_title.py $srcTitle $outTitle `
+    --logo out\title\new\TitleLogoZelda_00_l.png `
+    --ruby out\title\new\TitleLogoZeldaRuby_00_l.png `
+    --subtitle out\title\new\TitleLogoWindwakerJ_00_l.png
+if ($LASTEXITCODE -ne 0) { throw "title logo build or verification failed" }
 
 Step 7 "verify the rebuilt pack"
 & $py tools\verify_release.py $outPack out\verify_release.txt

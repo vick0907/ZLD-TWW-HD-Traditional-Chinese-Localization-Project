@@ -2,7 +2,7 @@
 
 > Fork 自 [wmltogether/ZLD-TWW-HD-Chinese-Localization-Project](https://github.com/wmltogether/ZLD-TWW-HD-Chinese-Localization-Project)
 > 原專案是 WiiU《The Legend of Zelda: The Wind Waker HD》的非官方**簡體**中文語言包。
-> 本分支把它轉成**繁體中文（台灣用語）**，並重繪標題畫面。
+> 本分支把它轉成**繁體中文（台灣用語）**，保留原版英文主標，重繪繁中小字與副標。
 > 原始說明保留於 [README.upstream.md](README.upstream.md)。
 
 原專案的工具是 Python 2 寫的，本分支保留原檔（`fontBuilder.py`、`repack_text.py`、
@@ -14,6 +14,9 @@
 ## 畫面
 
 <img src="docs/screenshot-title.png" width="100%" alt="標題畫面：薩爾達傳說 風之律動 HD">
+
+保留原版「THE LEGEND OF ZELDA」與 HD，左下小字為「薩爾達傳說」，副標為「風之律動」。
+上圖為 Cemu Android 的美版遊戲實測畫面，主機語言設為 English。
 
 <img src="docs/screenshot-dialogue.png" width="100%" alt="遊戲內對話">
 
@@ -31,7 +34,7 @@
 |---|---|
 | 文字 | 5,040 句全數轉繁，4,278 句有變動 |
 | 字型 | `CKingMsg` 4,390 → 5,373 字；`CKingMain`/`MainL` 569 → 733 字 |
-| 標題畫面 | 「薩爾達傳說 風之律動」重繪，並修復原簡中版被抹平的光掃遮罩 |
+| 標題畫面 | 原版英文主標與 HD，搭配繁中小字「薩爾達傳說」及副標「風之律動」；掃光遮罩依新字形重建 |
 | 譯名 | 以任天堂官方繁中譯名為準，無官方譯名者沿用民間慣用（見下方） |
 | 校潤 | 與美版英文文本逐句對照，依原意修正譯名、錯字與不順的句子 |
 | 缺字 | 0 |
@@ -216,14 +219,21 @@ BFLIM 的中繼資料在**檔尾 0x28 bytes**：
 
 pitch = `align(width, 32)`、rows = `align(height, 16)`（bpp32 / tileMode 4）。
 
-`tools/dump_bflyt.py` 可讀版面的 pane 尺寸。實測 **quad 尺寸 = 貼圖尺寸（1:1 不縮放）**，
-所以圖在貼圖裡的位置就等於螢幕上的位置：
+`tools/build_title.py` 以原版英文主標、繁中小字及副標建置標題封包。
+左下小字從日文限定節點移到共用 Logo 節點，保留原本的位置與動畫名稱；
+英文副標與 HD 改用日版配置，兩個語系分支使用相同的新副標與掃光遮罩。
 
 ```
-pic1  P_TitleLogoZelda_00   500 x 210
-pic1  P_Windwaker_00        340 x  60   ← 美版顯示這張
-pic1  P_WindwakerJ_00       326 x 120   ← 日版分支
+pic1  P_TitleLogoZelda_00   500 x 210   原版英文主標
+pic1  P_ZeldaRuby_00        174 x  50   共用繁中小字
+pic1  P_Windwaker_00        326 x 120   美版副標
+pic1  P_WindwakerJ_00       326 x 120   日版副標分支
 ```
+
+建置時驗證 RGBA 貼圖回轉後逐像素相同，並確認動畫檔與其他資源未變動。
+`tools/check_title.py <Title_00.szs> <核准預覽.png>` 可依封包內的實際 pane 階層、
+位置與縮放重建英／日分支的靜態圖，檢查是否與核准預覽一致及有無圖層重疊。
+這項版面檢查不等於日版文字包的相容性測試，語言包仍以美版 English 模式為準。
 
 ---
 
@@ -250,7 +260,7 @@ out\ZLD-TWW-HD-zhTW-*.zip            鬆散檔案版
 out\TWWHD_zhTW_CemuGraphicPack-*.zip Cemu graphic pack 版
 ```
 
-`art/` 是**建置的輸入**（手繪標題美術），不是產出。
+`art/texture/` 是**建置的輸入**（原版主標、繁中小字與副標），不是產出。
 
 ---
 
@@ -372,7 +382,7 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 - 上游作者註明：**謎題密碼沿用英文版**，卡關請查英文攻略
 - 英文版本身也是在地化，與日文原文有落差；本分支以英文為參照校潤
 - 譯文已做過一輪對照校潤，但未逐句潤稿，可能仍有殘留錯字
-- 標題美術以字型算繪，筆形與原版手繪字不完全相同
+- 繁中小字與副標為重繪美術，筆形與原版不完全相同
 - 未經完整通關測試
 
 ---
@@ -392,6 +402,7 @@ Cemu 的格式支援（見其原始碼 `TitleInfo.h`）：
 | `dump_bflim.py` `pack_bflim.py` | BFLIM 解碼 / 編碼 |
 | `dump_bflyt.py` | 版面 pane 尺寸 |
 | `fit_logo.py` `retitle.py` `retitle_word.py` | 標題美術處理 |
+| `build_title.py` `check_title.py` | 共用繁中小字、日版式副標配置、遮罩建置與封包版面驗證 |
 | `repack.py` `install.py` | 重打包與安裝 |
 | `verify_release.py` `verify_font.py` `validate_msbt.py` `check_repack.py` | 驗證 |
 | `glyph_quality.py` | 量測字圖灰階層數，抓出沒反鋸齒的字 |
