@@ -18,13 +18,16 @@
 保留原版「THE LEGEND OF ZELDA」與 HD，左下小字為「薩爾達傳說」，副標為「風之律動」。
 上圖為 Cemu Android 的美版遊戲實測畫面，主機語言設為 English。
 
-<img src="docs/screenshot-dialogue.png" width="100%" alt="遊戲內對話">
+以下四張為 Cemu Android 上的對話字型測試版畫面：`CKingMsg` 漢字統一為 500 字重，
+選單字型維持不變。目前正式下載版 `tw-v1.0.7` 尚未包含這項字型調整。
 
-對話字型 `CKingMsg`，5,373 字，缺字 0。
+<img src="docs/screenshot-dialogue.png" width="100%" alt="遊戲內對話：注視操作說明">
 
-<img src="docs/screenshot-menu.png" width="100%" alt="道具選單">
+<img src="docs/screenshot-dialogue-2.png" width="100%" alt="遊戲內對話：搬起與放下水缸">
 
-選單字型 `CKingMain`，733 字。
+<img src="docs/screenshot-dialogue-3.png" width="100%" alt="遊戲內對話：時間與歲月">
+
+<img src="docs/screenshot-menu.png" width="100%" alt="道具說明：望遠鏡">
 
 ---
 
