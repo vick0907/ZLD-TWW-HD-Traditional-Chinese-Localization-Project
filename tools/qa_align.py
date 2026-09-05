@@ -35,6 +35,7 @@ BLOCKING = {
     "stray-latin", "stray-brace", "orphan-punct", "latin-fullstop",
     "punct-residue", "long-line", "classifier", "term-mismatch",
     "readability-residue", "duplicate-layout-control",
+    "action-label-mismatch", "nonbutton-icon",
 }
 
 
@@ -169,6 +170,86 @@ def classifier(key, en, zh):
         if m:
             return m.group(0)
     return None
+
+
+EXPECTED_ACTION_LABELS = {
+    "00": ("", ""),
+    "01": ("Read", "閱讀"),
+    "02": ("Let Go", "放手"),
+    "03": ("End", "結束"),
+    "04": ("Pick Up", "撿起"),
+    "05": ("Climb", "攀爬"),
+    "06": ("Back", "返回"),
+    "07": ("Check", "檢查"),
+    "08": ("Open", "開啟"),
+    "09": ("", ""),
+    "10": ("Let Go", "放手"),
+    "11": ("Drop", "放下"),
+    "12": ("Roll", "翻滾"),
+    "13": ("Put Away", "收起"),
+    "14": ("Crouch", "蹲下"),
+    "15": ("Throw", "丟擲"),
+    "16": ("Sidle", "側身移動"),
+    "17": ("Grab", "抓住"),
+    "18": ("Jump", "跳躍"),
+    "19": ("OK", "確定"),
+    "20": ("Speak", "談話"),
+    "21": ("Stop", "停止"),
+    "22": ("Set Sail", "起航"),
+    "23": ("Picto Mode", "拍照模式"),
+    "24": ("Switch Arrow", "換箭"),
+    "25": ("Next", "繼續"),
+    "26": ("Switch", "更換"),
+    "27": ("Defend", "防守"),
+    "28": ("Album", "相簿"),
+    "29": ("Take", "拍攝"),
+    "30": ("Info", "資訊"),
+    "31": ("Fly", "飛行"),
+    "32": ("", ""),
+    "33": ("Call", "呼喚"),
+    "34": ("Look", "觀察"),
+    "35": ("Choose", "選擇"),
+    "36": ("Close", "關閉"),
+    "37": ("Cancel", "取消"),
+    "38": ("Zoom", "縮放"),
+    "39": ("", ""),
+    "40": ("Cruise", "航行"),
+    "41": ("Swing", "揮動"),
+    "42": ("Bid", "出價"),
+    "43": ("Fire", "開火"),
+    "44": ("Salvage", "打撈"),
+    "45": ("Fast", "快速"),
+    "46": ("Normal", "普通"),
+    "47": ("Equip", "裝備"),
+    "48": ("Get Out", "下船"),
+    "49": ("Tingle Bottle", "庭格爾瓶"),
+    "50": ("Erase", "刪除"),
+}
+
+
+@check("action-label-mismatch", "操作提示與已核對的來源或譯文不符")
+def action_label_mismatch(key, en, zh):
+    """HD EN/FR/ES label review: Swing is a strike; Get Out is disembarking."""
+    prefix = "CommandGuide_00#T_ACT_Command_"
+    if not key.startswith(prefix):
+        return None
+    expected = EXPECTED_ACTION_LABELS.get(key[len(prefix):])
+    if expected is None:
+        return "unreviewed action label: " + key
+    if (flat(en), flat(zh)) != expected:
+        return "expected %r -> %r" % expected
+    return None
+
+
+NONBUTTON_ICON = re.compile(
+    r"(?:按(?:下|住)?|點擊|輕觸)\s*(?:\{0E:0:[^{}]+\}\s*)*\{0E:3:14:0\}"
+)
+
+
+@check("nonbutton-icon", "把瞄準標記誤寫成可按下的按鍵")
+def nonbutton_icon(key, en, zh):
+    match = NONBUTTON_ICON.search(zh.replace("\\n", "\n"))
+    return match.group(0) if match else None
 
 
 EXPECTED_TERMS = (

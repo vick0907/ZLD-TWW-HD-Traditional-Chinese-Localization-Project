@@ -12,7 +12,7 @@ param(
     [string]$Upstream = "work\pack102\release",
     [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
     # Bump this for every release; it names both zips and must match the git tag.
-    [string]$Version = "tw-v1.0.8"
+    [string]$Version = "tw-v1.0.9"
 )
 
 $ErrorActionPreference = "Stop"
@@ -48,6 +48,8 @@ if ($LASTEXITCODE -ne 0) { throw "text\review_pass2.json has entries that no lon
 if ($LASTEXITCODE -ne 0) { throw "text\readability_pass.json has entries that no longer apply" }
 
 Step 2.6 "rebuild the bilingual alignment and run localization QA"
+& $py tools\test_qa_actions.py
+if ($LASTEXITCODE -ne 0) { throw "action QA regression tests failed" }
 & $py tools\align_en.py work\tree_en work\tree_zhtw `
     --tsv out\bilingual.tsv --flagged out\review_flagged.txt --glossary out\glossary.txt
 if ($LASTEXITCODE -ne 0) { throw "English/Chinese alignment failed" }

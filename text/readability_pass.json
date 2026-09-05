@@ -1,5 +1,35 @@
 [
   {
+    "key": "CommandGuide_00#T_ACT_Command_17",
+    "find": "抓住邊緣",
+    "replace": "抓住",
+    "note": "Keep Grab object-neutral; the action is not limited to ledges."
+  },
+  {
+    "key": "CommandGuide_00#T_ACT_Command_44",
+    "find": "回收",
+    "replace": "打撈",
+    "note": "Salvage uses the boat's grappling crane to retrieve sunken treasure; see message#00602."
+  },
+  {
+    "key": "CommandGuide_00#T_ACT_Command_48",
+    "find": "卸下",
+    "replace": "下船",
+    "note": "Get Out means disembark, not unequip; the same HD label is Descendre in French and Bajar in Spanish."
+  },
+  {
+    "key": "message#00627",
+    "find": "瞄準，再按",
+    "replace": "瞄準，用",
+    "note": "The following 0E:3:14:0 token is a targeting marker, not a button to press."
+  },
+  {
+    "key": "message#00627",
+    "find": "即可鎖定並擊中目標，一次最多能鎖定",
+    "replace": "標記目標即可鎖定並擊中，一次最多能鎖定",
+    "note": "Complete the marker instruction while preserving the five-target limit and all control tokens."
+  },
+  {
     "key": "DungeonMapDown_00#T_FloorD_00_outdoor",
     "find": "屋外",
     "replace": "戶外",
