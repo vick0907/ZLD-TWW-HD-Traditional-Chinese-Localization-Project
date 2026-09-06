@@ -1,0 +1,5359 @@
+[
+  {
+    "key": "message#01510",
+    "find": "天空之魂",
+    "replace": "天空精靈",
+    "note": "Residual audit: keep Valoo's Sky Spirit title consistent with his profile and the other dialogue."
+  },
+  {
+    "key": "message#01515",
+    "find": "天空之魂",
+    "replace": "天空精靈",
+    "note": "Residual audit: use the same established Sky Spirit title for Valoo."
+  },
+  {
+    "key": "message2#06102",
+    "find": "天空之魂",
+    "replace": "天空精靈",
+    "note": "Residual audit: Medli describes her attendance on the same sky spirit, Valoo."
+  },
+  {
+    "key": "message#02202",
+    "find": "水缸",
+    "replace": "陶罐",
+    "all": true,
+    "note": "Residual audit: this repeats the carryable-jar instructions, not a large water cistern."
+  },
+  {
+    "key": "message2#03323",
+    "find": "貨到付款",
+    "replace": "郵費到付",
+    "note": "Residual audit: use the same recipient-paid postage wording as the parcel notification for this gift letter."
+  },
+  {
+    "key": "message2#05116",
+    "find": "只要你像這樣透過一個彈射花\r\n到另一個",
+    "replace": "只要像這樣從一朵彈射花\r\n跳到另一朵",
+    "note": "Residual audit: state the required jump from one bud to another, not merely passing through one."
+  },
+  {
+    "key": "message2#06347",
+    "find": "我不能一直陪著你",
+    "replace": "我恐怕不是個有趣的伴",
+    "note": "Residual audit: not much company describes the quality of companionship, not a time limit."
+  },
+  {
+    "key": "message3#06722",
+    "find": "匹配{0E:0:3:2:0000}",
+    "replace": "把{0E:0:3:2:0000}",
+    "note": "Residual audit: begin a complete instruction pairing the envelope seal with the shelf icon."
+  },
+  {
+    "key": "message3#06722",
+    "find": "和格子上的",
+    "replace": "與格子上的相同",
+    "note": "Residual audit: the shelf icon must match the seal."
+  },
+  {
+    "key": "message3#06722",
+    "find": "並且把信投到對應的格子上。",
+    "replace": "配對，再把信投進對應的格子。",
+    "note": "Residual audit: complete the pairing instruction while preserving all ordered formatting controls."
+  },
+  {
+    "key": "message3#06727",
+    "find": "匹配{0E:0:3:2:0000}",
+    "replace": "把{0E:0:3:2:0000}",
+    "note": "Residual audit: repair the same instruction in the repeated sorting tutorial."
+  },
+  {
+    "key": "message3#06727",
+    "find": "和格子上的",
+    "replace": "與格子上的相同",
+    "note": "Residual audit: restore the identical-icon criterion in this variant."
+  },
+  {
+    "key": "message3#06727",
+    "find": "並且把信投到對應的格子上。",
+    "replace": "配對，再把信投進對應的格子。",
+    "note": "Residual audit: keep both sorting explanations equivalent."
+  },
+  {
+    "key": "message2#05145",
+    "find": "我知道了！",
+    "replace": "有了！",
+    "note": "Residual audit: I know introduces Hollo's idea about supplying potions, not newly acquired knowledge."
+  },
+  {
+    "key": "message4#13069",
+    "find": "從這裡",
+    "replace": "在這裡",
+    "note": "Regression reread: the old man lives on the island east of here; use a location preposition with the revised direction."
+  },
+  {
+    "key": "message3#06642",
+    "find": "這一定會有幫助的",
+    "replace": "我想這能幫上忙",
+    "note": "Regression reread: retain Medli's tentative assessment rather than certainty."
+  },
+  {
+    "key": "message3#10006",
+    "find": "真正的快樂!",
+    "replace": "何謂真正的快樂！",
+    "note": "Regression reread: complete the clause about teaching the children what true joy is."
+  },
+  {
+    "key": "message3#10061",
+    "find": " 了?",
+    "replace": "？",
+    "note": "Regression reread: remove the redundant sentence-final aspect particle after the revised current-delivery question."
+  },
+  {
+    "key": "message3#10375",
+    "find": "一個可怕的",
+    "replace": "一場可怕的",
+    "note": "Regression reread: use the appropriate classifier for the corrected storm noun."
+  },
+  {
+    "key": "message2#04505",
+    "find": "當他的野心被時之勇者粉碎後",
+    "replace": "當他敗在時之勇者手下後",
+    "note": "Regression reread: his defeat is an event, not simply his ambition being thwarted."
+  },
+  {
+    "key": "message2#04505",
+    "find": "但那封印並不長久",
+    "replace": "但那封印並非永恆",
+    "note": "Regression reread: not for all time does not mean a short-lived seal."
+  },
+  {
+    "key": "message2#05038",
+    "find": "請幫幫我的孩子們",
+    "replace": "若我的孩子們急需援助，請幫幫他們",
+    "note": "Regression reread: restore the condition that their needs become dire."
+  },
+  {
+    "key": "message2#05264",
+    "find": "要是我們沒能好好",
+    "replace": "要是我們無法",
+    "note": "Regression reread: make the joined clause about restoring the trees' health grammatical."
+  },
+  {
+    "key": "message2#05717",
+    "find": "一旦你邁出了第一步，\r\n踏入這個隱藏在光環後面的\r\n盪漾著波光的世界時...",
+    "replace": "一旦你穿過前方海浪中閃耀的光環，\r\n踏入彼端的世界，\r\n邁出第一步...",
+    "note": "Regression reread: the ring shimmers in the waves, not the world beyond it."
+  },
+  {
+    "key": "message2#05768",
+    "find": "加布藏身的那個洞穴了，讓我們\r\n先從島的背面開始找吧",
+    "replace": "普羅羅島背面的洞穴，\r\n據說加布就藏在那裡",
+    "note": "Regression reread: the reported hiding place is specifically the cave at the island's back, not just a suggested starting search area."
+  },
+  {
+    "key": "message#02706",
+    "find": "希望能{0E:0:3:2:0001}多多益善{0E:0:3:2:FFFF}{0E:0:3:2:0000}!",
+    "replace": "{0E:0:3:2:0001}多養幾隻{0E:0:3:2:FFFF}{0E:0:3:2:0000}呢！",
+    "note": "Regression reread: complete the preceding would-not-mind clause without leaving the old conflicting wish construction."
+  },
+  {
+    "key": "message#02510",
+    "find": "我想請教你，作為哥哥我能做點什麼。",
+    "replace": "你說，我這個哥哥能怎麼辦呢？",
+    "note": "Regression reread: the closing question is a rhetorical lament, not a formal request for advice."
+  },
+  {
+    "key": "message#02516",
+    "find": "最近都看不到妖精了",
+    "replace": "最近很少看到妖精了",
+    "note": "Regression reread: not many is not none."
+  },
+  {
+    "key": "message#02516",
+    "find": "人生僅有的幾項樂趣",
+    "replace": "人生中那些小小的樂趣",
+    "note": "Regression reread: little pleasures describes their modest scale, not a small count."
+  },
+  {
+    "key": "message#02516",
+    "find": "平平安安健健康康的",
+    "replace": "平平安安、開開心心的",
+    "note": "Regression reread: safe and happy is not safe and healthy."
+  },
+  {
+    "key": "message#02601",
+    "find": "我老婆一直跟我說",
+    "replace": "我老婆剛才跟我說",
+    "note": "Regression reread: she was just telling him, not repeatedly requesting it over time."
+  },
+  {
+    "key": "message#02601",
+    "find": "寵物豬",
+    "replace": "寵物",
+    "note": "Regression reread: the wife wanted a pet; her request did not specify a pig."
+  },
+  {
+    "key": "unitString#Unit_Meter_00",
+    "find": "米",
+    "replace": "碼",
+    "note": "The English-mode numeric distance is labeled yard; this text-only patch does not convert the value to meters."
+  },
+  {
+    "key": "unitString#Unit_Meter_01",
+    "find": "米",
+    "replace": "碼",
+    "note": "Preserve yards for the plural distance label without silently changing units."
+  },
+  {
+    "key": "message4#14211",
+    "find": "超越人類認知",
+    "replace": "超越世間認知",
+    "note": "Knowledge of this world is not restricted to humans."
+  },
+  {
+    "key": "message4#14211",
+    "find": "這個島上",
+    "replace": "世上",
+    "note": "In the land is not specifically limited to Windfall Island."
+  },
+  {
+    "key": "message4#14212",
+    "find": "決心為照片而獻身",
+    "replace": "將一生傾注於攝影藝術",
+    "note": "Preserve dedication to the art of photography rather than to individual pictures."
+  },
+  {
+    "key": "message4#14301",
+    "find": "的妹妹人見人愛",
+    "replace": "的活潑妹妹人見人愛",
+    "note": "Restore Aryll's energetic nature."
+  },
+  {
+    "key": "message4#14304",
+    "find": "以異常的高IQ而自豪",
+    "replace": "擁有異常高的IQ",
+    "note": "Boasting an IQ means possessing it, not taking pride or bragging."
+  },
+  {
+    "key": "message4#14305",
+    "find": "赤鯱從小就立志成為劍士",
+    "replace": "赤鯱年輕時曾希望成為劍士",
+    "note": "Younger days is not necessarily childhood, and hoped does not assert a lifelong vow."
+  },
+  {
+    "key": "message4#14306",
+    "find": "亞伯是個稱職的丈夫和父親",
+    "replace": "亞伯很照顧妻子和兩個孩子",
+    "note": "Restore the explicit family members and count."
+  },
+  {
+    "key": "message4#14316",
+    "find": "這個可憐的女孩原來是個富家女，\r\n曾受困於魔獸島",
+    "replace": "這個可憐的女孩在獲救離開魔獸島前，\r\n一直是個家財萬貫的富家女",
+    "note": "Her wealth lasted until the rescue, not merely some unspecified earlier time."
+  },
+  {
+    "key": "message4#14317",
+    "find": "但有人一看到那些花瓶就會把它們砸碎",
+    "replace": "偏偏那種花瓶就是讓人一看到就想砸碎",
+    "note": "The vases provoke the urge to break them; the sentence does not report automatic destruction by onlookers."
+  },
+  {
+    "key": "message4#14318",
+    "find": "她令人意外地很受男孩的歡迎",
+    "replace": "她很受男孩們的歡迎",
+    "note": "Remove the unsupported suggestion that her popularity is surprising."
+  },
+  {
+    "key": "message4#14319",
+    "find": "性格:沒有明顯優點",
+    "replace": "性格:不怎麼樣",
+    "note": "Not particularly good evaluates his personality, not a total lack of merits."
+  },
+  {
+    "key": "message4#14325",
+    "find": "他可愛的臉常常可以幫他們避過麻煩",
+    "replace": "他用無辜的模樣避開麻煩",
+    "note": "Jan relies on appearing innocent, not merely cute."
+  },
+  {
+    "key": "message4#14325",
+    "find": "他出身富家，性格極差",
+    "replace": "他出身中產家庭，長成了霸道的小暴君",
+    "note": "Restore the bourgeois upbringing and tyrannical behavior rather than generic bad character."
+  },
+  {
+    "key": "message4#14326",
+    "find": "也是很驚人的哦",
+    "replace": "也是很可怕的哦",
+    "note": "Frightening expresses unease at the children's information gathering, not mere amazement."
+  },
+  {
+    "key": "message4#14327",
+    "find": "這樣可以保持\r\n腿形",
+    "replace": "這樣可以鍛鍊\r\n腿部",
+    "note": "Keeping his legs in shape concerns fitness for kickboxing, not their cosmetic shape."
+  },
+  {
+    "key": "message4#14331",
+    "find": "優雅的",
+    "replace": "敏感的",
+    "note": "Delicate refers to Kamo's emotional sensitivity, not elegance."
+  },
+  {
+    "key": "message4#14332",
+    "find": "能獲得一絲安寧",
+    "replace": "保有一份從容",
+    "note": "Composure is a person's calm approach, not merely peace in the surroundings."
+  },
+  {
+    "key": "message4#14332",
+    "find": "一名持卡會員",
+    "replace": "一名正式會員",
+    "note": "Card-carrying means bona fide membership, not an instruction or claim about a physical card."
+  },
+  {
+    "key": "message4#14343",
+    "find": "非常強勢",
+    "replace": "非常強壯",
+    "note": "Gonzo's strength is physical, contrasting with his tendency to cry."
+  },
+  {
+    "key": "message4#14346",
+    "find": "可以看見一英里以外的東西",
+    "replace": "能看清一英里外招牌上的字",
+    "note": "Restore the extraordinary ability to read distant signs, not simply see objects."
+  },
+  {
+    "key": "message4#14346",
+    "find": "所以也就沒人知道他看見了什麼",
+    "replace": "所以大家很少知道他看見了什麼",
+    "note": "Rarely know is not never know."
+  },
+  {
+    "key": "message4#14347",
+    "find": "他腦子少根筋",
+    "replace": "他的性子相當孩子氣",
+    "note": "Childish describes immaturity, not an added claim of deficient intelligence."
+  },
+  {
+    "key": "message4#14348",
+    "find": "別人碰他的眼鏡",
+    "replace": "陌生人碰他的眼鏡",
+    "note": "The disliked contact is specifically by strangers."
+  },
+  {
+    "key": "message4#14348",
+    "find": "銳利的眼光",
+    "replace": "清晰的視力",
+    "note": "The glasses improve eyesight, not judgment or discernment."
+  },
+  {
+    "key": "message4#14350",
+    "find": "偷大偷小都是賊",
+    "replace": "反正都要受罰，不如偷大的",
+    "note": "The sheep-and-lamb proverb favors the greater gain for the same penalty, not merely condemns both as theft."
+  },
+  {
+    "key": "message4#14350",
+    "find": "教他如何破譯地圖的\r\n是他的哥哥",
+    "replace": "自從哥哥",
+    "note": "Introduce the temporal relationship between learning and supporting his twin."
+  },
+  {
+    "key": "message4#14350",
+    "find": "，安科爾一直在",
+    "replace": "教他破譯地圖之後，\r\n安科爾便一直在",
+    "note": "Complete since being taught by Tingle without altering the name controls."
+  },
+  {
+    "key": "message4#14352",
+    "find": "他一出海就暈船",
+    "replace": "他很容易暈船",
+    "note": "Easily seasick does not mean always immediately seasick on departure."
+  },
+  {
+    "key": "message4#14352",
+    "find": "當他在庭格爾島上從昏迷中\r\n醒來",
+    "replace": "當他在庭格爾島上迷迷糊糊地\r\n醒來",
+    "note": "Awoke in a daze does not diagnose a preceding coma."
+  },
+  {
+    "key": "message4#14354",
+    "find": "收集著古董和稀罕物",
+    "replace": "收集著各種奇珍異物",
+    "note": "Curios and oddities are not necessarily antiques."
+  },
+  {
+    "key": "message4#14358",
+    "find": "划船賽道",
+    "replace": "賽艇場",
+    "note": "Identify the established Boating Course location, not an implied rowing-only course."
+  },
+  {
+    "key": "message4#14359",
+    "find": "他們第一次打撈珍寶的時候，\r\n只能買得起潛水服",
+    "replace": "他們第一次撈起的寶藏，\r\n只夠讓他們買下潛水服",
+    "note": "The first haul funded the suits; this is not their budget before salvaging."
+  },
+  {
+    "key": "message4#14361",
+    "find": "七位大妖精可以",
+    "replace": "七位大妖精命中註定會",
+    "note": "Restore their destined role, not mere ability."
+  },
+  {
+    "key": "message4#14362",
+    "find": "她會把火和冰的力量\r\n施加到{0E:2:0:0}的弓箭上",
+    "replace": "她會賦予{0E:2:0:0}\r\n讓箭附上火與冰的力量",
+    "note": "She grants Link the power to empower arrows, not merely casts on particular arrows herself."
+  },
+  {
+    "key": "message4#14368",
+    "find": "他的親朋",
+    "replace": "他的親人",
+    "note": "His relations refers to relatives rather than also friends."
+  },
+  {
+    "key": "message4#14369",
+    "find": "奎爾充滿了勇氣",
+    "replace": "奎爾別的不說，勇氣可不缺",
+    "note": "Preserve the qualifier if nothing else in the character description."
+  },
+  {
+    "key": "message4#14370",
+    "find": "就才能和本事來說",
+    "replace": "就才能和力量來說",
+    "note": "Talent and strength are distinct qualities, not two synonyms for skill."
+  },
+  {
+    "key": "message4#14375",
+    "find": "最剛正不阿的利特族人",
+    "replace": "十分誠實真摯的利特族人",
+    "note": "Extremely honest and sincere is not a superlative ranking of incorruptibility."
+  },
+  {
+    "key": "message4#14381",
+    "find": "天空之魂",
+    "replace": "天空精靈",
+    "note": "Use the same Sky Spirit role as the dialogue referring to Valoo."
+  },
+  {
+    "key": "message4#14385",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Korok is the forest-spirit people, not the name of a forest."
+  },
+  {
+    "key": "message4#14386",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Identify membership among the Korok forest spirits."
+  },
+  {
+    "key": "message4#14387",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Korok describes the people rather than a forest location."
+  },
+  {
+    "key": "message4#14388",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Keep the Korok identity distinct from the forest name."
+  },
+  {
+    "key": "message4#14389",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Correct the same forest-spirit affiliation."
+  },
+  {
+    "key": "message4#14390",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Correct the same people-versus-place attachment."
+  },
+  {
+    "key": "message4#14391",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Hollo is one of the Koroks, not a spirit of an invented Korok Forest."
+  },
+  {
+    "key": "message4#14392",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Correct the repeated Korok affiliation while retaining the route coordinates."
+  },
+  {
+    "key": "message4#14393",
+    "find": "克洛格森林的精靈之一",
+    "replace": "森林精靈克洛格的一員",
+    "note": "Correct the repeated Korok affiliation while preserving the directions."
+  },
+  {
+    "key": "message4#14395",
+    "find": "就沒有解決不了的事",
+    "replace": "一切就都會沒問題",
+    "note": "Everything will be all right is reassurance, not the power to solve every possible problem."
+  },
+  {
+    "key": "message4#14398",
+    "find": "鋒利的彎刀和帶刺的棍子",
+    "replace": "鋒利的砍刀和木棍",
+    "note": "Machetes and Boko sticks do not specify curved blades or thorned clubs."
+  },
+  {
+    "key": "message4#14401",
+    "find": "這種生物本性好戰",
+    "replace": "這種生物會突然發動攻擊",
+    "note": "Spontaneous attacks describe behavior, not an innate warlike disposition."
+  },
+  {
+    "key": "message4#14409",
+    "find": "把獵物扔進另一個房間",
+    "replace": "把獵物拖進另一個房間",
+    "note": "Yank means pull rather than throw."
+  },
+  {
+    "key": "message4#14412",
+    "find": "鏡之盾發出的亮光",
+    "replace": "用鏡之盾反射的光線照射",
+    "note": "The shield reflects a light source onto Poes; it does not emit its own light."
+  },
+  {
+    "key": "message4#14413",
+    "find": "會使獵物動彈不得",
+    "replace": "會嚇得獵物動彈不得",
+    "note": "Fear is the stated cause of paralysis."
+  },
+  {
+    "key": "message4#14417",
+    "find": "這些強大的敵人悠閒地\r\n搖晃著它們的長矛",
+    "replace": "這些強大的敵人能輕鬆地\r\n揮舞長矛",
+    "note": "Swinging spears with ease is an attack capability, not idle swaying."
+  },
+  {
+    "key": "message4#14417",
+    "find": "可憐的",
+    "replace": "",
+    "note": "Remove the unsupported evaluation of Link."
+  },
+  {
+    "key": "message4#14418",
+    "find": "打掉它的翅膀還遠遠不夠",
+    "replace": "打掉它的翅膀也不代表就安全了",
+    "note": "The warning concerns remaining danger, not an unspecified unmet objective."
+  },
+  {
+    "key": "message4#14418",
+    "find": "產下幼蟲",
+    "replace": "放出幼蟲",
+    "note": "Release larvae is not necessarily giving birth to them."
+  },
+  {
+    "key": "message4#14421",
+    "find": "穿著的披風可以燒掉或者砍掉",
+    "replace": "穿著的披風得先燒掉或者砍掉",
+    "note": "Removing the cape is a prerequisite for cutting armor straps, not an optional ability."
+  },
+  {
+    "key": "message4#14429",
+    "find": "用箭射它的手和臉就",
+    "replace": "只有用箭射它的手和臉，才",
+    "note": "Restore the only-by-arrow condition for grounding the machine."
+  },
+  {
+    "key": "message4#14434",
+    "find": "三角神力之力的擁有者",
+    "replace": "力量之三角神力的擁有者",
+    "note": "Identify the Triforce of Power specifically, not generic power belonging to the Triforce."
+  },
+  {
+    "key": "message4#13539",
+    "find": "安靜些",
+    "replace": "要保密喔",
+    "note": "Keep it quiet asks for secrecy, not reduced volume."
+  },
+  {
+    "key": "message4#13539",
+    "find": "你肯定知道",
+    "replace": "既然你想知道",
+    "note": "If you must know introduces information rather than assumes it is already known."
+  },
+  {
+    "key": "message4#13607",
+    "find": "能喚醒海拉魯的人",
+    "replace": "終有一天會喚醒海拉魯的人",
+    "note": "Restore the future awakening rather than merely capability."
+  },
+  {
+    "key": "message4#13608",
+    "find": "就像水池中的落葉一樣",
+    "replace": "就像被遺忘的池塘裡漂流的落葉",
+    "note": "Restore the neglected-pool image and drifting that frame Ganondorf's judgment."
+  },
+  {
+    "key": "message4#13609",
+    "find": "你看不見嗎",
+    "replace": "你還不明白嗎",
+    "note": "See means understand his accusation, not visual perception."
+  },
+  {
+    "key": "message4#13616",
+    "find": "當烈日升上高空，灼熱的巨風炙烤我的國土",
+    "replace": "當烈日升上高空，\r\n灼熱的風吹打我的國土，炙烤整個世界",
+    "note": "Restore the wind punishing his land and searing the world without inventing a giant wind."
+  },
+  {
+    "key": "message4#13619",
+    "find": "三角紋章的擁有者",
+    "replace": "三位擁有紋章的人",
+    "note": "The three refers to the bearers gathered together, not a triangular crest."
+  },
+  {
+    "key": "message4#13621",
+    "find": "碰過它的人",
+    "replace": "觸碰它的人",
+    "note": "The wish is granted to the one touching it, not everyone who has ever touched it."
+  },
+  {
+    "key": "message4#13622",
+    "find": "好了智慧之紋章是我的了",
+    "replace": "智慧之紋章已經是我的了",
+    "note": "Already describes an obtained crest, not a generic transition."
+  },
+  {
+    "key": "message4#13625",
+    "find": "我只是需要你的力量",
+    "replace": "我只需要寄宿在你體內的力量",
+    "note": "Restore the distinction between Link's own strength and the power dwelling within him."
+  },
+  {
+    "key": "message4#13630",
+    "find": "碰過它的人",
+    "replace": "觸碰它的人",
+    "note": "Keep the king's quotation consistent with the actual touching condition."
+  },
+  {
+    "key": "message4#13634",
+    "find": "照耀整個未來",
+    "replace": "照耀這個世界的未來",
+    "note": "Restore the world as the beneficiary of the future hope."
+  },
+  {
+    "key": "message4#13648",
+    "find": "但是...",
+    "replace": "而你們...",
+    "note": "Restore the children as the subject of the contrast."
+  },
+  {
+    "key": "message4#13653",
+    "find": "找到下一個海拉魯",
+    "replace": "找到將成為下一個海拉魯的土地",
+    "note": "They seek a land that will become a new Hyrule, not a ready-made second kingdom."
+  },
+  {
+    "key": "message4#13655",
+    "find": "那個地方不是海拉魯",
+    "replace": "那片土地不會是海拉魯",
+    "note": "The king speaks about what their future land will be."
+  },
+  {
+    "key": "message4#13657",
+    "find": "你自欺欺人",
+    "replace": "你欺騙了自己",
+    "note": "Self-deception does not also accuse the listener of deceiving others."
+  },
+  {
+    "key": "message4#13660",
+    "find": "我搶走了你的薩爾達",
+    "replace": "我已經擄走你珍視的薩爾達",
+    "note": "Restore the abduction and the mocking reference to her importance to Link."
+  },
+  {
+    "key": "message4#13667",
+    "find": "你必須要干擾他",
+    "replace": "你得引開他的注意",
+    "note": "Distract him is the required combat role, not arbitrary interference."
+  },
+  {
+    "key": "message4#13716",
+    "find": "一到夜裡就會發出聲嘶力竭的叫喊",
+    "replace": "喊著「出價！出價！出價！」，\r\n一直喊到嗓子都啞了",
+    "note": "Restore the actual repeated bidding shout reported by the children."
+  },
+  {
+    "key": "message4#13719",
+    "find": "如果你帶給{0E:0:3:2:0001}蘭佐{0E:0:3:2:FFFF}一個照相機",
+    "replace": "如果你帶著照相機去找{0E:0:3:2:0001}蘭佐{0E:0:3:2:FFFF}",
+    "note": "Bringing a camera to show shared interest does not mean giving the camera away."
+  },
+  {
+    "key": "message4#13801",
+    "find": "你飛到這裡的",
+    "replace": "你是飛下來的",
+    "note": "Restore the downward direction of the arrival."
+  },
+  {
+    "key": "message4#13804",
+    "find": "明白我在說什麼",
+    "replace": "看清我說的那個開關",
+    "note": "A telescope helps see the distant switch, not understand speech."
+  },
+  {
+    "key": "message4#13805",
+    "find": "成為他們中的人",
+    "replace": "成為畫廊會員",
+    "note": "Identify the specific membership condition."
+  },
+  {
+    "key": "message4#13811",
+    "find": "給你的",
+    "replace": "你的",
+    "note": "This is the figurine of the player, not simply an unspecified figurine given to him."
+  },
+  {
+    "key": "message4#13811",
+    "find": "就在牆那邊的",
+    "replace": "就在那邊的",
+    "note": "Right over there does not specify a wall to cross."
+  },
+  {
+    "key": "message4#13811",
+    "find": "我不知道他會去哪裡了",
+    "replace": "我不知道他去了哪裡",
+    "note": "He has already left, not an unknown future departure."
+  },
+  {
+    "key": "message4#13812",
+    "find": "這個世界上所有的模型我都做過了",
+    "replace": "世人想要我製作的模型，\r\n我全都完成了",
+    "note": "Every figurine the world could desire of him is not every conceivable model in existence."
+  },
+  {
+    "key": "message4#13816",
+    "find": "這樣的構圖",
+    "replace": "這樣的擺設",
+    "note": "The admirer evaluates the figurine arrangement, not a photograph's composition."
+  },
+  {
+    "key": "message4#13817",
+    "find": "事實如此！我看得一清二楚",
+    "replace": "我看得出來！我可是很有眼光的",
+    "note": "Having the eye means artistic discernment, not merely sharp eyesight."
+  },
+  {
+    "key": "message4#13818",
+    "find": "聚精會神地欣賞我的\r\n作品",
+    "replace": "滿心幸福地欣賞我的\r\n雕像",
+    "note": "The collector admires figurines in bliss; he is not claiming to have made them."
+  },
+  {
+    "key": "message4#13904",
+    "find": "進房子裡看看吧",
+    "replace": "從那扇門進去看看吧",
+    "note": "Direct the player through the indicated door, not into a separate house."
+  },
+  {
+    "key": "message4#13907",
+    "find": "你有什麼新的東西給我看嗎",
+    "replace": "你有新的雕像題材給我嗎",
+    "note": "The request concerns a new sculpting subject, not any new object."
+  },
+  {
+    "key": "message4#13908",
+    "find": "明天也做不了那麼多",
+    "replace": "明天之前也做不了那麼多",
+    "note": "By tomorrow is a production deadline, not a statement about tomorrow's entire workday."
+  },
+  {
+    "key": "message4#13914",
+    "find": "哦！好吧，就這樣了",
+    "replace": "哦！就差一點了",
+    "note": "Almost right rejects an incomplete shot; it is not acceptance."
+  },
+  {
+    "key": "message4#13914",
+    "find": "我就有動力去創造一個完美的雕像",
+    "replace": "我就會有靈感，想把它做成雕像",
+    "note": "He would be inspired to sculpt this subject, not guarantee a perfect result."
+  },
+  {
+    "key": "message4#13921",
+    "find": "由於我們缺少吸引人的作品",
+    "replace": "由於我們缺少花俏的噱頭",
+    "note": "Gimmicky attractions are not the quality of the gallery's works."
+  },
+  {
+    "key": "message4#13922",
+    "find": "放在我們這裡展出的都是\r\n根據{0E:0:3:2:0001}照片{0E:0:3:2:FFFF}{0E:0:3:2:0000}做成的，\r\n而且都是我們的會員提供的",
+    "replace": "這裡展出的雕像，都是根據\r\n{0E:0:3:2:0001}照片{0E:0:3:2:FFFF}{0E:0:3:2:0000}製作而成的，\r\n那些照片全由熱心的會員提供",
+    "note": "Members provide photographs, not the finished sculptures."
+  },
+  {
+    "key": "message4#13926",
+    "find": "我只要那種能讓我\r\n驚豔到屏息的照片",
+    "replace": "至於什麼樣的照片能讓我\r\n驚豔到屏息",
+    "note": "Introduce the explanation of which photos qualify rather than merely repeat a demand."
+  },
+  {
+    "key": "message4#13927",
+    "find": "除非你帶了我喜歡的東西來",
+    "replace": "只有你帶來我喜歡的題材",
+    "note": "Repair the condition paired with only then allowing membership."
+  },
+  {
+    "key": "message4#13929",
+    "find": "我覺得沒什麼東西會比他更可愛了",
+    "replace": "我想它不可能不好看",
+    "note": "Could not be less than lovely does not claim nothing else is lovelier."
+  },
+  {
+    "key": "message4#13934",
+    "find": "你別漏了",
+    "replace": "你一眼就能找到",
+    "note": "Can't miss it reassures that the room is obvious, not warns against skipping it."
+  },
+  {
+    "key": "message4#13938",
+    "find": "美神的化身",
+    "replace": "美的化身",
+    "note": "Beauty incarnate does not specifically posit a beauty goddess."
+  },
+  {
+    "key": "message4#13941",
+    "find": "我明天才能把工作做完",
+    "replace": "我應該明天就能完工",
+    "note": "Should be done estimates completion rather than asserts an exclusive earliest time."
+  },
+  {
+    "key": "message4#13941",
+    "find": "你已經迫不及待了",
+    "replace": "你還有更多照片急著給我看",
+    "note": "The eagerness concerns showing additional subjects, not merely waiting for the current figurine."
+  },
+  {
+    "key": "message4#13942",
+    "find": "看到你給我的東西後，我已經製作欲滿滿了",
+    "replace": "看了你給我的東西，我的創作欲就停不下來",
+    "note": "Express the overwhelming creative urge naturally."
+  },
+  {
+    "key": "message4#13942",
+    "find": "我做了不計其數的雕像，卻有點茫然",
+    "replace": "於是做了好多雕像！可我太投入創作，\r\n有點心不在焉",
+    "note": "Restore the creative absorption behind his absentmindedness without asserting countless sculptures."
+  },
+  {
+    "key": "message4#13943",
+    "find": "我已經用這張照片做過雕像了嗎",
+    "replace": "這張照片我不是已經做過雕像了嗎",
+    "note": "The rhetorical question confirms a duplicate subject, not asks whether it has ever been made."
+  },
+  {
+    "key": "message4#14001",
+    "find": "應該有這麼一個",
+    "replace": "竟然有這麼一個",
+    "note": "Would be expresses surprise at what he sees, not a guess or obligation."
+  },
+  {
+    "key": "message4#14003",
+    "find": "差點說話不經大腦",
+    "replace": "差點不小心說溜嘴了",
+    "note": "He nearly revealed the secret aloud, not merely spoke foolishly."
+  },
+  {
+    "key": "message4#14007",
+    "find": "應該就是這麼回事",
+    "replace": "原來是這麼回事",
+    "note": "So that is how it works marks realization, not speculation."
+  },
+  {
+    "key": "message4#13510",
+    "find": "只要按下對應按鈕就行",
+    "replace": "只要按下{0E:3:26:0}就行",
+    "codes": "changed",
+    "note": "Restore the salvage-button icon present in the same-label retail English message. The earlier pass used vague wording solely to avoid adding a control, not for a documented compatibility issue."
+  },
+  {
+    "key": "message4#13006",
+    "find": "裡面包含了對你有用的",
+    "replace": "還能得到可能有用的",
+    "note": "The fish provides information along with the chart, not necessarily written inside it."
+  },
+  {
+    "key": "message4#13006",
+    "find": "我可不是在危言聳聽",
+    "replace": "這一點怎麼強調都不夠",
+    "note": "Cannot emphasize enough stresses importance, not denial of alarmism."
+  },
+  {
+    "key": "message4#13006",
+    "find": "遲早會遇到大麻煩的",
+    "replace": "以後只會讓你更費工夫",
+    "note": "A bigger hassle is extra inconvenience, not a promised major crisis."
+  },
+  {
+    "key": "message4#13007",
+    "find": "我該做的都做好了！！",
+    "replace": "欠你的我都還清了！我做完了！",
+    "note": "Restore the debt repaid to the King of Red Lions."
+  },
+  {
+    "key": "message4#13012",
+    "find": "讓我歇會兒",
+    "replace": "饒了我吧",
+    "note": "Gimme a break protests the repetitive bait, not requests rest."
+  },
+  {
+    "key": "message4#13017",
+    "find": "關我什麼事",
+    "replace": "誰在乎啊",
+    "note": "Like I care feigns indifference to refusal, not lack of involvement."
+  },
+  {
+    "key": "message4#13018",
+    "find": "你得幫幫我",
+    "replace": "這也是在幫我",
+    "note": "The game will help him; he is not imposing a separate obligation."
+  },
+  {
+    "key": "message4#13018",
+    "find": "我身上有些嚴重的風溼痛",
+    "replace": "我全身疼得厲害",
+    "note": "Body aches does not diagnose rheumatism."
+  },
+  {
+    "key": "message4#13021",
+    "find": "就是這樣",
+    "replace": "這下舒服了",
+    "note": "Hit the spot expresses relief from the acupuncture game."
+  },
+  {
+    "key": "message4#13023",
+    "find": "我該做什麼呢",
+    "replace": "我這魚人又能怎麼辦呢",
+    "note": "What's a man-fish to do is resignation, not a request for a next task."
+  },
+  {
+    "key": "message4#13024",
+    "find": "頸椎痛",
+    "replace": "脖子痛",
+    "note": "The original specifies neck pain, not a spinal cause."
+  },
+  {
+    "key": "message4#13027",
+    "find": "看見過的貪婪的怪獸",
+    "replace": "看見的豬形怪物",
+    "note": "Piggish identifies the Moblins' appearance for the item hint, not their greed."
+  },
+  {
+    "key": "message4#13028",
+    "find": "貪婪怪獸",
+    "replace": "可惡怪物",
+    "note": "Nasty does not specifically mean greedy."
+  },
+  {
+    "key": "message4#13031",
+    "find": "在水裡行船的時候一定要小心",
+    "replace": "在這片水域行船時可得小心",
+    "note": "The warning applies to these waters, not all sailing."
+  },
+  {
+    "key": "message4#13033",
+    "find": "就在那裡",
+    "replace": "就在那座島上",
+    "note": "Restore the explicit location on the island."
+  },
+  {
+    "key": "message4#13033",
+    "find": "但是那裡太過陡峭，甚至連落腳的地方都沒有",
+    "replace": "但那裡的峭壁太陡，\r\n連可抓握或落腳之處都沒有",
+    "note": "Restore the lack of both handholds and footholds, not just foot space."
+  },
+  {
+    "key": "message4#13035",
+    "find": "依我看",
+    "replace": "據說",
+    "note": "Supposedly attributes the route to reports, not his own conclusion."
+  },
+  {
+    "key": "message4#13037",
+    "find": "一個執著而且毫無畏懼的人",
+    "replace": "一個敢於盡情表現自己的人",
+    "note": "Let it all hang out means uninhibited self-expression, not general persistence and fearlessness."
+  },
+  {
+    "key": "message4#13038",
+    "find": "很噁心的",
+    "replace": "很不好惹的",
+    "note": "Get nasty warns about hostile behavior, not merely an unpleasant appearance."
+  },
+  {
+    "key": "message4#13043",
+    "find": "這傢伙總是老不正經的",
+    "replace": "這傢伙不肯長大，也沒個成熟樣",
+    "note": "Refusing to act his age is immaturity, not the more suggestive old-man insult."
+  },
+  {
+    "key": "message4#13043",
+    "find": "不記得是誰說的了",
+    "replace": "據我聽說",
+    "note": "From what I hear does not assert a forgotten source."
+  },
+  {
+    "key": "message4#13043",
+    "find": "他會{0E:0:3:2:FFFF}{0E:0:3:2:0001}破譯{0E:0:3:2:FFFF}{0E:0:3:2:0000}地圖，別人可都不會",
+    "replace": "他{0E:0:3:2:FFFF}{0E:0:3:2:0001}破譯{0E:0:3:2:FFFF}{0E:0:3:2:0000}地圖可厲害得很",
+    "note": "Like nobody's business praises skill; it does not claim everyone else is incapable."
+  },
+  {
+    "key": "message4#13045",
+    "find": "你一定會喜歡的",
+    "replace": "說不定你會喜歡呢",
+    "note": "Might like it is a possibility, not certainty."
+  },
+  {
+    "key": "message4#13046",
+    "find": "好像世界末日到了一樣",
+    "replace": "簡直沒完沒了",
+    "note": "Like there's no tomorrow describes unabated activity, not an actual apocalypse."
+  },
+  {
+    "key": "message4#13046",
+    "find": "一大筆{0E:0:3:2:0001}財寶",
+    "replace": "一件珍貴的{0E:0:3:2:0001}寶物",
+    "note": "A great treasure is an item, not necessarily a large sum of wealth."
+  },
+  {
+    "key": "message4#13048",
+    "find": "我在東邊的那個島上",
+    "replace": "我在正東方的那個島上",
+    "note": "Restore due east in the merchant location hint."
+  },
+  {
+    "key": "message4#13048",
+    "find": "徹底昏頭了",
+    "replace": "徹底著迷了",
+    "note": "Obsessed concerns fixation, not confusion."
+  },
+  {
+    "key": "message4#13050",
+    "find": "在你開啟",
+    "replace": "只有在你開啟",
+    "note": "Restore the necessary chart-opening condition."
+  },
+  {
+    "key": "message4#13050",
+    "find": "的時候會",
+    "replace": "時才會",
+    "note": "Complete only-when rather than a sufficient but nonexclusive trigger."
+  },
+  {
+    "key": "message4#13051",
+    "find": "你去光顧過嗎",
+    "replace": "你知道那家店嗎",
+    "note": "Knowing about a shop does not require having visited it."
+  },
+  {
+    "key": "message4#13052",
+    "find": "可能我就是一條雜魚",
+    "replace": "雖然我只是一條魚",
+    "note": "May only be a fish is concessive, not uncertain identity or a self-insult."
+  },
+  {
+    "key": "message4#13053",
+    "find": "忘了從哪裡聽來的，據說",
+    "replace": "我聽人說，",
+    "note": "Remove an unsupported failure to remember the source."
+  },
+  {
+    "key": "message4#13054",
+    "find": "真是前途多磨難啊",
+    "replace": "日子可真不好過啊",
+    "note": "Tough lots in life concerns their present circumstances, not only their future."
+  },
+  {
+    "key": "message4#13058",
+    "find": "比任何東西都要珍貴",
+    "replace": "他看得比任何東西都重要",
+    "note": "Treasures above all describes Lenzo's personal valuation, not absolute market worth."
+  },
+  {
+    "key": "message4#13060",
+    "find": "如果你在夜晚航行在這些海上的\r\n時候{0E:0:3:2:0001}正好是缺了右半邊的月亮{0E:0:3:2:FFFF}{0E:0:3:2:0000}",
+    "replace": "你該在{0E:0:3:2:0001}月亮缺了右半邊的夜晚{0E:0:3:2:FFFF}{0E:0:3:2:0000}\r\n來這片海域航行",
+    "note": "Restore the invitation to sail here during the specified moon phase."
+  },
+  {
+    "key": "message4#13061",
+    "find": "估計只有海鷗才清楚吧",
+    "replace": "你得去問問海鷗才行",
+    "note": "Ask a gull is the actionable clue, not merely speculation about who knows."
+  },
+  {
+    "key": "message4#13065",
+    "find": "我說過了去找個",
+    "replace": "我看你可以試著用",
+    "note": "I'd say suggests an approach now; it does not claim to have already told the player."
+  },
+  {
+    "key": "message4#13068",
+    "find": "你在頭上放點",
+    "replace": "只有在頭上放點",
+    "note": "Restore the stated only-way condition for reaching the switch."
+  },
+  {
+    "key": "message4#13068",
+    "find": "來賄賂海鷗，就能成功",
+    "replace": "來賄賂海鷗，才能辦到",
+    "note": "Complete the necessary gull-bait method."
+  },
+  {
+    "key": "message4#13069",
+    "find": "往東的島上",
+    "replace": "正東方的島上",
+    "note": "Restore due east in the swordsman hint."
+  },
+  {
+    "key": "message4#13069",
+    "find": "我是不會洩露秘密的",
+    "replace": "我可不能把所有秘密都說出來",
+    "note": "Not giving away every secret does not mean never revealing any."
+  },
+  {
+    "key": "message4#13070",
+    "find": "我可能聽漏了點東西",
+    "replace": "我大概聽錯了什麼",
+    "note": "Misheard is hearing incorrectly, not merely missing part of a sentence."
+  },
+  {
+    "key": "message4#13070",
+    "find": "是{0E:0:3:2:FFFF}{0E:0:3:2:0001}三角神力{0E:0:3:2:FFFF}{0E:0:3:2:0000}。",
+    "replace": "是一塊{0E:0:3:2:FFFF}{0E:0:3:2:0001}三角神力{0E:0:3:2:FFFF}{0E:0:3:2:0000}的碎片。",
+    "note": "The treasure is a shard, not the complete Triforce."
+  },
+  {
+    "key": "message4#13074",
+    "find": "有沒有習慣於",
+    "replace": "有沒有用過",
+    "note": "Have you been using the button is not asking whether the player is accustomed to it."
+  },
+  {
+    "key": "message4#13075",
+    "find": "那是個月牙朝下的夜晚",
+    "replace": "每逢月牙朝下的夜晚",
+    "note": "The lunar condition recurs, not one past sighting only."
+  },
+  {
+    "key": "message4#13075",
+    "find": "恐怖的氣息正在蔓延",
+    "replace": "恐怖就會現身",
+    "note": "Horror rises at that phase, not a report of a currently spreading atmosphere."
+  },
+  {
+    "key": "message4#13207",
+    "find": "你應該把你的錢袋看緊點",
+    "replace": "你不該花錢這麼大手筆",
+    "note": "Loose with your wallet warns against lavish spending, not theft prevention."
+  },
+  {
+    "key": "message4#13211",
+    "find": "我會讓你見識到的",
+    "replace": "這點你可要知道",
+    "note": "I'll have you know emphasizes information, not a promise of a demonstration."
+  },
+  {
+    "key": "message4#13212",
+    "find": "出籠的野獸",
+    "replace": "衝出閘門的賽馬",
+    "note": "Restore the quick-start racing image rather than savage escape from a cage."
+  },
+  {
+    "key": "message4#13224",
+    "find": "讓我休息一下",
+    "replace": "饒了我吧",
+    "note": "Gimme a break protests being outbid rather than requesting a rest interval."
+  },
+  {
+    "key": "message4#13242",
+    "find": "交給我吧",
+    "replace": "那我就收下了",
+    "note": "I'll take that accepts the auction prize, not responsibility for a task."
+  },
+  {
+    "key": "message4#13319",
+    "find": "你拿不下那麼多的東西",
+    "replace": "你已經裝不下更多東西",
+    "note": "Can't carry any more states full capacity, not merely inability to fit this order size."
+  },
+  {
+    "key": "message4#13410",
+    "find": "怎麼會這樣",
+    "replace": "那個混蛋",
+    "note": "Restore the jealous character's insult before his later concession that the rival is decent."
+  },
+  {
+    "key": "message4#13413",
+    "find": "不是那樣",
+    "replace": "我才不在乎",
+    "note": "Couldn't care less rejects caring, not simply understanding his feelings."
+  },
+  {
+    "key": "message4#13432",
+    "find": "那是一個恆星族",
+    "replace": "真是耀眼的一家子",
+    "note": "Stellar family is playful praise of the sister-stars, not an astrophysical population classification."
+  },
+  {
+    "key": "message4#13504",
+    "find": "我問你些簡單的問題",
+    "replace": "我很快問你個問題",
+    "note": "Real quick is about brevity, not question difficulty or multiple questions."
+  },
+  {
+    "key": "message4#13506",
+    "find": "我喜歡你這一型",
+    "replace": "我欣賞你的作風",
+    "note": "Like your style praises the young treasure hunter's approach, not a romantic type."
+  },
+  {
+    "key": "message4#13508",
+    "find": "對比。",
+    "replace": "對比，找出寶藏的位置。",
+    "note": "Restore the purpose of comparing the two charts."
+  },
+  {
+    "key": "message4#13508",
+    "find": "你可以放心地慢慢確認海圖",
+    "replace": "你可以從容地仔細查看海圖，\r\n畢竟欲速則不達",
+    "note": "Restore the omitted haste-makes-waste remark in the chart-reading advice."
+  },
+  {
+    "key": "message4#13508",
+    "find": "和我們一樣，用利特的族人曾在",
+    "replace": "和我們一樣，使用住在",
+    "note": "The Rito currently live on Dragon Roost; their tool use is not a past visit."
+  },
+  {
+    "key": "message4#13508",
+    "find": "上用過的",
+    "replace": "的利特族所用的",
+    "note": "Complete the current-user relationship for the Grappling Hook."
+  },
+  {
+    "key": "message4#13510",
+    "find": "你可以放心地慢慢確認海圖",
+    "replace": "你可以從容地仔細查看海圖，\r\n畢竟欲速則不達",
+    "note": "Restore the same omitted proverb in the alternate salvage instructions."
+  },
+  {
+    "key": "message4#13518",
+    "find": "寶藏圖",
+    "replace": "寶藏海圖",
+    "note": "Use the specific chart item's established name."
+  },
+  {
+    "key": "message4#13520",
+    "find": "檢視你的海圖",
+    "replace": "查看你的寶藏海圖",
+    "note": "The instruction specifically requires Treasure Charts, not just the general Sea Chart."
+  },
+  {
+    "key": "message4#13524",
+    "find": "然後耐心地等一會兒",
+    "replace": "接下來就得靠耐心",
+    "note": "Patience in treasure hunting is not an instruction to wait passively for a while."
+  },
+  {
+    "key": "message4#13532",
+    "find": "你最好弄一個來看看能\r\n用它做些什麼",
+    "replace": "你最好想想辦法，\r\n替自己弄一個來",
+    "note": "See what you can do to get one concerns acquiring the hook, not testing its uses after purchase."
+  },
+  {
+    "key": "message4#12803",
+    "find": "自己這樣誇自己",
+    "replace": "這樣形容自己",
+    "note": "Describing changing moods is not necessarily self-praise."
+  },
+  {
+    "key": "message4#12812",
+    "find": "其實在哪裡都能看到",
+    "replace": "不管在哪，都能在東北方看到",
+    "note": "Northeast applies from any location, not only from this island."
+  },
+  {
+    "key": "message4#12812",
+    "find": "不光在這的東北方",
+    "replace": "不只是在這裡",
+    "note": "Complete the distinction between viewing location and viewing direction."
+  },
+  {
+    "key": "message4#12813",
+    "find": "在這裡的西面",
+    "replace": "在這裡的正西方",
+    "note": "Preserve due west in the island hint."
+  },
+  {
+    "key": "message4#12818",
+    "find": "它能夠把你變成一個巨人",
+    "replace": "它能讓你像巨人一樣強壯",
+    "note": "The titan comparison concerns strength, not literal enlargement."
+  },
+  {
+    "key": "message4#12818",
+    "find": "它會給予你無窮的力量",
+    "replace": "它會賦予你強大的力量",
+    "note": "So much strength does not claim mathematically unlimited power."
+  },
+  {
+    "key": "message4#12818",
+    "find": "和這個小島一樣大的石頭",
+    "replace": "小島般巨大的石頭",
+    "note": "Small islands is a general size comparison, not this specific island."
+  },
+  {
+    "key": "message4#12821",
+    "find": "它能把所有來訪者凍成",
+    "replace": "它能把來訪者當場凍成",
+    "note": "Freeze in their tracks adds immediacy, not a claim that every visitor is affected."
+  },
+  {
+    "key": "message4#12822",
+    "find": "也許這都是水手們胡說的",
+    "replace": "至少水手們是這麼說的",
+    "note": "Or so the sailors tell attributes a report, not a suspicion that they made it up."
+  },
+  {
+    "key": "message4#12829",
+    "find": "用你那小腦袋想想",
+    "replace": "多動動腦筋",
+    "note": "Use your head does not add the small-brain insult absent from the English."
+  },
+  {
+    "key": "message4#12902",
+    "find": "你見過這樣的嗎？沒見過吧",
+    "replace": "你常見到這種豬嗎？不常見吧",
+    "note": "How often and not often concern rarity, not never having seen one."
+  },
+  {
+    "key": "message4#12905",
+    "find": "如果我不把它們放出來溜上\r\n一小會兒的話",
+    "replace": "如果我不偶爾放牠們出來\r\n活動一下的話",
+    "note": "Once in a while describes exercise frequency, not the duration of one outing."
+  },
+  {
+    "key": "message4#12905",
+    "find": "小豬的，哼",
+    "replace": "小豬的，夥計",
+    "note": "Chum is his familiar form of address, not a grunt."
+  },
+  {
+    "key": "message4#12907",
+    "find": "事情...",
+    "replace": "事情發愁...",
+    "note": "Complete the missing predicate about money trouble."
+  },
+  {
+    "key": "message4#12914",
+    "find": "你不知道怎麼把他和其他",
+    "replace": "至於怎麼把他和其他",
+    "note": "As for how introduces identification instructions, not an assertion of ignorance."
+  },
+  {
+    "key": "message4#12915",
+    "find": "你不知道怎麼把他和其他",
+    "replace": "至於怎麼把他和其他",
+    "note": "Introduce how to distinguish the target without assuming the player cannot do it."
+  },
+  {
+    "key": "message4#12916",
+    "find": "你不知道怎麼把他和其他",
+    "replace": "至於怎麼把他和其他",
+    "note": "Restore the same explanatory transition in this target variant."
+  },
+  {
+    "key": "message4#12927",
+    "find": "可別想騙我",
+    "replace": "別這樣惹我生氣",
+    "note": "Rile me up objects to irritation, not necessarily attempted deception."
+  },
+  {
+    "key": "message4#12930",
+    "find": "我會把這三隻小豬從圈裡放出來",
+    "replace": "我已經讓三隻小豬在島上自由活動",
+    "note": "The pigs are already loose on the island, not awaiting release from an asserted pen."
+  },
+  {
+    "key": "message4#12934",
+    "find": "我猜你肯定有自己的原因",
+    "replace": "就像水流過船底，過去的就算了",
+    "note": "Water under the ship's bridge forgives the past; it does not invent an excuse for the absence."
+  },
+  {
+    "key": "message4#12936",
+    "find": "不錯，不錯",
+    "replace": "哼哼，哼哼",
+    "note": "Oinky imitates pig sounds as he addresses the pig."
+  },
+  {
+    "key": "message4#13004",
+    "find": "那麼麻木的表情",
+    "replace": "那麼呆愣的表情",
+    "note": "Stupefied is a bewildered look, not emotional numbness."
+  },
+  {
+    "key": "message4#12625",
+    "find": "脫靶嘍",
+    "replace": "大小姐",
+    "all": true,
+    "note": "Miss addresses Tetra during the roleplay, not a missed shot; same-label French Capitaine and Spanish Capitana confirm it."
+  },
+  {
+    "key": "message4#12629",
+    "find": "脫靶嘍",
+    "replace": "大小姐",
+    "all": true,
+    "note": "The repeated call addresses the captain; the next line is her response."
+  },
+  {
+    "key": "message4#12904",
+    "find": "還剩下",
+    "replace": "時間只剩",
+    "note": "Variable 2:14 is remaining time, explicitly confirmed by the same-label Spanish resource."
+  },
+  {
+    "key": "message4#12904",
+    "find": "頭呢",
+    "replace": "了",
+    "note": "Remove the pig-count classifier incorrectly added after the timer."
+  },
+  {
+    "key": "message4#12945",
+    "find": "你還剩下",
+    "replace": "你的時間還剩",
+    "note": "After returning the first pig the variable gives time remaining to find the other two, not their count."
+  },
+  {
+    "key": "message4#12945",
+    "find": "只，夥計",
+    "replace": "，夥計",
+    "note": "Remove the incorrect animal classifier from the countdown."
+  },
+  {
+    "key": "message4#12946",
+    "find": "還只剩下",
+    "replace": "時間只剩",
+    "note": "The second-pig response reports time left to find the last pig, as confirmed by Spanish."
+  },
+  {
+    "key": "message4#12946",
+    "find": "只了",
+    "replace": "了",
+    "note": "Remove the false pig-count unit after the time variable."
+  },
+  {
+    "key": "message4#11719",
+    "find": "大頭巾男",
+    "replace": "戴大兜帽的男人",
+    "note": "The same merchant wears a hood, not a headscarf."
+  },
+  {
+    "key": "message4#11807",
+    "find": "我有了一些想法",
+    "replace": "我就一直惦記著一件事",
+    "note": "Something on her mind describes a persistent concern, not several new ideas."
+  },
+  {
+    "key": "message4#11809",
+    "find": "因此我一直在留意著",
+    "replace": "所以我不禁注意到",
+    "note": "Couldn't help noticing is an observation, not sustained surveillance."
+  },
+  {
+    "key": "message4#11818",
+    "find": "你把我的照片送到了嗎",
+    "replace": "你把我的照片送到了，對吧",
+    "note": "The completed delivery is being confirmed after the couple got together."
+  },
+  {
+    "key": "message4#11904",
+    "find": "很多你做夢也不會想到的生命",
+    "replace": "很多我們連做夢都沒想過的神秘事物",
+    "note": "Mysterious things includes more than living creatures; preserve the shared perspective."
+  },
+  {
+    "key": "message4#11906",
+    "find": "是真的！我看到了",
+    "replace": "是真的！百分之百是真的！我親眼看到了",
+    "note": "Restore the sailor's repeated assertion of certainty."
+  },
+  {
+    "key": "message4#11906",
+    "find": "一艘海盜船全速",
+    "replace": "一艘看來威風凜凜的海盜船全速",
+    "note": "Restore the intimidating appearance of the approaching pirate ship."
+  },
+  {
+    "key": "message4#12009",
+    "find": "在你的冒險途中我會幫你",
+    "replace": "讓我助你完成這趟冒險",
+    "note": "Allow me to aid you offers present assistance rather than an open-ended promise to accompany the quest."
+  },
+  {
+    "key": "message4#12014",
+    "find": "你的弓",
+    "replace": "你的船首",
+    "note": "Winds blowing across your bow is a nautical blessing; bow here is the ship's front, not the weapon."
+  },
+  {
+    "key": "message4#12111",
+    "find": "虧本價",
+    "replace": "只要",
+    "note": "Just a price does not assert selling at a loss."
+  },
+  {
+    "key": "message4#12125",
+    "find": "出清特賣就要結束了啊",
+    "replace": "出清特賣明天就結束了啊",
+    "note": "Restore the stated sale-end day."
+  },
+  {
+    "key": "message4#12125",
+    "find": "現在是最後的機會啊",
+    "replace": "現在可能是最後的機會啊",
+    "note": "May be your last chance is not certainty that no chance remains tomorrow."
+  },
+  {
+    "key": "message4#12142",
+    "find": "剛才我沒聽見",
+    "replace": "剛才我沒在聽",
+    "note": "Wasn't listening is a different evasive excuse from the next line's inability to hear."
+  },
+  {
+    "key": "message4#12148",
+    "find": "真是價廉物美",
+    "replace": "一次買這麼多，真合算",
+    "note": "Restore the bulk-purchase basis of the price."
+  },
+  {
+    "key": "message4#12215",
+    "find": "不過他一定是個好心人，\r\n一定是的，他一定是個好人",
+    "replace": "不過他一定是個好心的男人，\r\n當然，前提是那人真的是男的",
+    "note": "Restore the joke about assuming the unknown helper is male."
+  },
+  {
+    "key": "message4#12218",
+    "find": "但是裡面的火早已燃盡",
+    "replace": "但是裡面的火始終沒有重新點燃",
+    "note": "Remains extinguished describes its current state, not exhausted fuel."
+  },
+  {
+    "key": "message4#12219",
+    "find": "不過事情還不算太糟糕",
+    "replace": "不過，也不必一直這樣",
+    "note": "It doesn't have to be sad introduces a remedy, not a judgment that it is already less bad."
+  },
+  {
+    "key": "message4#12309",
+    "find": "是不是生病了",
+    "replace": "是不是感冒了",
+    "note": "Keep the specific mistaken self-diagnosis of a cold."
+  },
+  {
+    "key": "message4#12312",
+    "find": "嘿！叫你呢！",
+    "replace": "嘿！是你啊！",
+    "note": "It's you recognizes the player, not commands his attention as someone already called."
+  },
+  {
+    "key": "message4#12312",
+    "find": "向她表白",
+    "replace": "跟她說了話",
+    "note": "Talked to her does not specifically assert a confession."
+  },
+  {
+    "key": "message4#12314",
+    "find": "你真漂亮",
+    "replace": "你真是太好了",
+    "note": "Swell praises the person, not specifically her appearance."
+  },
+  {
+    "key": "message4#12322",
+    "find": "沾沾自喜",
+    "replace": "心滿意足",
+    "note": "Happy with just a photograph means contentment, not smug pride."
+  },
+  {
+    "key": "message4#12324",
+    "find": "我知道了",
+    "replace": "有了",
+    "note": "I've got it introduces an idea for the invitation."
+  },
+  {
+    "key": "message4#12408",
+    "find": "幸虧我還算是你見過的\r\n比較能打的水手呢",
+    "replace": "幸虧我可是你能遇上的\r\n最強悍的水手之一",
+    "note": "Restore the sailor's near-superlative boast rather than modestly above-average fighting skill."
+  },
+  {
+    "key": "message4#12412",
+    "find": "最後會到達",
+    "replace": "就能直達",
+    "note": "A straight shot preserves the direct sailing route."
+  },
+  {
+    "key": "message4#12501",
+    "find": "回到家裡",
+    "replace": "回到鎮上",
+    "note": "The sailor can relax upon reaching town, not only inside his home."
+  },
+  {
+    "key": "message4#12504",
+    "find": "石像",
+    "replace": "雕像",
+    "all": true,
+    "note": "The English statue description does not specify stone."
+  },
+  {
+    "key": "message4#12505",
+    "find": "石像",
+    "replace": "雕像",
+    "all": true,
+    "note": "The Rito postman decoration is described elsewhere as wooden; do not call it stone."
+  },
+  {
+    "key": "message4#12606",
+    "find": "如果你很擅長{0E:0:3:2:0001}目標射擊{0E:0:3:2:FFFF}{0E:0:3:2:0000}，",
+    "replace": "如果你對{0E:0:3:2:0001}目標射擊{0E:0:3:2:FFFF}{0E:0:3:2:0000}有信心，",
+    "note": "Confidence is the invitation's condition, not already proven expertise."
+  },
+  {
+    "key": "message4#12616",
+    "find": "用{0E:0:3:2:FFFF}{0E:0:3:2:0001}來移動{0E:0:3:2:FFFF}{0E:0:3:2:0000}炮口",
+    "replace": "要{0E:0:3:2:FFFF}{0E:0:3:2:0001}移動{0E:0:3:2:FFFF}{0E:0:3:2:0000}炮口，用",
+    "note": "Place the stick instruction in grammatical order while preserving all ordered controls."
+  },
+  {
+    "key": "message4#12616",
+    "find": "用{0E:0:3:2:FFFF}{0E:0:3:2:0001}來{0E:0:3:2:FFFF}{0E:0:3:2:0000}開火",
+    "replace": "要{0E:0:3:2:FFFF}{0E:0:3:2:0001}開火{0E:0:3:2:FFFF}{0E:0:3:2:0000}，按",
+    "note": "Connect the A-button icon to pressing it to fire, without moving or deleting controls."
+  },
+  {
+    "key": "message4#10825",
+    "find": "膽小怕羞",
+    "replace": "膽小懦弱",
+    "note": "The target is cowardly, not simply socially shy."
+  },
+  {
+    "key": "message4#10825",
+    "find": "抖縮",
+    "replace": "瑟縮",
+    "note": "Use the correct word for cowering in fear."
+  },
+  {
+    "key": "message4#10826",
+    "find": "這項稍微複雜的任務",
+    "replace": "這個更難的第二項任務",
+    "note": "Restore the explicit second-task reference and increased difficulty."
+  },
+  {
+    "key": "message4#10828",
+    "find": "有一對戀人",
+    "replace": "有一男一女",
+    "note": "The two harbor mutual feelings but are not yet an established romantic couple."
+  },
+  {
+    "key": "message4#10828",
+    "find": "兩個人都沒有表白",
+    "replace": "兩個人從未交談過",
+    "note": "Never spoken is not merely never confessed their feelings."
+  },
+  {
+    "key": "message4#10831",
+    "find": "有一對戀人",
+    "replace": "有一男一女",
+    "note": "Do not imply that the secretly interested pair are already dating."
+  },
+  {
+    "key": "message4#10832",
+    "find": "這一對戀人",
+    "replace": "這對互有情意的男女",
+    "note": "Preserve the secret mutual attraction rather than an established relationship."
+  },
+  {
+    "key": "message4#10842",
+    "find": "能發出神秘光芒的說法",
+    "replace": "擁有神秘力量的說法",
+    "note": "Mystical power is not limited to emitting light."
+  },
+  {
+    "key": "message4#10843",
+    "find": "了！\r\n{0E:0:2:2:0064}來吧！出去拍一些彩色照片\r\n替我完成畢生的願望",
+    "replace": "了！\r\n能夠呈現世界本來的色彩！\r\n{0E:0:2:2:0064}來吧！出去替我多拍些彩色照片，\r\n彌補我多年來無法拍彩照的遺憾！\r\n完成我畢生的願望吧，",
+    "note": "Restore the world's true appearance and the years Lenzo could not take color photographs."
+  },
+  {
+    "key": "message4#10848",
+    "find": "我要把這張照片拿走\r\n去做些更有意義的事",
+    "replace": "我要立刻收下這張照片，\r\n好好發揮它的用處",
+    "note": "Promptly and efficiently describes taking and using it, not supposedly more meaningful work."
+  },
+  {
+    "key": "message4#10849",
+    "find": "你已經獲得了我的敬意",
+    "replace": "你表現出色地通過了測試",
+    "note": "Restore the explicit successful test result."
+  },
+  {
+    "key": "message4#10852",
+    "find": "我都不知道這兩個人已經發展到這個\r\n地步了",
+    "replace": "真沒想到這兩個人\r\n會這麼合得來",
+    "note": "Getting along splendidly is not a claim about advanced relationship progress."
+  },
+  {
+    "key": "message4#10852",
+    "find": "可是發展迅速",
+    "replace": "可是愛意濃厚",
+    "note": "Thriving describes flourishing affection, not its speed."
+  },
+  {
+    "key": "message4#10853",
+    "find": "似乎很值錢",
+    "replace": "似乎還有點價值",
+    "note": "Value of sorts is deliberately qualified, not a promise of high monetary worth."
+  },
+  {
+    "key": "message4#10868",
+    "find": "我親眼看見這個奇怪的平臺從海中\r\n升起",
+    "replace": "我看到這個奇怪的平臺\r\n聳立在海上",
+    "note": "Rising out of the sea describes the structure's height, not witnessing it emerge."
+  },
+  {
+    "key": "message4#10877",
+    "find": "被骯髒的陰雲深深地籠罩著",
+    "replace": "最近被骯髒的陰雲籠罩著",
+    "note": "Restore the recent onset of the clouds."
+  },
+  {
+    "key": "message4#10877",
+    "find": "在那裡遊蕩的惡靈",
+    "replace": "悄然潛伏在那裡的邪惡",
+    "note": "Silent evil lingers; it is not specifically a wandering ghost."
+  },
+  {
+    "key": "message4#10880",
+    "find": "就在這裡往南",
+    "replace": "就在這裡的正南方",
+    "note": "Preserve due south in the navigation hint."
+  },
+  {
+    "key": "message4#10884",
+    "find": "最起碼的是，照片中的主體一定要\r\n儘可能地大，充滿整張照片",
+    "replace": "總之，要讓照片中的主體完整入鏡，\r\n並在這個範圍內儘可能拍得大一些",
+    "note": "Largest possible is constrained by keeping the whole subject inside the frame."
+  },
+  {
+    "key": "message4#10909",
+    "find": "你是想借助什麼工具來飛行，\r\n是嗎",
+    "replace": "你有能拿來飛行的工具，\r\n對吧",
+    "note": "Ask whether he possesses flying equipment, not whether he intends to use some."
+  },
+  {
+    "key": "message4#10913",
+    "find": "我就算是閉著眼睛也能比你做得好",
+    "replace": "我就算昏過去了也能比你飛得好",
+    "note": "Preserve the exaggerated unconscious-flight boast rather than merely closed eyes."
+  },
+  {
+    "key": "message4#10918",
+    "find": "是的！非常",
+    "replace": "沒錯！足足飛了",
+    "note": "Join the inserted flight distance to a grammatical expression of its impressive size."
+  },
+  {
+    "key": "message4#10922",
+    "find": "眼觀四路耳聽八方",
+    "replace": "一眼望著天空，一眼望著大海",
+    "note": "Restore the speaker's specific sky-and-sea image."
+  },
+  {
+    "key": "message4#10930",
+    "find": "中{0E:1:6:2:0005}",
+    "replace": "到{0E:1:6:2:0005}",
+    "note": "Goal announces reaching the finish, not hitting a target."
+  },
+  {
+    "key": "message4#10930",
+    "find": "了！\r\n\r\n\r\n\r\n恭喜恭喜",
+    "replace": "終點了！\r\n\r\n\r\n\r\n恭喜恭喜",
+    "note": "Complete the finish announcement while keeping all timed stretching controls."
+  },
+  {
+    "key": "message4#11001",
+    "find": "競賽還在繼續",
+    "replace": "競賽開始了",
+    "note": "The arriving challenger starts the contest; no prior continuation is asserted."
+  },
+  {
+    "key": "message4#11007",
+    "find": "我真是大飽眼福了",
+    "replace": "我的雙眼哪配看這等絕技啊",
+    "note": "Restore the comically humble claim that his eyes are unworthy."
+  },
+  {
+    "key": "message4#11103",
+    "find": "我最好還是告訴你",
+    "replace": "我不妨告訴你",
+    "note": "May as well offers information, not advice about the best action."
+  },
+  {
+    "key": "message4#11106",
+    "find": "你還沒跟其他志工\r\n合作過吧",
+    "replace": "該不會是你在幫志工們\r\n忙吧",
+    "note": "The negative question suspects the player has helped; it is not an assumption that he has not."
+  },
+  {
+    "key": "message4#11107",
+    "find": "你已經試過了",
+    "replace": "真的是你幫的忙",
+    "note": "Confirm participation rather than mere experimentation."
+  },
+  {
+    "key": "message4#11107",
+    "find": "我明白了",
+    "replace": "有了",
+    "note": "I know introduces his idea of a reward, not understanding a fact."
+  },
+  {
+    "key": "message4#11110",
+    "find": "做為會員真是太光榮了",
+    "replace": "當會員真有成就感",
+    "note": "Rewarding concerns fulfillment rather than public honor."
+  },
+  {
+    "key": "message4#11110",
+    "find": "傳播歡樂是人生必須做的事情",
+    "replace": "傳播歡樂的感覺，你一定要親自體會",
+    "note": "Must experience recommends trying it, not a universal moral obligation."
+  },
+  {
+    "key": "message4#11112",
+    "find": "看有沒有你要的",
+    "replace": "了解活動的詳情",
+    "note": "Ask about the whole arrangement, not whether the shop has a desired item."
+  },
+  {
+    "key": "message4#11112",
+    "find": "一輩子都錯過了",
+    "replace": "錯過這份樂趣了",
+    "note": "Missing out is not an irreversible lifelong deadline."
+  },
+  {
+    "key": "message4#11408",
+    "find": "他總是一本正經地在工作",
+    "replace": "他似乎太專心於工作了",
+    "note": "Too serious about his work describes commitment, not a solemn facial demeanor."
+  },
+  {
+    "key": "message4#11411",
+    "find": "今晚的拍賣真是太好玩了",
+    "replace": "今晚的拍賣一定會很好玩",
+    "note": "The auction is anticipated, not already enjoyed."
+  },
+  {
+    "key": "message4#11412",
+    "find": "好戲開場了",
+    "replace": "真有戲劇性",
+    "note": "The drama is an exclamation of anticipation, not an announcement that the event has started."
+  },
+  {
+    "key": "message4#11412",
+    "find": "我激動得全身都在發抖",
+    "replace": "光想就讓我起雞皮疙瘩",
+    "note": "Restore goose bumps at wondering about the outcome."
+  },
+  {
+    "key": "message4#11412",
+    "find": "我已經迫不及待了",
+    "replace": "我恐怕等不及天黑了",
+    "note": "Restore the waiting-until-dark reference."
+  },
+  {
+    "key": "message4#11419",
+    "find": "謝謝你的直言不諱",
+    "replace": "謝謝你幫我們釐清誤會",
+    "note": "Setting us straight corrects the misunderstanding; it is not simply frank speech."
+  },
+  {
+    "key": "message4#11617",
+    "find": "害我得心臟病",
+    "replace": "害我心臟病發",
+    "note": "A heart attack is an acute event, not developing chronic heart disease."
+  },
+  {
+    "key": "message4#11709",
+    "find": "所以現在是我在經營這家咖啡屋",
+    "replace": "所以我就只能守在這裡經營咖啡屋",
+    "note": "Restore being stuck with management, not merely stating the current manager."
+  },
+  {
+    "key": "message4#11710",
+    "find": "花了我不少的精力",
+    "replace": "花了我不少時間",
+    "note": "Taken a while measures elapsed time rather than effort."
+  },
+  {
+    "key": "message4#11711",
+    "find": "散發著汗臭",
+    "replace": "脾氣不好",
+    "note": "Sour characterizes the sailors' disposition, not an asserted smell of sweat."
+  },
+  {
+    "key": "message4#11717",
+    "find": "戴著頭巾",
+    "replace": "戴著兜帽",
+    "note": "Hooded refers to Zunari's coat hood, not a headscarf."
+  },
+  {
+    "key": "message3#10514",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: FR/ES confirm moderation and avoiding overwork; preserve the English eight-tenths proportion as effort, not a success formula."
+  },
+  {
+    "key": "message3#10516",
+    "find": "根本入不了我的眼啊",
+    "replace": "就不太符合我的需求了",
+    "note": "A little unsatisfactory for his needs is not complete contempt for all other goods."
+  },
+  {
+    "key": "message3#10545",
+    "find": "這玩意我出個價",
+    "replace": "這個就給你優惠價",
+    "note": "Give you a deal offers favorable pricing, not just any quote."
+  },
+  {
+    "key": "message3#10559",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "Identify the named merchant's oath established in the trade tutorial."
+  },
+  {
+    "key": "message3#10560",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "Keep the named oath tied to the resulting shipments."
+  },
+  {
+    "key": "message3#10602",
+    "find": "我曾經以為我命中註定會遇到那",
+    "replace": "我本來以為也許有緣遇到那",
+    "note": "Perhaps my fate would cross expresses hope, not certainty of destiny."
+  },
+  {
+    "key": "message3#10603",
+    "find": "老實說",
+    "replace": "順帶一提",
+    "note": "By the by introduces an aside, not a claim of frankness."
+  },
+  {
+    "key": "message3#10606",
+    "find": "這就是我曾經尋找了多年的",
+    "replace": "有件我多年來一直尋找的",
+    "note": "He describes an item he is still seeking, not identifies one already before him."
+  },
+  {
+    "key": "message3#10606",
+    "find": "但是你是怎麼得到這個的",
+    "replace": "不過你怎麼可能會有呢",
+    "note": "Why would you have it doubts possession rather than asks how an already-owned item was obtained."
+  },
+  {
+    "key": "message3#10609",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: four fifths is the same moderate-effort advice; FR/ES explicitly warn against overworking."
+  },
+  {
+    "key": "message3#10610",
+    "find": "今天真做了件值得的事",
+    "replace": "今天一整天的辛勞真值得",
+    "note": "A worthy day of work is not a single noteworthy deed."
+  },
+  {
+    "key": "message3#10611",
+    "find": "我在半夜醒來時，就在想關於\r\n他的事情，越想越好奇",
+    "replace": "我對他好奇得不得了，\r\n夜裡光想他的事就睡不著",
+    "note": "Curiosity keeps him awake; he does not merely think about the man after waking up."
+  },
+  {
+    "key": "message3#10614",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: preserve the four-fifths limit on effort rather than claim that effort accounts for business success."
+  },
+  {
+    "key": "message3#10646",
+    "find": "如果這個能多賣",
+    "replace": "如果這個能收到",
+    "note": "The quoted fee is a received amount, not a price increase over a previous sale."
+  },
+  {
+    "key": "message3#10646",
+    "find": "我就很滿意了",
+    "replace": "就能抵我的成本了",
+    "note": "That'll cover me refers to covering costs, not mere satisfaction."
+  },
+  {
+    "key": "message3#10659",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "Keep the name of the trade agreement consistent with its tutorial."
+  },
+  {
+    "key": "message3#10660",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "The shipments honor the previously established merchant's oath."
+  },
+  {
+    "key": "message3#10665",
+    "find": "這位就是唯一達到了貿易世界巔峰\r\n的那個人",
+    "replace": "這位正是君臨商界之巔\r\n的那位傳奇人物",
+    "note": "None other identifies the legendary person; it does not claim nobody else ever reached business success."
+  },
+  {
+    "key": "message3#10667",
+    "find": "我已經得到了最好的東西",
+    "replace": "我可是得到了件好東西",
+    "note": "A worthy item is not explicitly the best item of all."
+  },
+  {
+    "key": "message3#10701",
+    "find": "亂七八糟的",
+    "replace": "令人不安的",
+    "note": "Unsettling describes an uneasy impression rather than disorder."
+  },
+  {
+    "key": "message3#10704",
+    "find": "銷售的古董",
+    "replace": "銷售的稀奇物品",
+    "note": "Curios need not be old antiques."
+  },
+  {
+    "key": "message3#10708",
+    "find": "今天的工作目標圓滿\r\n完成！今天真是個好日子",
+    "replace": "今天的工作就到此\r\n為止！我要收工啦",
+    "note": "Calling it a day ends work; it does not praise the date or assert a completed target."
+  },
+  {
+    "key": "message3#10709",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: the full context warns against working oneself to death; this is advice to moderate effort."
+  },
+  {
+    "key": "message3#10713",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: keep the repeated moderation proverb consistent with verified FR/ES context."
+  },
+  {
+    "key": "message3#10714",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: the following health warning and FR/ES phrasing confirm moderation, not a percentage of success attributable to effort."
+  },
+  {
+    "key": "message3#10746",
+    "find": "並不怎麼受歡迎",
+    "replace": "看起來不太好",
+    "note": "Doesn't look so hot evaluates apparent condition, not market popularity."
+  },
+  {
+    "key": "message3#10748",
+    "find": "不要零頭了，湊個整數吧",
+    "replace": "就湊個漂亮的整數吧",
+    "note": "A round number does not promise to round a previously specified price down."
+  },
+  {
+    "key": "message3#10759",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "Use the named merchant's oath for this trade completion."
+  },
+  {
+    "key": "message3#10760",
+    "find": "合約",
+    "replace": "商人誓約",
+    "note": "The resulting supply follows the same named oath as the other merchants."
+  },
+  {
+    "key": "message3#10760",
+    "find": "傳送到",
+    "replace": "運到",
+    "note": "Goods are shipped, not teleported."
+  },
+  {
+    "key": "message4#10804",
+    "find": ".. 但是唉，這秘密恐怕永遠掩埋\r\n在{0E:0:3:2:0001}牢房{0E:0:3:2:0000}中了",
+    "replace": "... 但唉，這秘密恐怕永遠只有他\r\n{0E:0:3:2:0001}牢房{0E:0:3:2:0000}裡的箱子和牆壁才知道",
+    "note": "Restore the omitted clue about the cell's boxes and walls without changing its formatting tokens."
+  },
+  {
+    "key": "message4#10810",
+    "find": "研究助手",
+    "replace": "攝影助手",
+    "note": "The offered role is pictograph assistant."
+  },
+  {
+    "key": "message4#10811",
+    "find": "好吧，當我沒說",
+    "replace": "真不像話",
+    "note": "Well I never expresses indignation, not withdrawal of the request."
+  },
+  {
+    "key": "message4#10813",
+    "find": "毫不猶豫地去完成",
+    "replace": "毫不猶豫地迅速完成",
+    "note": "Restore the requirement to complete commands promptly."
+  },
+  {
+    "key": "message4#10814",
+    "find": "你一定能分享到我對攝影的愛",
+    "replace": "你一定也和我一樣熱愛攝影",
+    "note": "Share my love means having the same passion, not receiving his affection for photography."
+  },
+  {
+    "key": "message4#10818",
+    "find": "求婚者",
+    "replace": "追求者",
+    "note": "An unwanted suitor has not necessarily proposed marriage."
+  },
+  {
+    "key": "message4#10819",
+    "find": "你一定能輕鬆完成",
+    "replace": "你就必須輕鬆完成",
+    "note": "Must perform is an admission requirement, not reassurance that success is certain."
+  },
+  {
+    "key": "message3#10044",
+    "find": "因為它...",
+    "replace": "而那個...",
+    "note": "And that introduces the pendant, not a cause for loving all jewelry."
+  },
+  {
+    "key": "message3#10044",
+    "find": "它是這裡最棒的東西了",
+    "replace": "它可是現在最熱門的飾品",
+    "note": "Hottest describes popularity rather than absolute quality."
+  },
+  {
+    "key": "message3#10045",
+    "find": "但是那實在太貪心而不切實際了。",
+    "replace": "但那恐怕只有在夢裡才可能實現。",
+    "note": "Restore the unlikely dream without adding a moral judgment about greed."
+  },
+  {
+    "key": "message3#10048",
+    "find": "用這種方法來取得寶貝違背了我的本性",
+    "replace": "到處搜羅珠寶實在不是我的作風",
+    "note": "Scrounging is not her inclination, not an unethical method."
+  },
+  {
+    "key": "message3#10049",
+    "find": "因為興奮而發抖",
+    "replace": "因為興奮而發麻",
+    "note": "Numb describes tingling loss of feeling rather than trembling."
+  },
+  {
+    "key": "message3#10055",
+    "find": "正如你所知",
+    "replace": "順便告訴你",
+    "note": "Just so you know supplies new directions, not a reminder of assumed knowledge."
+  },
+  {
+    "key": "message3#10061",
+    "find": "你已經送來了多少",
+    "replace": "你這次帶來了多少",
+    "note": "This question is about the current delivery; the following message gives the cumulative total."
+  },
+  {
+    "key": "message3#10075",
+    "find": "沒有什麼能瞞得過我。",
+    "replace": "想瞞過我可不容易。",
+    "note": "Tough to deceive is not absolute omniscience."
+  },
+  {
+    "key": "message3#10075",
+    "find": "我早就知道",
+    "replace": "我相當確定自己知道",
+    "note": "Pretty sure expresses confidence, not earlier knowledge."
+  },
+  {
+    "key": "message3#10101",
+    "find": "這大概就是",
+    "replace": "這裡就是",
+    "note": "The shopkeeper identifies his shop; the colloquial contraction does not imply uncertainty."
+  },
+  {
+    "key": "message3#10104",
+    "find": "所以快逃走吧",
+    "replace": "所以快走開吧",
+    "note": "Beat it dismisses the customer, not warns him to flee danger."
+  },
+  {
+    "key": "message3#10106",
+    "find": "來吧，馬上！",
+    "replace": "拜託，別鬧了！",
+    "note": "Come on now expresses disbelief, not an invitation to approach immediately."
+  },
+  {
+    "key": "message3#10113",
+    "find": "我跟你沒什麼干係了！",
+    "replace": "我懶得再跟你囉嗦了！",
+    "note": "I'm done with you ends the interaction, not denies a relationship."
+  },
+  {
+    "key": "message3#10126",
+    "find": "付得出的那部分",
+    "replace": "付得起的東西",
+    "note": "Only buy what you can pay for does not offer a partial order."
+  },
+  {
+    "key": "message3#10127",
+    "find": "你沒法帶更多了",
+    "replace": "你帶不下那麼多",
+    "note": "Insufficient room for this quantity does not necessarily mean completely full."
+  },
+  {
+    "key": "message3#10130",
+    "find": "幹嘛非得從那裡進來呢，是吧?",
+    "replace": "不然我們幹嘛要裝門呢？",
+    "note": "Restore the rhetorical question about the purpose of the door."
+  },
+  {
+    "key": "message3#10205",
+    "find": "最高出價的",
+    "replace": "最高級別的",
+    "note": "Of the highest order praises the competition rather than describing bid size."
+  },
+  {
+    "key": "message3#10210",
+    "find": "完全不明白",
+    "replace": "不行，請先說明",
+    "note": "The choice rejects skipping the explanation, matching the negative question."
+  },
+  {
+    "key": "message3#10211",
+    "find": "那可輕鬆多了",
+    "replace": "那就快多了",
+    "note": "Speeds things up describes time saved, not effort."
+  },
+  {
+    "key": "message3#10216",
+    "find": "你的腦袋撞樹上了嗎？",
+    "replace": "你腦部的血液循環不太順暢，對吧？",
+    "note": "Retain the original circulation insult without inventing a head injury."
+  },
+  {
+    "key": "message3#10216",
+    "find": "多難堪啊",
+    "replace": "真遺憾啊",
+    "note": "What a shame here is mock pity, not embarrassment."
+  },
+  {
+    "key": "message3#10309",
+    "find": "我終於可以",
+    "replace": "我終於得以",
+    "note": "The money has already enabled him to open the stall."
+  },
+  {
+    "key": "message3#10311",
+    "find": "不過還有另外一條路走。",
+    "replace": "換句話說，",
+    "note": "To put it another way restates the same idea rather than proposes another route."
+  },
+  {
+    "key": "message3#10311",
+    "find": "儲藏鎮上別處買不到的",
+    "replace": "進到鎮上別處買不到的",
+    "note": "Stock means obtaining merchandise for sale, not merely storing it."
+  },
+  {
+    "key": "message3#10312",
+    "find": "不，不，不止這樣!",
+    "replace": "不，不，也不是這樣！",
+    "note": "The merchant retracts his greedy explanation before adopting a virtuous one."
+  },
+  {
+    "key": "message3#10316",
+    "find": "我出去了!",
+    "replace": "我先走了！",
+    "note": "I'm out of here declines the request and leaves, not reports having exited."
+  },
+  {
+    "key": "message3#10324",
+    "find": "你腦部血液都凍上了",
+    "replace": "你腦部的血液流得真慢",
+    "note": "Preserve the slow-circulation jibe rather than frozen blood."
+  },
+  {
+    "key": "message3#10324",
+    "find": "是嗎？你真是太糟糕了。",
+    "replace": "是吧？你可真可憐。",
+    "note": "How awful for you is mock sympathy, not a judgment that the player is awful."
+  },
+  {
+    "key": "message3#10367",
+    "find": "用它讓利特移民到鎮上。",
+    "replace": "用它讓鎮上處處可見利特族的身影。",
+    "note": "Decorative statues populate the town figuratively; they do not recruit immigrants."
+  },
+  {
+    "key": "message3#10374",
+    "find": "我的經歷說來話長",
+    "replace": "我的經歷相當離奇",
+    "note": "A strange story is not simply a long story."
+  },
+  {
+    "key": "message3#10375",
+    "find": "颶風",
+    "replace": "暴風雨",
+    "note": "A terrible storm is not specifically a hurricane."
+  },
+  {
+    "key": "message3#10378",
+    "find": "你這個可憐的窮鬼",
+    "replace": "原來你也是個可憐人",
+    "note": "Preserve fellow feeling in yourself rather than adding contempt."
+  },
+  {
+    "key": "message3#10386",
+    "find": "但是，大概，因其可疑的外表，",
+    "replace": "可是，就因為他模樣有點可疑，",
+    "note": "I dare say does not make the narrated arrest speculative."
+  },
+  {
+    "key": "message3#10407",
+    "find": "我以前從未感到這麼高興",
+    "replace": "我當時以為不可能更高興了",
+    "note": "He thought his joy could not increase, setting up his daughter's later kindness."
+  },
+  {
+    "key": "message3#10408",
+    "find": "偷偷溜出去，尤其在 ",
+    "replace": "偷偷溜出去，而且都在 ",
+    "note": "The observed sneaking is at night, not merely especially at night."
+  },
+  {
+    "key": "message3#10408",
+    "find": "才開門的商店嗎",
+    "replace": "還開著的商店嗎",
+    "note": "Open at night does not mean open exclusively at night."
+  },
+  {
+    "key": "message3#10416",
+    "find": "我思考了很長一段時間才終於明白",
+    "replace": "我想，我終於明白了",
+    "note": "I think qualifies his realization; it does not assert a long deliberation."
+  },
+  {
+    "key": "message3#10416",
+    "find": "我為此感到欣慰",
+    "replace": "我為此心懷感激",
+    "note": "Restore gratitude rather than relief."
+  },
+  {
+    "key": "message3#10503",
+    "find": "我的直覺告訴我說",
+    "replace": "說到這裡",
+    "note": "Which reminds me links topics, not an appeal to intuition."
+  },
+  {
+    "key": "message3#10505",
+    "find": "請指給我看",
+    "replace": "請拿給我看",
+    "note": "Show the item rather than point at it."
+  },
+  {
+    "key": "message3#10509",
+    "find": "買賣只要做八成就行",
+    "replace": "做生意，出八分力就好",
+    "note": "Regression: the merchant limits daily work; same-label FR/ES warn against overeating and overworking, supporting moderate effort."
+  },
+  {
+    "key": "message3#10513",
+    "find": "照顧小店生意",
+    "replace": "讓我看看你的東西",
+    "note": "The traveling merchant thanks the player for showing goods; he has not opened his planned shop yet."
+  },
+  {
+    "key": "message3#07640",
+    "find": "同一瓶不能裝兩份藥水！",
+    "replace": "兩份藥水不能同時佔同一個空間！",
+    "note": "Preserve the simultaneous-space physics joke rather than a general one-serving capacity rule."
+  },
+  {
+    "key": "message3#07727",
+    "find": "你到現在還在吹牛？",
+    "replace": "你真的在炫耀那個不知是什麼的東西？",
+    "note": "The father comments on the object shown, not an ongoing lie."
+  },
+  {
+    "key": "message3#07811",
+    "find": "闖勁十足，充滿野性...而且危機四伏！",
+    "replace": "瀟灑又充滿野性...還帶著危險的氣息！",
+    "note": "Dashing praises romantic style; dangerous characterizes the handwriting's appeal, not surrounding crises."
+  },
+  {
+    "key": "message3#07817",
+    "find": "所以我必須讓你拿上這封信",
+    "replace": "所以我得拜託你拿著這封信",
+    "note": "Restore a request for help rather than an obligation to make the player act."
+  },
+  {
+    "key": "message3#07903",
+    "find": "別可笑了!",
+    "replace": "別胡鬧了！",
+    "note": "Don't be ridiculous objects to unreasonable conduct, not the ability to be laughed at."
+  },
+  {
+    "key": "message3#08907",
+    "find": "為什麼我的舞蹈沒有任何效果？！",
+    "replace": "為什麼我的舞蹈無法改變天空？！",
+    "note": "Restore the specific expected effect on the skies."
+  },
+  {
+    "key": "message3#09903",
+    "find": "你不壞嘛!",
+    "replace": "你挺有兩下子嘛！",
+    "note": "Ain't bad praises skill, not moral character."
+  },
+  {
+    "key": "message3#09906",
+    "find": "噢嗚...廢物!",
+    "replace": "噢嗚...真掃興！",
+    "note": "Lame is a disappointed reaction; do not turn it into calling the player worthless."
+  },
+  {
+    "key": "message3#09937",
+    "find": "看來我們這回是失手了",
+    "replace": "看來我們的本事不如從前了",
+    "note": "Lost our touch suggests lost knack, not just one slip-up."
+  },
+  {
+    "key": "message3#09952",
+    "find": "嗯，可是老師只喜歡首飾和便宜貨，\r\n對其他的什麼都不感興趣！",
+    "replace": "嗯，可是老師在這世上最喜歡的，\r\n就是首飾之類的玩意！",
+    "note": "Jewelry and junk is dismissive filler, not cheap goods; a greatest preference does not exclude all other interests."
+  },
+  {
+    "key": "message3#10006",
+    "find": "從那時候起，我已經教會了這裡的孩子們",
+    "replace": "從那時候起，我就一直教導島上的孩子們",
+    "note": "Have been teaching is ongoing work, not a completed result."
+  },
+  {
+    "key": "message3#10028",
+    "find": "儘管我可能只是個學校教師，",
+    "replace": "雖然我是個學校教師，",
+    "note": "May be is concessive here, not uncertainty about her occupation."
+  },
+  {
+    "key": "message3#10028",
+    "find": "南方綠洲裡自己的",
+    "replace": "綠洲裡自己的",
+    "note": "Remove an unsupported southward direction from the cabana description."
+  },
+  {
+    "key": "message3#10032",
+    "find": "因為我給了他一個小小的忠告:",
+    "replace": "就在那時，我給了他一個小小的建議:",
+    "note": "That's when marks timing, not a newly asserted cause of his realization."
+  },
+  {
+    "key": "message3#10038",
+    "find": "如果我沒聽錯的話。",
+    "replace": "至少我是這麼聽說的。",
+    "note": "Or so I've heard reports hearsay, not a possible hearing mistake."
+  },
+  {
+    "key": "message3#10039",
+    "find": "有點敗得轟轟烈烈的意思，要我說的話。",
+    "replace": "要我說，他們這名字取得可真失敗。",
+    "note": "Failed spectacularly evaluates their attempt to choose a fierce name, not a meaning within the name."
+  },
+  {
+    "key": "message3#10041",
+    "find": "你天下無敵，天哪!",
+    "replace": "你很厲害，親愛的！",
+    "note": "Incredible is praise, not literal invincibility."
+  },
+  {
+    "key": "message3#07107",
+    "find": "溫柔點！{0E:0:3:2:0000}!",
+    "replace": "溫柔點！{0E:0:3:2:0000}",
+    "note": "Remove duplicated punctuation split by a formatting code."
+  },
+  {
+    "key": "message3#07114",
+    "find": "請按 {0E:3:8:0} 上，下，左，或右來移動\r\n面板拼圖。我會把最後一塊面板",
+    "replace": "請往上、下、左或右推動{0E:3:8:0}，\r\n移動拼圖片，試著把圖案拼好。\r\n我會把最後一塊拼圖片",
+    "note": "Regression: give the stick directions and puzzle-tile arrangement in a complete grammatical instruction."
+  },
+  {
+    "key": "message3#07115",
+    "find": "還沒記住規則",
+    "replace": "還沒弄懂規則",
+    "note": "The rules escape me means failure to understand, not simply failure to memorize."
+  },
+  {
+    "key": "message3#07119",
+    "find": "您擁有貴族等級的最高遊戲天分！",
+    "replace": "您可是貴族中最有天分的遊戲高手之一！",
+    "note": "Among the most talented is a comparison among noble players, not a nobility level of talent."
+  },
+  {
+    "key": "message3#07204",
+    "find": "給你一大筆錢。",
+    "replace": "付出你要的任何金額。",
+    "note": "As much money as it takes is an open-ended promise, not simply a large amount."
+  },
+  {
+    "key": "message3#07305",
+    "find": "說錯話了！錯到底了！",
+    "replace": "這樣不行！這樣可不行！",
+    "note": "Restore the character's repeated self-admonition after reverting to old habits."
+  },
+  {
+    "key": "message3#07414",
+    "find": "失去了這個好東西",
+    "replace": "已不再持有這個好東西",
+    "note": "Parted with does not necessarily mean accidentally lost it."
+  },
+  {
+    "key": "message3#07421",
+    "find": "我期望你們能有更好的表現！",
+    "replace": "希望大家別在這個價位就停下來！",
+    "note": "The host urges further bidding, not generic better performance."
+  },
+  {
+    "key": "message3#07422",
+    "find": "我是不是聽到了另一個報價？",
+    "replace": "還有人要出價嗎？",
+    "note": "Do I hear another bid invites bids; it does not report possibly hearing one."
+  },
+  {
+    "key": "message3#07429",
+    "find": "今晚傳說中的",
+    "replace": "今晚非凡的",
+    "note": "Fabulous is praise, not legendary provenance."
+  },
+  {
+    "key": "message3#07465",
+    "find": "好吧，老實說！他怎麼才能把\r\n所有的錢藏在那麼細小的身體裡面?",
+    "replace": "真是的！他那小小的身上，\r\n到底把這麼多錢藏在哪裡啊？",
+    "note": "Where on his body concerns storage on his person, not inside his anatomy."
+  },
+  {
+    "key": "message3#07478",
+    "find": "你的口袋要非常厚實",
+    "replace": "你手頭的錢要夠多",
+    "note": "Deep pockets means wealth, not thick fabric."
+  },
+  {
+    "key": "message3#07499",
+    "find": "那小子正在錢堆裡面打滾!",
+    "replace": "那小子還真是錢多得不得了！",
+    "note": "Rolling in dough describes being rich, not an action."
+  },
+  {
+    "key": "message3#07505",
+    "find": "放牛的",
+    "replace": "小夥子",
+    "note": "Buckaroo is a playful form of address, not Link's occupation."
+  },
+  {
+    "key": "message3#07622",
+    "find": "有空常回來看看！",
+    "replace": "收集更多材料後再來吧！",
+    "note": "The return visit is tied to collecting more jelly."
+  },
+  {
+    "key": "message3#07622",
+    "find": "奇妙甜蜜黏呼呼",
+    "replace": "奇妙黏呼呼",
+    "note": "Gooey does not assert a sweet taste."
+  },
+  {
+    "key": "message3#06640",
+    "find": "按 {0E:3:0:0}",
+    "replace": "輕按 {0E:3:0:0}",
+    "note": "Preserve tap rather than a possible held-button interpretation."
+  },
+  {
+    "key": "message3#06642",
+    "find": "{0E:3:0:0}那個方向",
+    "replace": "那個方向",
+    "codes": "changed",
+    "note": "Remove the second A-button token added by the Chinese text; English contains only the earlier use-A instruction."
+  },
+  {
+    "key": "message3#06647",
+    "find": "你在聽嗎？",
+    "replace": "你都聽見了嗎？",
+    "note": "Medli realizes she was overheard, not asks whether the player is paying attention now."
+  },
+  {
+    "key": "message3#06647",
+    "find": "我很慚愧...",
+    "replace": "好難為情...",
+    "note": "Embarrassment at being overheard is not guilt or shame over wrongdoing."
+  },
+  {
+    "key": "message3#06743",
+    "find": "你做得太驚人了！",
+    "replace": "你的協調能力真驚人！",
+    "note": "Restore the specific skill being praised."
+  },
+  {
+    "key": "message3#06744",
+    "find": "每封信 ",
+    "replace": "一封，合計是",
+    "note": "Connect the per-letter rate to the inserted total payment."
+  },
+  {
+    "key": "message3#06767",
+    "find": "天空就是那極限！",
+    "replace": "你的潛力可無窮啊！",
+    "note": "The sky's the limit praises limitless potential, not a literal sky boundary."
+  },
+  {
+    "key": "message3#06836",
+    "find": "真熱鬧啊！",
+    "replace": "事情可真多啊！",
+    "note": "So much going on describes a busy situation, not necessarily a lively celebration."
+  },
+  {
+    "key": "message3#06909",
+    "find": "那個守口如瓶的郵差",
+    "replace": "那個郵差",
+    "note": "The original does not characterize the postman as tight-lipped."
+  },
+  {
+    "key": "message3#06911",
+    "find": "我假裝把全部心思都放在\r\n那小孩身上...",
+    "replace": "我就假裝很擔心\r\n那個小孩的樣子...",
+    "note": "Gonzo feigned concern, not general fixation on the child."
+  },
+  {
+    "key": "message3#06917",
+    "find": "然後把它們裝填好，",
+    "replace": "一把它們全搬上船，",
+    "note": "Loading means putting the bombs aboard, not arming or filling them."
+  },
+  {
+    "key": "message3#06925",
+    "find": "你們看看那被毀滅的小島！",
+    "replace": "你們都見過那座被摧毀的小島！",
+    "note": "Tetra invokes a past shared observation, not a command to look at it now."
+  },
+  {
+    "key": "message3#06925",
+    "find": "你們看看那無情的破壞。",
+    "replace": "也見過那場毫無道理的破壞。",
+    "note": "Preserve senseless destruction and its past observation."
+  },
+  {
+    "key": "message3#06925",
+    "find": "否則同樣的事情會發生在那裡！",
+    "replace": "否則那裡也可能遭遇同樣的事！",
+    "note": "Could happen is a danger, not certainty."
+  },
+  {
+    "key": "message3#06944",
+    "find": "我的老夥計",
+    "replace": "我以前的小弟",
+    "note": "My old swabbie recalls Niko's former underling, not an equal long-time companion."
+  },
+  {
+    "key": "message3#06945",
+    "find": "別介意我想什麼了！",
+    "replace": "先別管我怎麼想的了！",
+    "note": "Never mind redirects the topic, not asks the player not to be offended."
+  },
+  {
+    "key": "message3#06949",
+    "find": "你得輪流用",
+    "replace": "你得從",
+    "note": "Introduce the required jump from one rope to the next."
+  },
+  {
+    "key": "message3#06949",
+    "find": "和{0E:0:3:2:FFFF}{0E:0:3:2:0001}另一根繩索{0E:0:3:2:FFFF}{0E:0:3:2:0001}跳",
+    "replace": "跳到{0E:0:3:2:FFFF}{0E:0:3:2:0001}下一根繩索{0E:0:3:2:FFFF}{0E:0:3:2:0001}",
+    "note": "Restore the direction of movement while preserving every formatting token."
+  },
+  {
+    "key": "message3#06965",
+    "find": "嘿，你用它做什麼？",
+    "replace": "嘿，這東西要怎麼用？",
+    "note": "Ask how the stone works, not what the player currently uses it for."
+  },
+  {
+    "key": "message2#06207",
+    "find": "我的意思是，我幹嘛專挑它火冒三丈的時候\r\n去它那裡弄鱗片？",
+    "replace": "我是說，它氣成那樣，\r\n我到底要怎麼從它那裡拿到鱗片？",
+    "note": "Komali doubts how it is possible, not why he would choose an inconvenient time."
+  },
+  {
+    "key": "message2#06216",
+    "find": "一無所長",
+    "replace": "什麼也不做",
+    "note": "Do-nothing criticizes inaction rather than absence of ability."
+  },
+  {
+    "key": "message2#06254",
+    "find": "你真的幫了大忙了！",
+    "replace": "你救了我們一命！",
+    "note": "Saved our tail feathers is the bird-themed equivalent of saving our skins."
+  },
+  {
+    "key": "message2#06260",
+    "find": "快回答我！",
+    "replace": "打起精神來！",
+    "note": "Look alive calls for alertness."
+  },
+  {
+    "key": "message2#06276",
+    "find": "阿古！快點！",
+    "replace": "阿古！開口啊！",
+    "note": "Speak up asks him to say something."
+  },
+  {
+    "key": "message2#06301",
+    "find": "即便在過去那段好時光",
+    "replace": "即使在狀況最好的時候",
+    "note": "Even in the best of times is a general limit, not specifically nostalgia for a past era."
+  },
+  {
+    "key": "message2#06308",
+    "find": "這裡的空氣簡直瘋了。",
+    "replace": "這裡的氣流全亂了。",
+    "note": "Crazy air refers to chaotic winds, not sentient air losing its mind."
+  },
+  {
+    "key": "message2#06308",
+    "find": "神殿",
+    "replace": "神祠",
+    "note": "The damaged nearby shrine is not the Wind Temple dungeon."
+  },
+  {
+    "key": "message2#06308",
+    "find": "現在我們將為此付出代價。",
+    "replace": "現在我們正為此付出代價。",
+    "note": "They are already paying the price through the strange winds."
+  },
+  {
+    "key": "message2#06309",
+    "find": "風神的神殿",
+    "replace": "風之祠",
+    "note": "Use the same shrine name as the nearby sign and message2#06512."
+  },
+  {
+    "key": "message2#06319",
+    "find": "別愣在外面啊，喂？",
+    "replace": "不想待在外面，對吧？",
+    "note": "The speaker acknowledges the visitor's wish, not scolds them for standing still."
+  },
+  {
+    "key": "message2#06322",
+    "find": "哦！好久不見！",
+    "replace": "嘿！歡迎回來！",
+    "note": "Welcome back does not imply a long absence."
+  },
+  {
+    "key": "message2#06337",
+    "find": "到那裡千萬要小心...",
+    "replace": "在外面要小心...",
+    "note": "Out there refers to outside, not a particular indicated destination."
+  },
+  {
+    "key": "message2#06340",
+    "find": "你就是那個初出茅廬的傢伙吧，",
+    "replace": "你就是首領提到的那個年輕人，",
+    "note": "Restore how the guard recognizes the visitor."
+  },
+  {
+    "key": "message2#06344",
+    "find": "我想一旦瓦魯的問題得到解決，接下來就",
+    "replace": "我原以為瓦魯的問題解決後，事情就會",
+    "note": "His expectation was in the past and has now been contradicted by the backlog."
+  },
+  {
+    "key": "message2#06403",
+    "find": "啊！好大的風啊！",
+    "replace": "啊！這微風吹得真舒服！",
+    "note": "Mighty modifies nice, not the wind's strength."
+  },
+  {
+    "key": "message2#06408",
+    "find": "雕像",
+    "replace": "紀念碑",
+    "note": "The damaged monument is not described as a statue."
+  },
+  {
+    "key": "message2#06455",
+    "find": "可就成了脫韁野馬啦！",
+    "replace": "一定會開心得不得了！",
+    "note": "The cyclones will be happy with Link, not uncontrollably running wild."
+  },
+  {
+    "key": "message2#06510",
+    "find": "呼喚風神之風吧！",
+    "replace": "運用風神之風吧！",
+    "note": "Use the wind concerns employing its power, not simply calling for it."
+  },
+  {
+    "key": "message2#06511",
+    "find": "呼喚",
+    "replace": "運用",
+    "note": "Keep Medli's quotation of Valoo's words consistent."
+  },
+  {
+    "key": "message2#06551",
+    "find": "我曾發誓",
+    "replace": "我已經答應她",
+    "note": "Kind of promised does not claim a solemn oath."
+  },
+  {
+    "key": "message2#06563",
+    "find": "貼到信裡",
+    "replace": "放進信裡",
+    "note": "Stick in a letter means putting the feathers inside, not gluing them to it."
+  },
+  {
+    "key": "message3#06601",
+    "find": "你沒問題!",
+    "replace": "你平安無事啊！",
+    "note": "You're OK expresses relief at Link's safety."
+  },
+  {
+    "key": "message3#06603",
+    "find": "現在我能好好休息了呀\r\n因為我已經親眼確認了你安全又快樂。",
+    "replace": "親眼看到你平安無事，\r\n我終於可以放心了。",
+    "note": "Rest easy means feel reassured; safe and sound means unharmed, not happy."
+  },
+  {
+    "key": "message3#06618",
+    "find": "簡直無法想像",
+    "replace": "真了不起",
+    "note": "Incredible praises the performance rather than describing inability to imagine something."
+  },
+  {
+    "key": "message3#06622",
+    "find": "好像是一件遺忘已久",
+    "replace": "彷彿有件遺忘已久的事，",
+    "note": "The song is prompting an old memory to return."
+  },
+  {
+    "key": "message3#06622",
+    "find": "卻又要努力 ",
+    "replace": "正逐漸",
+    "note": "Do not imply a deliberate effort the original does not state."
+  },
+  {
+    "key": "message3#06622",
+    "find": "回想的事情",
+    "replace": "浮上心頭",
+    "note": "Complete the returning-memory description."
+  },
+  {
+    "key": "message3#06634",
+    "find": "進行一次祈禱。",
+    "replace": "藉助一次祈禱的力量。",
+    "note": "Go for another prayer does not require Link himself to perform the sage's prayer."
+  },
+  {
+    "key": "message2#05611",
+    "find": "你們兩個立即來見我，",
+    "replace": "你必須跟著",
+    "note": "The king addresses Tetra and asks her to accompany Link, not addresses Link after a command to both."
+  },
+  {
+    "key": "message2#05611",
+    "find": "，馬上！",
+    "replace": "一起立刻來見我！",
+    "note": "Complete the command after the preserved Link name insertion."
+  },
+  {
+    "key": "message2#05612",
+    "find": "聽起來挺重要嘛！",
+    "replace": "口氣倒是不小嘛！",
+    "note": "Tetra mocks the speaker's self-importance, not the importance of a task."
+  },
+  {
+    "key": "message2#05612",
+    "find": "坐穩等著吧。",
+    "replace": "都別催啦。",
+    "note": "Hold your horses asks for patience, not sitting securely."
+  },
+  {
+    "key": "message2#05613",
+    "find": "告訴我",
+    "replace": "帶我去",
+    "note": "Show me how to get there asks Link to lead Tetra."
+  },
+  {
+    "key": "message2#05613",
+    "find": " 如何前往",
+    "replace": "找",
+    "note": "Complete the direction request around the preserved emphasis controls."
+  },
+  {
+    "key": "message2#05614",
+    "find": "告訴我說話的人在哪裡！",
+    "replace": "帶我去找說話的人！",
+    "note": "Preserve the repeated request to be led to the speaker."
+  },
+  {
+    "key": "message2#05658",
+    "find": "我就是要引導你們來到這裡的人。",
+    "replace": "我就是一路引導你來到這裡的人。",
+    "note": "The guidance already happened; this is an identity reveal, not a future intention."
+  },
+  {
+    "key": "message2#05659",
+    "find": "只要那柄劍還能擊敗加儂，",
+    "replace": "只要那柄大師之劍還能擊敗加儂，",
+    "note": "Restore the explicit sword identity in the king's explanation."
+  },
+  {
+    "key": "message2#05667",
+    "find": "特托拉，跟我來。",
+    "replace": "特托拉，到我這裡來。",
+    "note": "Come to me asks her to approach the stationary king, not follow him away."
+  },
+  {
+    "key": "message2#05668",
+    "find": "是稱為",
+    "replace": "是名為",
+    "note": "Prepare the explicit partial-treasure description."
+  },
+  {
+    "key": "message2#05668",
+    "find": "神聖寶物{0E:0:3:2:FFFF}{0E:0:3:2:0000}，",
+    "replace": "神聖寶物{0E:0:3:2:FFFF}{0E:0:3:2:0000}的一部分，",
+    "note": "The necklace is only part of the Triforce of Wisdom, not the whole treasure."
+  },
+  {
+    "key": "message2#05677",
+    "find": "但是現在真相已經大白於天下了，",
+    "replace": "但如今我們已經知道，",
+    "note": "The identity has become known to the speakers, not publicly revealed to the whole world."
+  },
+  {
+    "key": "message2#05679",
+    "find": "我已經猜到了，到底是什麼導致\r\n大師之劍{0E:0:3:2:0001}失去它的能量{0E:0:3:2:FFFF}{0E:0:3:2:0000}。",
+    "replace": "關於大師之劍為何{0E:0:3:2:0001}失去力量{0E:0:3:2:FFFF}{0E:0:3:2:0000}，\r\n我心裡已有一些猜測。",
+    "note": "A suspicion is not a solved explanation."
+  },
+  {
+    "key": "message2#05711",
+    "find": "在離開了海拉魯的時候，他與這片\r\n讓他成為英雄的碎片分離開來。",
+    "replace": "離開海拉魯時，他便與\r\n賦予他勇者身分的力量分離了。",
+    "note": "The elements that made him a hero are not described as one already-fragmented shard."
+  },
+  {
+    "key": "message2#05712",
+    "find": "我想你還沒聽說過那樣的海圖。",
+    "replace": "你有聽說過那樣的海圖嗎？",
+    "note": "Restore the inquiry rather than assert the player has not heard of the chart."
+  },
+  {
+    "key": "message2#05716",
+    "find": "你的旅途將在",
+    "replace": "你的試煉已在",
+    "note": "Trials, not the journey itself, are what have not ended."
+  },
+  {
+    "key": "message2#05717",
+    "find": "你真正的旅途就即將開始了。",
+    "replace": "你真正的試煉才會開始。",
+    "note": "Keep the same trial distinction in the following sentence."
+  },
+  {
+    "key": "message2#05722",
+    "find": "只有依靠你在",
+    "replace": "當你用在",
+    "note": "Once introduces the event after which the truth will be revealed, not an only-way claim."
+  },
+  {
+    "key": "message2#05722",
+    "find": "你才能擊倒加儂...",
+    "replace": "擊倒加儂之後...",
+    "note": "Complete the temporal condition."
+  },
+  {
+    "key": "message2#05723",
+    "find": "趕快去城堡中完成你需要做的事情吧！",
+    "replace": "去看看城堡中有什麼在等著你吧！",
+    "note": "Discover what awaits in the castle, not finish an unspecified known task."
+  },
+  {
+    "key": "message2#05756",
+    "find": "你收集的三角神力碎片向",
+    "replace": "你拼成的那塊三角神力向",
+    "note": "The assembled Triforce piece is complete; the player is not presenting loose shards."
+  },
+  {
+    "key": "message2#05757",
+    "find": "三角神力碎片從你的體內{0E:0:3:2:0001}浮現{0E:0:3:2:FFFF}{0E:0:3:2:0000}出來了！",
+    "replace": "看，你的手上！那塊三角神力如今已\r\n{0E:0:3:2:0001}寄宿{0E:0:3:2:FFFF}{0E:0:3:2:0000}在你體內了！",
+    "note": "Restore the hand observation and the power dwelling within Link, not emerging out of him."
+  },
+  {
+    "key": "message2#05759",
+    "find": "你乘風而來，破浪而行，",
+    "replace": "你駕馭風，跨越大海，",
+    "note": "Link controlled the wind, not simply rode it."
+  },
+  {
+    "key": "message2#05762",
+    "find": "現在我們做好準備就直奔",
+    "replace": "我們必須立刻前往",
+    "note": "No additional preparation step is required by the source."
+  },
+  {
+    "key": "message2#05763",
+    "find": "嗯，除非我們找到了什麼方法能駕馭",
+    "replace": "啊，要是我們能找到辦法駕馭",
+    "note": "If only expresses a wish, not an exception to the preceding warning."
+  },
+  {
+    "key": "message2#05767",
+    "find": "讓你的每一個親人和朋友知道\r\n你過得很好，知道你很想念他們。",
+    "replace": "讓家人親眼確認\r\n你還活著，而且平安健康。",
+    "note": "Reassure family of being alive and healthy; missing them and visiting all friends were added."
+  },
+  {
+    "key": "message2#05768",
+    "find": "我就得開始尋找",
+    "replace": "我們就得開始尋找",
+    "note": "The king and player will search together."
+  },
+  {
+    "key": "message2#05904",
+    "find": "通路現已開啟。",
+    "replace": "現在可以開啟通路了。",
+    "note": "Can now be opened is permission or capability, not completed opening."
+  },
+  {
+    "key": "message2#05906",
+    "find": "現在要通過的試煉\r\n便是你為自己定下的命運。",
+    "replace": "接下來將發生的事，與你的命運，\r\n也就是你選擇的道路息息相關。",
+    "note": "Come to pass means events happening, not passing a trial."
+  },
+  {
+    "key": "message2#06005",
+    "find": "我保證她不會有事的。",
+    "replace": "我相信她一定會撐下去的。",
+    "note": "Confidence she will hang in there is not a guarantee of no harm."
+  },
+  {
+    "key": "message2#06007",
+    "find": "是嗎？還是找不到\r\n瓦魯生氣的原因嗎？",
+    "replace": "怎麼樣？找到\r\n瓦魯大人發怒的原因了嗎？",
+    "note": "The question asks whether the cause has been found, without assuming continued failure."
+  },
+  {
+    "key": "message2#06020",
+    "find": "你的意思呢？",
+    "replace": "可以拜託你嗎？",
+    "note": "Frame the request for help as an invitation, not an unexplained request for the player's meaning."
+  },
+  {
+    "key": "message2#06050",
+    "find": "我多麼希望能親口向你道聲謝。",
+    "replace": "我一直盼著能親口向你道謝。",
+    "note": "The hoped-for meeting is now occurring."
+  },
+  {
+    "key": "message2#06056",
+    "find": "我多麼希望能親口向你道聲謝。",
+    "replace": "我一直盼著能親口向你道謝。",
+    "note": "Keep the identical greeting consistent."
+  },
+  {
+    "key": "message2#06062",
+    "find": "自你走後，我們的小島就被一群怪物\r\n佔領了，",
+    "replace": "自你離開後，我們的小島就不斷受到\r\n一群怪物侵擾，",
+    "note": "Beset by monsters does not assert the island is occupied by them."
+  },
+  {
+    "key": "message2#06110",
+    "find": "看我發現了什麼！",
+    "replace": "我得把發現的事告訴你！",
+    "note": "Medli is reporting a discovery, not showing a present object."
+  },
+  {
+    "key": "message2#06111",
+    "find": "裡面一定出了什麼事...",
+    "replace": "裡面一定有什麼東西...",
+    "note": "The clue concerns a creature in the room, not merely an event."
+  },
+  {
+    "key": "message2#06116",
+    "find": "從我身後的岩石邊\r\n爬上去，我想讓你看些東西。",
+    "replace": "爬上那邊的小岩臺，\r\n我想讓你看些東西。",
+    "note": "Remove the unsupported behind-me direction."
+  },
+  {
+    "key": "message2#06122",
+    "find": "如果我能擁有跟她一樣的力量，",
+    "replace": "如果我能有她幾分的堅強，",
+    "note": "Some of her strength is not having all the same power."
+  },
+  {
+    "key": "message2#06124",
+    "find": "只要我能抓準",
+    "replace": "只要我的翅膀能得到",
+    "note": "Medli needs supporting wind beneath her wings."
+  },
+  {
+    "key": "message2#06124",
+    "find": "風向",
+    "replace": "風力",
+    "note": "Complete the wind-lift condition rather than merely identifying direction."
+  },
+  {
+    "key": "message2#06133",
+    "find": "沒...沒關係。",
+    "replace": "沒...沒那麼痛。",
+    "note": "Restore Medli's comic reassurance about the impact hurting."
+  },
+  {
+    "key": "message2#06139",
+    "find": "我可能只是一個見習侍從",
+    "replace": "我雖然只是個見習侍從",
+    "note": "May be just is a concession, not uncertainty about her occupation."
+  },
+  {
+    "key": "message2#06201",
+    "find": "你以為你是誰？",
+    "replace": "你又是哪位？",
+    "note": "Keep the unfriendly request for identity without turning it into a rebuke for arrogance."
+  },
+  {
+    "key": "message2#06206",
+    "find": "你實在很討人厭耶！",
+    "replace": "你還真愛管閒事耶！",
+    "note": "Nosy criticizes meddling, not general unlikability."
+  },
+  {
+    "key": "message2#05034",
+    "find": "森之水的由來",
+    "replace": "森之水的事情",
+    "note": "The topic includes properties and use, not only its origin."
+  },
+  {
+    "key": "message2#05038",
+    "find": "都面臨\r\n著陷入黑暗與危機的惡劣局面。",
+    "replace": "已經\r\n變得黑暗而危險。",
+    "note": "The islands have already become dangerous, not just face that prospect."
+  },
+  {
+    "key": "message2#05038",
+    "find": "會是什麼妖魔在等著我的孩子們",
+    "replace": "會有什麼危險在等著我的孩子們",
+    "note": "Perils include more than monsters."
+  },
+  {
+    "key": "message2#05039",
+    "find": "遇到了他們，無論如何請幫幫他們，",
+    "replace": "遇見他們，而他們正身陷險境，\r\n請盡你所能幫助他們，",
+    "note": "Restore the grave-circumstances condition and helping however possible."
+  },
+  {
+    "key": "message2#05067",
+    "find": "那棵老樹才能活得",
+    "replace": "我這棵老樹才能活得",
+    "note": "The Deku Tree is referring to himself."
+  },
+  {
+    "key": "message2#05067",
+    "find": "克洛格，希望你能用森之水的效果\r\n救助他們。",
+    "replace": "克洛格，希望你趁森之水還有效時\r\n幫助他們。",
+    "note": "Restore the limited time during which Forest Water remains potent."
+  },
+  {
+    "key": "message2#05101",
+    "find": "為了\r\n繁衍出更多的森林而在廣袤\r\n的大海原上奔波。",
+    "replace": "在大海原的\r\n各座島上培育新樹，\r\n讓森林茁壯成長。",
+    "note": "Restore actually raising trees on the islands, not merely traveling for forests."
+  },
+  {
+    "key": "message2#05101",
+    "find": "參加週年慶典",
+    "replace": "參加一年一度的典禮",
+    "note": "Annual ceremony need not be an anniversary celebration."
+  },
+  {
+    "key": "message2#05105",
+    "find": "最後的最後我們會一起枯萎...",
+    "replace": "我們甚至可能全都枯萎...",
+    "note": "Preserve might even, rather than asserting an inevitable final outcome."
+  },
+  {
+    "key": "message2#05109",
+    "find": "劍士先生",
+    "replace": "騎士先生",
+    "note": "Preserve Mr. Knight, distinct from nearby Mr. Swordsman."
+  },
+  {
+    "key": "message2#05110",
+    "find": "只要別讓",
+    "replace": "只要不推動",
+    "note": "Leaving the stick alone is the relevant action."
+  },
+  {
+    "key": "message2#05110",
+    "find": "倒向任何地方",
+    "replace": "，讓它保持原位",
+    "note": "Clarify neutral stick position without saying an object should not fall over."
+  },
+  {
+    "key": "message2#05127",
+    "find": "你只能祈禱",
+    "replace": "你就得仰賴",
+    "note": "At the mercy of the wind describes a flight dependency, not prayer."
+  },
+  {
+    "key": "message2#05127",
+    "find": "風的庇護",
+    "replace": "風勢",
+    "note": "The wind carries the leaf physically."
+  },
+  {
+    "key": "message2#05132",
+    "find": "並同時按下",
+    "replace": "接著立刻按下",
+    "note": "Jump first and immediately deploy the leaf afterward, not simultaneously before airborne."
+  },
+  {
+    "key": "message2#05134",
+    "find": "現在你首先要做的就是砍光",
+    "replace": "首先，割除",
+    "note": "Cut grass to replenish magic; cutting every clump is not required."
+  },
+  {
+    "key": "message2#05135",
+    "find": "你必須精確把握時間間隔，",
+    "replace": "你必須抓準起跳時機，",
+    "note": "Time your jump means choosing the moment of takeoff, not measuring an interval."
+  },
+  {
+    "key": "message2#05142",
+    "find": "漿果",
+    "replace": "果實",
+    "note": "Fruit does not specify berries."
+  },
+  {
+    "key": "message2#05146",
+    "find": "我就能幫你做出那樣的藥水。",
+    "replace": "我也許就能替你做出藥水。",
+    "note": "Preserve might be able, not a guaranteed result."
+  },
+  {
+    "key": "message2#05153",
+    "find": "弄點什麼發明出來",
+    "replace": "做點什麼",
+    "note": "Do something with it does not specifically mean inventing a new thing."
+  },
+  {
+    "key": "message2#05157",
+    "find": "才能研製出這種新藥水。",
+    "replace": "才能製作一份藥水。",
+    "note": "Four seeds make one helping, not a one-time research breakthrough."
+  },
+  {
+    "key": "message2#05163",
+    "find": "哈哈！萬事俱備。收下這個出發吧。",
+    "replace": "哈哈！藥水做好了。拿去吧。",
+    "note": "It's ready announces the potion is made, not that preparations for departure are complete."
+  },
+  {
+    "key": "message2#05166",
+    "find": "嗯，但是恐怕我無法給你藥水，因為\r\n看起來你沒有",
+    "replace": "不過，我沒辦法給你藥水，\r\n除非你有",
+    "note": "State the empty-bottle prerequisite without weakening it to an appearance."
+  },
+  {
+    "key": "message2#05205",
+    "find": "週年慶典",
+    "replace": "年度典禮",
+    "note": "Keep the annual ceremony terminology consistent."
+  },
+  {
+    "key": "message2#05250",
+    "find": "你必須",
+    "replace": "你還需要",
+    "note": "The inserted value is the remaining number of Koroks."
+  },
+  {
+    "key": "message2#05250",
+    "find": "更多的",
+    "replace": "名",
+    "note": "Put the count before its classifier rather than a misplaced more."
+  },
+  {
+    "key": "message2#05252",
+    "find": "找回",
+    "replace": "找到",
+    "note": "Find the Koroks to help them; they need not be brought back."
+  },
+  {
+    "key": "message2#05254",
+    "find": "一旦這棵樹恢復了活力你可要回來看看啊",
+    "replace": "等這棵樹的根蔓延開來，",
+    "note": "The invitation is for after a large forest forms, not immediately after recovery."
+  },
+  {
+    "key": "message2#05254",
+    "find": "當它的根延伸出一大片新的森林時，",
+    "replace": "形成一大片森林後，你可要回來看看啊。",
+    "note": "Complete the future-growth condition."
+  },
+  {
+    "key": "message2#05263",
+    "find": "因為只要有一棵樹沒能成活，",
+    "replace": "看來只要有一棵樹沒能長大，",
+    "note": "Preserve seems and failed growth, rather than asserting a tree has died."
+  },
+  {
+    "key": "message2#05263",
+    "find": "在那一年裡種下的",
+    "replace": "由同一年種子長成的",
+    "note": "The linked trees share the same year's seeds, not simply the planting date."
+  },
+  {
+    "key": "message2#05263",
+    "find": "最後",
+    "replace": "，",
+    "note": "Connect withering with its consequence without an extra final-stage claim."
+  },
+  {
+    "key": "message2#05263",
+    "find": "無緣",
+    "replace": "無法",
+    "note": "Fail to grow describes inability, not fate."
+  },
+  {
+    "key": "message2#05263",
+    "find": "成為茂盛的森林。",
+    "replace": "長得高大茁壯。",
+    "note": "The individual trees fail to grow tall and mighty."
+  },
+  {
+    "key": "message2#05264",
+    "find": "照顧這些樹，",
+    "replace": "讓這些樹恢復健康，",
+    "note": "The required outcome is nursing the trees back to health, not simply caring for them."
+  },
+  {
+    "key": "message2#05264",
+    "find": "最後連德庫樹也會慢慢凋零的...",
+    "replace": "連德庫樹也會慢慢枯萎、死去...",
+    "note": "Restore the explicitly stated risk of death."
+  },
+  {
+    "key": "message2#05286",
+    "find": "當你在海面上航行時",
+    "replace": "當你坐在海上的船裡時",
+    "note": "The requirement is being aboard at sea, not actively sailing."
+  },
+  {
+    "key": "message2#05302",
+    "find": "您總是在孜孜不倦的教導我們，",
+    "replace": "我知道您已經警告過我們很多次，",
+    "note": "Makar admits ignoring repeated warnings, not general diligent teaching."
+  },
+  {
+    "key": "message2#05309",
+    "find": "向大海原的另一邊繁衍出森林。",
+    "replace": "在大海原各地培育新的森林。",
+    "note": "Across the Great Sea means throughout it, not only the opposite shore."
+  },
+  {
+    "key": "message2#05313",
+    "find": "期待希望之風再次把你\r\n帶回我身邊的那天！",
+    "replace": "願機緣之風有朝一日\r\n讓我們再次相聚！",
+    "note": "Chance brings both parties together, not necessarily by the hero returning here."
+  },
+  {
+    "key": "message2#05401",
+    "find": "沒想到在這裡能見到你。",
+    "replace": "沒想到你能在這裡找到我。",
+    "note": "Makar is surprised the player located his hiding place."
+  },
+  {
+    "key": "message2#05419",
+    "find": "我已經把",
+    "replace": "我已讓你的大師之劍完全",
+    "note": "State full restoration of the sword's power."
+  },
+  {
+    "key": "message2#05419",
+    "find": "了的",
+    "replace": "了",
+    "note": "Complete the restored predicate around the preserved formatting controls."
+  },
+  {
+    "key": "message2#05419",
+    "find": "注入到你的大師之劍中。",
+    "replace": "。",
+    "note": "Avoid implying already-restored power was a separate material being injected."
+  },
+  {
+    "key": "message2#05420",
+    "find": "我的祖先們也會為此而高興吧。",
+    "replace": "我的祖先們也非常滿意。",
+    "note": "Their satisfaction is stated as present fact, not a future guess."
+  },
+  {
+    "key": "message2#05422",
+    "find": "願希望之風在你身後舞動。",
+    "replace": "願幸運之風從你背後吹來。",
+    "note": "Restore the blessing of good fortune and a following wind."
+  },
+  {
+    "key": "message2#05428",
+    "find": "可伸到我種的\r\n那棵樹上。",
+    "replace": "應該能鉤住我種的\r\n那些樹。",
+    "note": "The Hookshot latches onto the planted trees, not merely extends to one."
+  },
+  {
+    "key": "message2#05429",
+    "find": "要是德庫樹還在\r\n這裡多好...",
+    "replace": "要是德庫樹現在\r\n就在這裡就好了...",
+    "note": "If only he were here now does not imply he used to be here."
+  },
+  {
+    "key": "message2#04050",
+    "find": "按 {0E:3:8:0}",
+    "replace": "推動 {0E:3:8:0}",
+    "note": "Quantity selection uses stick movement, not pressing the stick."
+  },
+  {
+    "key": "message2#04055",
+    "find": "最近這些東西都",
+    "replace": "最近這些東西在怪物之間",
+    "note": "Restore who these wares are popular with."
+  },
+  {
+    "key": "message2#04055",
+    "find": "我一路笑著走去銀行，",
+    "replace": "我可賺翻了，笑得合不攏嘴！",
+    "note": "Laughing all the way to the bank is profiting happily, not physically walking to a bank."
+  },
+  {
+    "key": "message2#04102",
+    "find": "然後幫他做點事情。",
+    "replace": "照他的吩咐做事。",
+    "note": "Do whatever Niko tells you, not merely help with unspecified tasks."
+  },
+  {
+    "key": "message2#04105",
+    "find": "你在那裡負責偵查的，對嗎？！",
+    "replace": "在上面給我盯緊一點，聽見沒有？！",
+    "note": "The speaker commands a strict lookout, rather than asks who is assigned to it."
+  },
+  {
+    "key": "message2#04105",
+    "find": "要你發現了什麼",
+    "replace": "要是發現了什麼",
+    "note": "Restore the missing conditional construction."
+  },
+  {
+    "key": "message2#04107",
+    "find": "是你住的島上正好興起\r\n復古潮流了？",
+    "replace": "這是你們島上\r\n流行的打扮嗎？",
+    "note": "Popularity does not imply a retro fashion movement."
+  },
+  {
+    "key": "message2#04122",
+    "find": "只需要走過去",
+    "replace": "走到開關前，再推動",
+    "note": "Restore the stick motion used to step onto the switch."
+  },
+  {
+    "key": "message2#04125",
+    "find": "擺起來到你最接近下一個平臺時",
+    "replace": "盪到夠接近下一個平臺時，",
+    "note": "Close enough does not require waiting for the exact closest point."
+  },
+  {
+    "key": "message2#04129",
+    "find": "好，那就開始吧！",
+    "replace": "好，試試看吧！\r\n這下應該能讓我笑上幾聲！",
+    "note": "Restore Niko's omitted anticipation of laughing at the recruit."
+  },
+  {
+    "key": "message2#04136",
+    "find": "-{0E:1:6:2:000A}快點去拿！",
+    "replace": "快、{0E:1:6:2:000A}快去拿！我是認真的！",
+    "note": "Restore the stammer and the omitted insistence."
+  },
+  {
+    "key": "message2#04136",
+    "find": "果斷點！",
+    "replace": "快點，小弟！",
+    "note": "Hurry concerns speed, not decisiveness."
+  },
+  {
+    "key": "message2#04138",
+    "find": "等你忙了自己的活，",
+    "replace": "等你辦完自己的事，",
+    "note": "Returning is conditioned on finishing the errand."
+  },
+  {
+    "key": "message2#04141",
+    "find": "在沒人來找你前快去拿吧！",
+    "replace": "趁還沒人來，快去拿吧！",
+    "note": "Someone might arrive, not necessarily come looking for the player."
+  },
+  {
+    "key": "message2#04303",
+    "find": "遵命，先生！",
+    "replace": "是的，先生！",
+    "note": "Yes sir affirms Tingle's claim of knowing, rather than obeying a command."
+  },
+  {
+    "key": "message2#04308",
+    "find": "什麼！莫非這不是妖精先生！",
+    "replace": "哎呀！這不是妖精先生嗎！",
+    "note": "If it isn't is a recognition idiom, not doubt that the visitor is Mr. Fairy."
+  },
+  {
+    "key": "message2#04318",
+    "find": "棒極了！庭格爾就要準備到\r\n自己的島去了，他在島上等著\r\n妖精先生呢。",
+    "replace": "棒極了！庭格爾現在要回自己的島了。\r\n妖精先生，你會來找他嗎？",
+    "note": "Restore the invitation to visit, not an already-set waiting arrangement."
+  },
+  {
+    "key": "message2#04406",
+    "find": "我發誓！",
+    "replace": "真是的！",
+    "note": "I swear is exasperation here, not an oath."
+  },
+  {
+    "key": "message2#04406",
+    "find": "那好像就在你身後馬上就要\r\n再次俯衝下來一樣！",
+    "replace": "那隻怪鳥差點就又要追著你\r\n飛進這裡了！",
+    "note": "State the actual imminent pursuit that necessitated the diversion."
+  },
+  {
+    "key": "message2#04418",
+    "find": "替我接著這個。",
+    "replace": "替我帶上她。",
+    "note": "This one refers to the rescued girl, not an unspecified object."
+  },
+  {
+    "key": "message2#04424",
+    "find": "我指的是那些海盜。",
+    "replace": "我是說，以海盜來說啦。",
+    "note": "For pirates qualifies how nice they are, rather than identifies who they are."
+  },
+  {
+    "key": "message2#04424",
+    "find": "納治是一個奇怪的小傢伙，",
+    "replace": "納治有點古怪，",
+    "note": "A little strange qualifies strangeness, not physical size."
+  },
+  {
+    "key": "message2#04424",
+    "find": "他就會發瘋...",
+    "replace": "他就馬上生氣...",
+    "note": "Gets mad means becoming angry."
+  },
+  {
+    "key": "message2#04424",
+    "find": "他們也會給我一些小費，",
+    "replace": "他們還付了我一點報酬，",
+    "note": "Aryll was paid for chores, not merely tipped."
+  },
+  {
+    "key": "message2#04424",
+    "find": "所以你也要哦！",
+    "replace": "所以你也要好好照顧自己。祝你好運！",
+    "note": "Restore the closing self-care wish and good luck."
+  },
+  {
+    "key": "message2#04469",
+    "find": "她看起來只是喪失了意識。",
+    "replace": "她只是昏過去了。",
+    "note": "The reassurance states unconsciousness directly, not as an uncertain appearance."
+  },
+  {
+    "key": "message2#04471",
+    "find": "見到您我們真是太感動了。",
+    "replace": "我們萬分感謝您的援助。",
+    "note": "Deep gratitude is for timely rescue, not merely being moved by seeing Valoo."
+  },
+  {
+    "key": "message2#04473",
+    "find": "因此我認為現在我們的第一要務，",
+    "replace": "不過我認為，最優先的還是",
+    "note": "Yet contrasts saving the pair with destroying Ganon, not a consequence of the previous claim."
+  },
+  {
+    "key": "message2#04473",
+    "find": "是要把這兩個從加儂的掌握中分離開來。",
+    "replace": "先把這兩人從加儂手中救出來。",
+    "note": "Make the rescue action and its two human subjects clear."
+  },
+  {
+    "key": "message2#04475",
+    "find": "海底之下的世界",
+    "replace": "海面下的世界",
+    "note": "Beneath the sea does not mean below the seabed."
+  },
+  {
+    "key": "message2#04505",
+    "find": "那時他毀掉這個神廟並奪走我的靈魂時，",
+    "replace": "他襲擊了這座神殿，奪走我的靈魂，",
+    "note": "The temple was attacked, not necessarily destroyed."
+  },
+  {
+    "key": "message2#04505",
+    "find": "就是有意識的斬斷那柄神兵的力量來源吧。",
+    "replace": "因為他知道必須消除那把神劍的力量。",
+    "note": "Restore the known motive, not the victim's tentative speculation."
+  },
+  {
+    "key": "message2#04507",
+    "find": "時代的發展",
+    "replace": "世代的更迭",
+    "note": "Passing of generations concerns succession, not societal development."
+  },
+  {
+    "key": "message2#04510",
+    "find": "願希望之風隨你起舞。",
+    "replace": "願幸運之風與你同行。",
+    "note": "Fortune is good luck, and blowing with the hero does not imply dancing."
+  },
+  {
+    "key": "message2#05003",
+    "find": "看見你這身裝束，我就突然有種重返\r\n過去那個年代的感覺...",
+    "replace": "看見你這身裝束，我突然懷念起\r\n那個已逝的年代...",
+    "note": "Longing for an age is nostalgia, not feeling physically transported into it."
+  },
+  {
+    "key": "message2#05015",
+    "find": "就在{0E:0:3:2:FFFF}{0E:0:3:2:0001}旁邊{0E:0:3:2:FFFF}{0E:0:3:2:0000}那個\r\n緊鄰我們森之島的孤島",
+    "replace": "就在我們神聖的森之島\r\n{0E:0:3:2:FFFF}{0E:0:3:2:0001}旁邊{0E:0:3:2:FFFF}{0E:0:3:2:0000}。",
+    "note": "Restore adjacency to the hallowed Forest Haven without inventing a separate unnamed island."
+  },
+  {
+    "key": "message2#05017",
+    "find": "比我那些克洛格孩子要重...所以\r\n我們必須先解決好這個難題。",
+    "replace": "比我的克洛格孩子重...不過我想，\r\n我們仍有辦法解決這個難題。",
+    "note": "Yet I think we can solve it is hopeful contrast, not merely an obligation to solve it first."
+  },
+  {
+    "key": "message2#05027",
+    "find": "表演完典禮",
+    "replace": "完成典禮",
+    "note": "Perform the ceremony means carrying it out, not staging it as entertainment."
+  },
+  {
+    "key": "message2#05029",
+    "find": "正漸漸的讓這個夢想成為泡影。",
+    "replace": "正設法讓這個夢想永遠無法實現。",
+    "note": "Trying to prevent the dream describes an intention, not an already-progressing success."
+  },
+  {
+    "key": "message2#03525",
+    "find": "抬起...",
+    "replace": "嘿喲...",
+    "note": "Heave-ho is a work chant here, not a separate lifting instruction."
+  },
+  {
+    "key": "message2#03534",
+    "find": "我遇到了罕見的風暴！",
+    "replace": "那是一場猛烈又可怕的風暴！",
+    "note": "Fierce and terrible describe severity, not rarity."
+  },
+  {
+    "key": "message2#03550",
+    "find": "如果沒有你，可能再也回不到這個世界了。",
+    "replace": "如果沒有你，我就再也回不來了。",
+    "note": "Restore the speaker as subject; coming back does not imply returning from another world."
+  },
+  {
+    "key": "message2#03551",
+    "find": "我終於知道為什麼這個地方被稱作\r\n最美麗的地方了！",
+    "replace": "我終於明白你說這裡是世上\r\n最美麗的地方，是什麼意思了！",
+    "note": "This responds to the listener's description, not a generally established place title."
+  },
+  {
+    "key": "message2#03906",
+    "find": "魚餌",
+    "replace": "餌料",
+    "all": true,
+    "note": "The bag holds animal bait in general, not only fishing bait."
+  },
+  {
+    "key": "message2#03906",
+    "find": "物有所值結實耐用。",
+    "replace": "相當實用。",
+    "note": "Quite useful does not promise durability or value for money."
+  },
+  {
+    "key": "message2#03913",
+    "find": "魚餌",
+    "replace": "餌料",
+    "note": "Keep the purchase restriction about all animal bait."
+  },
+  {
+    "key": "message2#03915",
+    "find": "您沒有必要再買這東西了\r\n您已經有很多了！",
+    "replace": "您現有的已經足夠，\r\n不需要再買了！",
+    "note": "Having enough is not the same as owning many individual items."
+  },
+  {
+    "key": "message2#03918",
+    "find": "有時候甚至出奇的好！",
+    "replace": "真的是非常棒的好事！",
+    "note": "Indeed emphasizes the promise, not a sometimes-only probability."
+  },
+  {
+    "key": "message2#03925",
+    "find": "海盜才賣給我不少",
+    "replace": "海盜便宜賣給我一批",
+    "note": "The pirates' sale to Beedle is the cheap transaction being described."
+  },
+  {
+    "key": "message2#03925",
+    "find": "，便宜賣哦！",
+    "replace": "！",
+    "note": "Do not turn the acquisition price into a separate unstated resale-price promise."
+  },
+  {
+    "key": "message2#03927",
+    "find": "您就別不好意思了！",
+    "replace": "這可瞞不過我！",
+    "note": "The merchant claims to notice the customer's embarrassment, not asks them to stop it."
+  },
+  {
+    "key": "message2#03930",
+    "find": "我會給您一個好價錢的！",
+    "replace": "請拿給我看看，我會買下來！",
+    "note": "Restore the show-item action and remove the unstated good-price promise."
+  },
+  {
+    "key": "message2#03932",
+    "find": "這位常客",
+    "replace": "這位先生",
+    "note": "Kind sir does not identify a returning regular customer."
+  },
+  {
+    "key": "message2#03933",
+    "find": "這批貨不錯的！",
+    "replace": "拜託您了！",
+    "note": "Preserve the plea, not an added product-quality claim."
+  },
+  {
+    "key": "message2#03940",
+    "find": "看來今天的行情超出我的預期了，",
+    "replace": "因為一些我無法控制的因素，",
+    "note": "Beyond my control means outside circumstances, not an incorrect market forecast."
+  },
+  {
+    "key": "message2#03940",
+    "find": "今天我沒帶補貨用的",
+    "replace": "目前沒有出售",
+    "note": "The merchant does not stock arrows currently; no forgotten shipment is stated."
+  },
+  {
+    "key": "message2#03943",
+    "find": "未雨綢繆的稍帶點吧！",
+    "replace": "趁還買得到，趕快買吧！",
+    "note": "While you can concerns the opportunity to buy, not a general precaution."
+  },
+  {
+    "key": "message2#03947",
+    "find": "光澤",
+    "replace": "顏色",
+    "note": "The arrows' color matches the bow, not their gloss."
+  },
+  {
+    "key": "message2#03956",
+    "find": "準備好了？特定的{0E:0:3:2:0001}物品加滿！",
+    "replace": "準備好了？{0E:0:3:2:0001}物品立即補滿！",
+    "note": "INSTANT means immediately, not specific items."
+  },
+  {
+    "key": "message2#03961",
+    "find": "我要買滿 ",
+    "replace": "我最多能買下",
+    "note": "A maximum purchase quantity is a limit, not a demand to fill it."
+  },
+  {
+    "key": "message2#03967",
+    "find": "對吧？這樣的你就別在我眼前現這些東西了！",
+    "replace": "什麼？那就別拿給我看嘛！",
+    "note": "Restore the merchant's response to declining a sale in natural word order."
+  },
+  {
+    "key": "message2#03909",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "This option confirms a purchase now, not a promise to buy later."
+  },
+  {
+    "key": "message2#03910",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#03911",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#03944",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#03946",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#03948",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#03950",
+    "find": "我會買的",
+    "replace": "買下來",
+    "note": "Use the same immediate purchase confirmation."
+  },
+  {
+    "key": "message2#04003",
+    "find": "要怎樣做？",
+    "replace": "要參加嗎？",
+    "note": "The question requests a participation choice, not instructions from the player."
+  },
+  {
+    "key": "message2#04004",
+    "find": "躍過那些",
+    "replace": "駛過那些",
+    "note": "The general course rule is sailing over barrels; jumping is separately required only for upright barrels."
+  },
+  {
+    "key": "message2#04005",
+    "find": "那些浮桶",
+    "replace": "橫躺的浮桶",
+    "note": "Only horizontal barrels can be crossed directly to collect the Rupees."
+  },
+  {
+    "key": "message2#04008",
+    "find": "你只能在比賽中使用",
+    "replace": "比賽中只能使用",
+    "note": "Only limits the sail choice during the race, not where the regular sail may ever be used."
+  },
+  {
+    "key": "message2#04008",
+    "find": "如果我說",
+    "replace": "如果在",
+    "note": "Losing is based on the timer running out, not the host announcing it."
+  },
+  {
+    "key": "message2#04008",
+    "find": "所以要趕快，聽明白了吧",
+    "replace": "所以也要留意計時器，好嗎？",
+    "note": "Restore the explicit instruction to watch the timer."
+  },
+  {
+    "key": "message2#04011",
+    "find": "怎麼了，不服輸的小鬼？你無論\r\n如何都要再來過吧？嘿嘿。",
+    "replace": "怎麼了，小子？你還是想玩，\r\n對吧？嘿嘿。",
+    "note": "After all refers to changing one's mind, not stubbornly demanding a rematch."
+  },
+  {
+    "key": "message2#04013",
+    "find": "要玩這個遊戲嗎？",
+    "replace": "怎麼回事？",
+    "note": "What's the deal reacts to the player's refusal, not asking the same participation question again."
+  },
+  {
+    "key": "message2#04013",
+    "find": "周遊世界還要變得有錢",
+    "replace": "想闖出一番成就、賺大錢",
+    "note": "Make it in the world means succeed, not travel around the world."
+  },
+  {
+    "key": "message#03008",
+    "find": "在物品頁面下按下，",
+    "replace": "先按下",
+    "note": "Open the menu before using its Items screen, not the reverse."
+  },
+  {
+    "key": "message#03008",
+    "find": "，然後 ",
+    "replace": "，然後在物品畫面\r\n",
+    "note": "Put the Items-screen context on the assignment step."
+  },
+  {
+    "key": "message#03019",
+    "find": "清楚了嗎，嗯?",
+    "replace": "很方便吧？",
+    "note": "Neat, huh expresses delight at the feature, not a comprehension check."
+  },
+  {
+    "key": "message#03020",
+    "find": "清楚了嗎，嗯?",
+    "replace": "很方便吧？",
+    "note": "Keep the second telescope-button variant's tone consistent."
+  },
+  {
+    "key": "message#03021",
+    "find": "清楚了嗎，嗯?",
+    "replace": "很方便吧？",
+    "note": "Keep the third telescope-button variant's tone consistent."
+  },
+  {
+    "key": "message#03021",
+    "find": "{0E:3:6:0}",
+    "replace": "{0E:3:4:0}",
+    "codes": "changed",
+    "note": "The English for this assigned-button variant explicitly uses 3:4, not 3:6. Correct only that button token."
+  },
+  {
+    "key": "message#03031",
+    "find": "我能找到你真是太好了！",
+    "replace": "幸好我來找你了！",
+    "note": "It is good that Aryll came to remind Link, not merely that the search succeeded."
+  },
+  {
+    "key": "message#03109",
+    "find": "好吧，沒事就算是幸運了!",
+    "replace": "哼，牠可真是「好心」啊！",
+    "note": "Preserve Tetra's sarcasm toward the bird, not a sincere remark about being lucky."
+  },
+  {
+    "key": "message#03115",
+    "find": "她走了。",
+    "replace": "她已經被帶走了。",
+    "note": "Aryll has been abducted, not left voluntarily."
+  },
+  {
+    "key": "message#03211",
+    "find": "我還有一事相告綁架你和",
+    "replace": "我還有一事相告：綁架你和",
+    "note": "Separate the announcement from the bird that is its subject."
+  },
+  {
+    "key": "message#03215",
+    "find": "如果你可以找到盾牌的話，",
+    "replace": "如果你帶著能當盾的東西回來，",
+    "note": "The condition is returning with something protective, not just discovering a formal shield."
+  },
+  {
+    "key": "message2#03307",
+    "find": "我們正在投遞 ",
+    "replace": "這裡有",
+    "note": "The inserted count describes letters available in the postbox, not an ongoing delivery."
+  },
+  {
+    "key": "message2#03315",
+    "find": "這個包裹已寄出",
+    "replace": "這個包裹採用",
+    "note": "Describe the received parcel's billing method rather than implying the player has just sent it."
+  },
+  {
+    "key": "message2#03315",
+    "find": "貨到付款",
+    "replace": "郵費到付",
+    "note": "The following choice charges postage to the recipient, not payment for merchandise."
+  },
+  {
+    "key": "message2#03322",
+    "find": "(特殊商品僅於部分區域發售。)",
+    "replace": "(部分地區不適用本次優惠。)",
+    "note": "The offer, not availability of the product itself, is region-limited."
+  },
+  {
+    "key": "message2#03323",
+    "find": "救世主,朋友！",
+    "replace": "最厲害的傢伙，朋友！",
+    "note": "You're the man is enthusiastic praise, not a claim that Link is a messiah."
+  },
+  {
+    "key": "message2#03323",
+    "find": "也許你會覺得我已經語無倫次了,",
+    "replace": "你大概看得出我根本不知道該寫什麼，",
+    "note": "Restore the writer's admission of having no idea what to write."
+  },
+  {
+    "key": "message2#03323",
+    "find": "也許我幫不上什麼，我把自己近期",
+    "replace": "雖然我賺得不多，但我把自己近期",
+    "note": "Don't make much refers to small wages, not limited usefulness."
+  },
+  {
+    "key": "message2#03437",
+    "find": "殘存神殿",
+    "replace": "另一座神殿",
+    "note": "The remaining temple is the other unfinished destination, not a surviving ruin."
+  },
+  {
+    "key": "message2#03438",
+    "find": "到殘存的",
+    "replace": "到另一座",
+    "note": "Preserve the second sage's destination consistently."
+  },
+  {
+    "key": "message2#03445",
+    "find": "但還不算太晚...",
+    "replace": "但希望尚未破滅...",
+    "note": "All is not lost concerns remaining hope, not simply timing."
+  },
+  {
+    "key": "message2#03451",
+    "find": "我們的敵人就會發現薩爾達公主的藏身之處",
+    "replace": "敵人就可能因此發現薩爾達公主的藏身之處。",
+    "note": "Preserve the risk of attracting enemies rather than certainty."
+  },
+  {
+    "key": "message2#03452",
+    "find": "按 {0E:3:22:0}",
+    "replace": "按 {0E:3:22:0} 的上方向",
+    "note": "Restore the up direction of the directional pad used to take out the Wind Waker."
+  },
+  {
+    "key": "message2#03453",
+    "find": "按{0E:3:22:0}",
+    "replace": "按{0E:3:22:0}的上方向",
+    "note": "Restore up in the repeated Wind Waker shortcut instruction."
+  },
+  {
+    "key": "message2#03521",
+    "find": "好吧，我想這就可以了。",
+    "replace": "好吧，那也沒關係。",
+    "note": "Tingle accepts declining the service; no action was completed successfully."
+  },
+  {
+    "key": "message#02414",
+    "find": "可千萬不能偷懶\r\n練習喲!",
+    "replace": "可別\r\n疏於練習喲！",
+    "note": "Repair the broken prohibition against neglecting practice."
+  },
+  {
+    "key": "message#02415",
+    "find": "錯啦!按 {0E:0:3:2:0001}就行了{0E:0:3:2:FFFF}{0E:0:3:2:0000}{0E:3:1:0}!",
+    "replace": "錯啦！{0E:0:3:2:0001}只按{0E:0:3:2:FFFF}{0E:0:3:2:0000}{0E:3:1:0}就好！",
+    "note": "Pair only with the actual button rather than placing the button after the completed instruction."
+  },
+  {
+    "key": "message#02416",
+    "find": " 然後 {0E:0:3:2:0000}{0E:3:19:0} {0E:0:3:2:0000}按 ",
+    "replace": "時用{0E:0:3:2:0000}{0E:3:19:0}，{0E:0:3:2:0000}再按",
+    "note": "Connect the targeting button to locking on, then the attack button to the vertical slice."
+  },
+  {
+    "key": "message#02417",
+    "find": "向我{0E:0:3:2:0000}{0E:3:8:0}傾斜",
+    "replace": "朝我的方向推動{0E:0:3:2:0000}{0E:3:8:0}",
+    "note": "The player tilts the stick toward the teacher, not their body."
+  },
+  {
+    "key": "message#02418",
+    "find": "同時{0E:0:3:2:0001} {0E:0:3:2:0000}{0E:3:19:0}",
+    "replace": "時用{0E:0:3:2:0001} {0E:0:3:2:0000}{0E:3:19:0}",
+    "note": "Supply the missing verb for the targeting input."
+  },
+  {
+    "key": "message#02422",
+    "find": "你意下如何?",
+    "replace": "想學劍術嗎？",
+    "note": "Make the immediately stated swordplay offer explicit in the acceptance question."
+  },
+  {
+    "key": "message#02431",
+    "find": "蓄力，然後釋放!",
+    "replace": "蓄力，然後鬆開按鍵！",
+    "note": "Release refers to the held button."
+  },
+  {
+    "key": "message#02437",
+    "find": "閃避",
+    "replace": "閃避斬",
+    "note": "Parry is the named counterattack, not a generic dodge."
+  },
+  {
+    "key": "message#02438",
+    "find": "這就沒問題了!",
+    "replace": "你平安無事啊！",
+    "note": "You are all right expresses relief at the player's safety, not approval of a situation."
+  },
+  {
+    "key": "message#02445",
+    "find": "劍士",
+    "replace": "騎士",
+    "note": "Keep the knight rank distinct from the later swordsman rank."
+  },
+  {
+    "key": "message#02447",
+    "find": "你還只能算是名{0E:0:3:2:0001}劍士\r\n{0E:0:3:2:FFFF}{0E:0:3:2:0000}就你的劍術而言。",
+    "replace": "以劍術程度來說，你還只是名{0E:0:3:2:0001}劍士{0E:0:3:2:FFFF}{0E:0:3:2:0000}。",
+    "note": "Restore natural word order without changing the proficiency judgement."
+  },
+  {
+    "key": "message#02450",
+    "find": "衝我來別停下，除非我擊中你",
+    "replace": "繼續向我進攻，直到我擊中你",
+    "note": "Continue attacking until the stated hit count, rather than charging under an unless condition."
+  },
+  {
+    "key": "message#02459",
+    "find": "劍士",
+    "replace": "騎士",
+    "note": "Preserve the promotion from page to knight before the later swordsman rank."
+  },
+  {
+    "key": "message#02460",
+    "find": "劍士!",
+    "replace": "騎士！",
+    "note": "Address the same knight rank in the reward line."
+  },
+  {
+    "key": "message#02471",
+    "find": "令人難忘啊，",
+    "replace": "真了不起，",
+    "note": "Impressive praises skill, not memorability."
+  },
+  {
+    "key": "message#02477",
+    "find": "怎麼樣，",
+    "replace": "要較量一場嗎，",
+    "note": "Shall we invites another sparring session, matching the Yes/No choice."
+  },
+  {
+    "key": "message#02482",
+    "find": "但是時間一天天過去歷盡艱難險阻\r\n都無法找到十片，而我們卻都變老了...",
+    "replace": "但經過漫長歲月和數不清的冒險，\r\n好不容易才快湊到十枚，我們卻都老了...",
+    "note": "They approached ten after long adventures; preserve the progress rather than an absolute inability to find them."
+  },
+  {
+    "key": "message#02485",
+    "find": "蓄力，然後釋放!",
+    "replace": "蓄力，然後鬆開按鍵！",
+    "note": "Specify the release action for the Hurricane Spin."
+  },
+  {
+    "key": "message#02486",
+    "find": "然後向我釋放！再來一次！",
+    "replace": "然後鬆開按鍵！聽好了，再試一次！",
+    "note": "Restore release the button and heed me; do not invent releasing something at the teacher."
+  },
+  {
+    "key": "message#02487",
+    "find": "蓄力，然後釋放!",
+    "replace": "蓄力，然後鬆開按鍵！",
+    "note": "Keep the repeated held-button instruction consistent."
+  },
+  {
+    "key": "message#02488",
+    "find": "老夫多年的夢想",
+    "replace": "我們兄弟倆多年的夢想",
+    "note": "Our dream refers to both brothers, as established in message#02482."
+  },
+  {
+    "key": "message#02496",
+    "find": "你意下如何， ",
+    "replace": "要試試看嗎，",
+    "note": "Use a general invitation for the standalone instructor prompt."
+  },
+  {
+    "key": "message#02505",
+    "find": "最重要的是!",
+    "replace": "千真萬確！",
+    "note": "Most certainly confirms the claim; it does not introduce the most important point."
+  },
+  {
+    "key": "message#02507",
+    "find": "學點東西，你得先知道一些事情!",
+    "replace": "變得有智慧，首先就得增長知識！",
+    "note": "Restore knowledge as the prerequisite to wisdom, not knowledge as a prerequisite to learning anything."
+  },
+  {
+    "key": "message#02510",
+    "find": "真是的！其實住在樓下的就是我弟弟...",
+    "replace": "真是的！我說的那個粗人，\r\n就是住在樓下、遠不如我聰明的弟弟...",
+    "note": "Restore who the insult refers to and the speaker's intelligence comparison."
+  },
+  {
+    "key": "message#02510",
+    "find": "他就不能練練腦子嗎？腦子裡也都是肌肉！",
+    "replace": "他有鍛鍊腦子嗎？沒有！\r\n腦子也是肌肉啊！...我想應該是吧。",
+    "note": "Preserve the character's doubtful joke, rather than assert brains contain only muscle."
+  },
+  {
+    "key": "message#02510",
+    "find": "還是什麼的。",
+    "replace": "還是什麼的。\r\n好像那對誰有用似的...",
+    "note": "Restore the omitted sarcastic dismissal of fencing's usefulness."
+  },
+  {
+    "key": "message#02516",
+    "find": "你的奶奶得吃點",
+    "replace": "你的奶奶需要一些",
+    "note": "The source requires fairy dust, not eating it."
+  },
+  {
+    "key": "message#02523",
+    "find": "怎麼了？你的臉色看起來很差？",
+    "replace": "怎麼了，孩子？你臉色蒼白...\r\n你沒事吧？",
+    "note": "Restore the observation of pallor and the separate inquiry about wellbeing."
+  },
+  {
+    "key": "message#02601",
+    "find": "你得去把它抓來 ",
+    "replace": "準備好去抓牠了嗎，",
+    "note": "Are you ready is a question, not an obligation phrased as one."
+  },
+  {
+    "key": "message#02603",
+    "find": "平靜下來，或是按下",
+    "replace": "平靜下來，或是按住",
+    "note": "The crouching approach requires holding the button."
+  },
+  {
+    "key": "message#02608",
+    "find": "在明天早上太陽昇起之前\r\n最好也別出來玩。",
+    "replace": "明天也要等太陽升起好一陣子後，\r\n才可以出來玩。",
+    "note": "Long after sunrise is stricter than merely after sunrise."
+  },
+  {
+    "key": "message#02610",
+    "find": "你得承認， ",
+    "replace": "你知道嗎，",
+    "note": "You know introduces an observation, not a demand for agreement."
+  },
+  {
+    "key": "message#02612",
+    "find": "你有沒有辦法幫我帶上",
+    "replace": "能不能幫我抱起",
+    "note": "Restore picking the pig up before taking it out for a walk."
+  },
+  {
+    "key": "message#02706",
+    "find": "哎呀，這個小寶貝簡直就像紐扣一樣\r\n可愛!這樣的話，既然它這麼可愛我",
+    "replace": "哎呀，這個小寶貝真是可愛極了！\r\n既然牠這麼可愛，我可不介意",
+    "note": "Cute as a button is an idiom of affection, not a literal comparison with a button."
+  },
+  {
+    "key": "message#02801",
+    "find": "嘿，你是不是鼓足勇氣",
+    "replace": "嘿，聽說只要鼓起勇氣",
+    "note": "Ask whether the general method works, not whether the player already performed the jump."
+  },
+  {
+    "key": "message#02801",
+    "find": "然後就跳上了那塊大石頭?嗯，",
+    "replace": "就能跳到那塊石頭上？嗯，",
+    "note": "Preserve capability rather than past completion."
+  },
+  {
+    "key": "message#02802",
+    "find": "你是不是跳上了那塊石頭\r\n只是透過",
+    "replace": "聽說只要",
+    "note": "Keep the repeated question about how to jump, not whether a past jump happened."
+  },
+  {
+    "key": "message#02802",
+    "find": "? 我一定要知道",
+    "replace": "，\r\n就能跳到那塊石頭上，是真的嗎？\r\n我一定要知道",
+    "note": "Complete the conditional action question."
+  },
+  {
+    "key": "message#02803",
+    "find": "跳得那麼高呀，",
+    "replace": "那樣跳躍呢，",
+    "note": "Jump like you does not specifically praise height rather than distance."
+  },
+  {
+    "key": "message#02811",
+    "find": "哦，耶!現在，只要給它餵",
+    "replace": "哦，對了！現在，只要餵老",
+    "note": "The inserted player name is the pig's name and belongs before the food object."
+  },
+  {
+    "key": "message#02814",
+    "find": "就能讓它興奮起來。",
+    "replace": "就會興奮起來。",
+    "note": "The named pig is the subject being excited, not the agent exciting another animal."
+  },
+  {
+    "key": "message#02821",
+    "find": "你是這麼認為的吧，對不對，",
+    "replace": "你剛才指的是牛奶，對不對，",
+    "note": "The mother is covering up what the child meant, not asking what he believes."
+  },
+  {
+    "key": "message#01516",
+    "find": "怪物召喚到這裡來的。",
+    "replace": "怪物派到這裡來的。",
+    "note": "Sent does not specify magical summoning."
+  },
+  {
+    "key": "message#01523",
+    "find": "我恐怕加儂的髒手可能已經",
+    "replace": "我擔心加儂的魔掌可能已經",
+    "note": "I fear expresses concern, and vile hand is a figurative hostile influence."
+  },
+  {
+    "key": "message#01523",
+    "find": "伸向了這座聖潔的避難所。",
+    "replace": "伸到了這片最神聖的地方。",
+    "note": "Sanctuary refers to the sacred site, not an evacuation shelter."
+  },
+  {
+    "key": "message#01526",
+    "find": "有沒有可能他已經重新獲\r\n得了他的力量?",
+    "replace": "難道他的力量已經\r\n開始恢復了？",
+    "note": "Regaining is an ongoing process, not necessarily a completed restoration."
+  },
+  {
+    "key": "message#01535",
+    "find": "但是別害怕!加布一定已經提前離開了",
+    "replace": "不過別擔心！加布已在襲擊發生前逃離了",
+    "note": "His escape is reported as a fact, not the speaker's hopeful guess."
+  },
+  {
+    "key": "message#01535",
+    "find": "小島免受襲擊。現在他一定在一個",
+    "replace": "這座島。現在他住在一個",
+    "note": "Preserve the known safer abode in the next line."
+  },
+  {
+    "key": "message#01542",
+    "find": "我強烈建議你不要再在此地逗留。",
+    "replace": "我勸你別在這裡逗留超過必要的時間。",
+    "note": "The advice allows necessary time here, not an unconditional demand to leave immediately."
+  },
+  {
+    "key": "message#01561",
+    "find": "...啊，不過現在還不行。",
+    "replace": "...啊，我好像操之過急了。",
+    "note": "Getting ahead of myself admits premature planning."
+  },
+  {
+    "key": "message#01568",
+    "find": "他們肯定什麼都不會告訴你的。",
+    "replace": "恐怕很難讓他們直接告訴你什麼。",
+    "note": "I doubt is a prediction, not certainty that they will disclose nothing."
+  },
+  {
+    "key": "message#01578",
+    "find": "明白了嗎?",
+    "replace": "。明白了嗎？",
+    "note": "Separate the song instruction from the comprehension question."
+  },
+  {
+    "key": "message#01582",
+    "find": "一定可以順利躲過\r\n這神殿中的陷阱",
+    "replace": "一定能克服神殿中的\r\n危險與陷阱",
+    "note": "Cooperation overcomes both dangers and pitfalls, not just evading traps."
+  },
+  {
+    "key": "message#01586",
+    "find": "拉得這麼長的臉!",
+    "replace": "別再愁眉苦臉啦！",
+    "note": "Lose the long face is a request to stop looking sad."
+  },
+  {
+    "key": "message#01588",
+    "find": "只有這樣我們才能",
+    "replace": "，這樣我們才能",
+    "note": "Separate the required shards from the purpose clause."
+  },
+  {
+    "key": "message#01589",
+    "find": "我們必須帶著",
+    "replace": "！我們必須帶著",
+    "note": "Separate sailing to the Tower of the Gods from returning below with the Triforce."
+  },
+  {
+    "key": "message#01591",
+    "find": "轉動",
+    "replace": "依序推動",
+    "note": "Tilt in the listed directions rather than rotating the stick in a circle."
+  },
+  {
+    "key": "message#01592",
+    "find": "保證{0E:0:3:2:0000}{0E:3:1B:0}{0E:0:3:2:FFFF}當節拍器打到中間的時候\r\n你的方向正確就行了。",
+    "replace": "在節拍器到中央時，\r\n讓{0E:0:3:2:0000}{0E:3:1B:0}{0E:0:3:2:FFFF}保持在正確方向就行了。",
+    "note": "The stick must already be held in the proper direction when the metronome reaches center."
+  },
+  {
+    "key": "message#01592",
+    "find": "同樣，你不用一直碰",
+    "replace": "另外，不要推動",
+    "note": "Do not touch the meter-selection stick in 3/4, rather than not needing to keep touching it."
+  },
+  {
+    "key": "message#01592",
+    "find": "來保持",
+    "replace": "就能保持",
+    "note": "Leaving the stick alone preserves 3/4 time."
+  },
+  {
+    "key": "message#01592",
+    "find": "只要在{0E:3:1B:0}第一下的時候",
+    "replace": "從第一拍開始，把{0E:3:1B:0}",
+    "note": "Starting from the first beat applies to the full direction sequence, not only its first motion."
+  },
+  {
+    "key": "message#01592",
+    "find": "揮舞的方向\r\n正確：(",
+    "replace": "依序推向",
+    "note": "Make the required direction sequence explicit."
+  },
+  {
+    "key": "message#01592",
+    "find": ": ",
+    "replace": "：\r\n",
+    "note": "Join the direction list cleanly without the duplicated colon and parenthesis."
+  },
+  {
+    "key": "message#01592",
+    "find": ")就行了！",
+    "replace": "！",
+    "note": "Close the revised direction instruction without a dangling parenthesis."
+  },
+  {
+    "key": "message#01593",
+    "find": "按{0E:3:F:0}來改變節奏，",
+    "replace": "將搖桿保持在{0E:3:F:0}所示方向來改變節拍，",
+    "note": "Selecting 4/4 requires holding a stick direction rather than pressing a button."
+  },
+  {
+    "key": "message#01594",
+    "find": "保證{0E:0:3:2:0000}{0E:3:1B:0}{0E:0:3:2:FFFF}當節拍器打到中間的時候\r\n你的方向正確就行了。",
+    "replace": "在節拍器到中央時，\r\n讓{0E:0:3:2:0000}{0E:3:1B:0}{0E:0:3:2:FFFF}保持在正確方向就行了。",
+    "note": "Keep the same held-direction requirement in the repeated timing lesson."
+  },
+  {
+    "key": "message#01594",
+    "find": "揮舞{0E:3:F:0}來配合",
+    "replace": "朝{0E:3:F:0}所示方向推動搖桿，選擇",
+    "note": "This direction selects 4/4 rather than waving to match the rhythm."
+  },
+  {
+    "key": "message#01595",
+    "find": "只要揮舞{0E:3:10:0}",
+    "replace": "，只要朝{0E:3:10:0}所示方向推動搖桿",
+    "note": "State how to select 6/4 without suggesting an unspecified waving action."
+  },
+  {
+    "key": "message#02004",
+    "find": "在古代，從這一天開始男孩子將\r\n成長為男人！他們將會學習劍術",
+    "replace": "在以前，男孩到了這一天就被視為\r\n成年人，並開始學習劍術，",
+    "note": "Coming of age is social recognition, not a sudden physical transformation."
+  },
+  {
+    "key": "message#02021",
+    "find": "為什麼那些海鷗只願意\r\n和她接近呢。",
+    "replace": "我認識的人裡，只有她\r\n能讓野生海鷗主動靠近。",
+    "note": "Limit the grandmother's claim to people she knows, as the source does."
+  },
+  {
+    "key": "message#02028",
+    "find": "你帶著那麼危險的東西跑來跑去嗎?",
+    "replace": "你為什麼帶著那麼危險的東西到處走？",
+    "note": "Ask why the weapon is being carried, not whether it is."
+  },
+  {
+    "key": "message#02032",
+    "find": "沒在外面和海鷗玩嗎?",
+    "replace": "還在外面和海鷗玩嗎？",
+    "note": "Restore the question about whether Aryll is still playing outside."
+  },
+  {
+    "key": "message#02053",
+    "find": "你總是那麼努力工作，",
+    "replace": "你一直都這麼努力，",
+    "note": "Work hard refers to Link's efforts, not employment."
+  },
+  {
+    "key": "message#02056",
+    "find": "...以備不時之需。",
+    "replace": "...把它帶著吧。",
+    "note": "Restore the instruction to take the shield, rather than replacing it with a purpose phrase."
+  },
+  {
+    "key": "message#02102",
+    "find": "這裡畫著操縱 ",
+    "replace": "這裡畫著象徵 ",
+    "note": "The designs depict wind; they are not themselves stated to control it."
+  },
+  {
+    "key": "message#02218",
+    "find": "你穿上這套裝備看起來真可愛！",
+    "replace": "你穿這身衣服真可愛！",
+    "note": "Outfit refers to birthday clothes rather than equipment."
+  },
+  {
+    "key": "message#02218",
+    "find": "{0E:3:0:0}。",
+    "replace": "{0E:3:0:0}就能搬起陶罐。",
+    "note": "Restore the omitted result of pressing the button in front of the jar."
+  },
+  {
+    "key": "message#02301",
+    "find": "我是說，舉個例子吧，我昨天",
+    "replace": "我是說，舉個例子吧，我前幾天",
+    "note": "The other day does not specifically mean yesterday."
+  },
+  {
+    "key": "message#02314",
+    "find": "才一眨眼，打個噴嚏，一年就這麼過去了！",
+    "replace": "才一眨眼，咻！一年就這麼過去了！",
+    "note": "POOF conveys time vanishing suddenly, not a sneeze."
+  },
+  {
+    "key": "message#02381",
+    "find": "你怎麼想啊 ",
+    "replace": "要試試看嗎，",
+    "note": "Keep the standalone sword-instructor invitation clear without inventing a specific drill."
+  },
+  {
+    "key": "message#02406",
+    "find": "我猜絕對不是什麼好笑的事情...",
+    "replace": "我想一定不是能一笑置之的事...",
+    "note": "No laughing matter means something serious, not merely unfunny."
+  },
+  {
+    "key": "message#02406",
+    "find": "你怎麼想啊，",
+    "replace": "要試試看嗎，",
+    "note": "Frame What say you as an invitation in the adjacent sword-practice exchange."
+  },
+  {
+    "key": "message#00813",
+    "find": "年輕人恐怕不知道自己耐力的極限。",
+    "replace": "年輕時，總覺得體力用不完。",
+    "note": "Knowing no limits here describes youthful stamina, not ignorance of one's limits."
+  },
+  {
+    "key": "message#00815",
+    "find": "生活中，偶爾會有電視被誰佔據",
+    "replace": "換個角度看生活\r\n生活中，偶爾會遇上電視被別人佔用，",
+    "note": "Restore the missing Alternate Views on Life heading."
+  },
+  {
+    "key": "message#00815",
+    "find": "但是請不要用這個功能欺騙家長哦！",
+    "replace": "但別以為這樣就能瞞著父母玩遊戲！",
+    "note": "The joke warns that off-TV play cannot be hidden from parents, not that using the feature deceives them."
+  },
+  {
+    "key": "message#00817",
+    "find": "人生沒有後悔藥，這課很重要哦!",
+    "replace": "別讓人生留下遺憾，這一課很重要！",
+    "note": "The lesson explains how to avoid regret, rather than saying there is no remedy."
+  },
+  {
+    "key": "message#00817",
+    "find": "不想因為失敗而後悔，",
+    "replace": "不想為沒能完成想做的事而後悔，",
+    "note": "Restore regret about things left undone rather than failure in general."
+  },
+  {
+    "key": "message#00821",
+    "find": "大家都知道，",
+    "replace": "愚人守不住盧比\r\n大家都知道，",
+    "note": "Restore the missing A Fool and His Rupees Are Soon Parted heading."
+  },
+  {
+    "key": "message#00822",
+    "find": "的位置",
+    "replace": "遺跡",
+    "note": "Fairy Fountain Site refers to the remains described below, not simply a location."
+  },
+  {
+    "key": "message#00825",
+    "find": "那就去挑戰天空項目，",
+    "replace": "那就來接受天空的挑戰，",
+    "note": "Restore the invitation to a flying challenge without bureaucratic project wording."
+  },
+  {
+    "key": "message#00825",
+    "find": "贏得獎勵吧!",
+    "replace": "贏得名聲與獎品吧！",
+    "note": "Both fame and prizes are offered."
+  },
+  {
+    "key": "message#00829",
+    "find": "不聽老人言，吃虧在眼前。",
+    "replace": "不聽從我的警告，就會遭遇危險。",
+    "note": "Preserve the specific warning of danger rather than an invented claim about the speaker's age."
+  },
+  {
+    "key": "message#00831",
+    "find": "簡單說明!",
+    "replace": "就是這麼簡單！",
+    "note": "Talk about simple exclaims that the controls are easy; it is not a heading for brief instructions."
+  },
+  {
+    "key": "message#00836",
+    "find": "並沉入海底。",
+    "replace": "再潛入海底。",
+    "note": "Dive is a deliberate action, not sinking."
+  },
+  {
+    "key": "message#01101",
+    "find": "是我的不對！",
+    "replace": "看來我瞄得偏了些！",
+    "note": "Restore Tetra's explanation that her aim was off."
+  },
+  {
+    "key": "message#01101",
+    "find": "你看起來一臉吃驚呢！",
+    "replace": "你那副表情，真是太有趣了！",
+    "note": "Priceless is amusement at Link's expression, not just identifying surprise."
+  },
+  {
+    "key": "message#01102",
+    "find": "動動腦子!",
+    "replace": "！想想怎麼偷偷潛入！",
+    "note": "Restore Think stealth and separate it from the preceding hiding-object instruction."
+  },
+  {
+    "key": "message#01114",
+    "find": "只有這把劍，能把世界從",
+    "replace": "只有這把劍，能把加儂",
+    "note": "The sword banishes Ganon, rather than the English promising liberation of the world."
+  },
+  {
+    "key": "message#01114",
+    "find": "加儂的手裡解救出來!",
+    "replace": "從上方的世界驅逐出去！",
+    "note": "Preserve the destination distinction in world above."
+  },
+  {
+    "key": "message#01115",
+    "find": "趕快返回海面上來!",
+    "replace": "我們必須返回海面！",
+    "note": "Both speaker and player must return to the surface; the speaker is not already calling from there."
+  },
+  {
+    "key": "message#01117",
+    "find": "箱子不就在吊橋下面嗎。",
+    "replace": "吊橋下面出現了一個寶箱。",
+    "note": "Restore the newly appeared chest instead of an implied already-obvious object."
+  },
+  {
+    "key": "message#01117",
+    "find": "到樓下去，注意地下的岩漿。",
+    "replace": "到下層去，但不能掉進岩漿裡。",
+    "note": "Avoiding a plunge into lava is the explicit condition, not simply noticing it."
+  },
+  {
+    "key": "message#01118",
+    "find": "可以用來戰鬥...",
+    "replace": "能用來扭轉戰局...",
+    "note": "The surrounding resources should turn the battle in the player's favor, not merely be usable in combat."
+  },
+  {
+    "key": "message#01126",
+    "find": "你可以別嚇昏了頭!",
+    "replace": "但千萬別慌了手腳！",
+    "note": "Do not lose your head is an instruction to stay composed, not an awkward permission."
+  },
+  {
+    "key": "message#01128",
+    "find": "...我很確信你會贏得勝利的!",
+    "replace": "...我相信你一定有機會取勝！",
+    "note": "A shot at victory is a chance, not guaranteed victory."
+  },
+  {
+    "key": "message#01401",
+    "find": "有個沉睡著眾神之力的王國",
+    "replace": "有個藏著黃金之力的王國。",
+    "note": "Preserve the golden power's description and its hidden state."
+  },
+  {
+    "key": "message#01403",
+    "find": "然而有一天，覬覦力量的邪惡之徒",
+    "replace": "然而有一天，一名邪惡之徒發現了它，",
+    "note": "Restore finding the power, rather than substituting an unstated desire."
+  },
+  {
+    "key": "message#01403",
+    "find": "將眾神之力佔為己有...",
+    "replace": "將黃金之力佔為己有...",
+    "note": "Keep the power reference consistent with the preceding narration."
+  },
+  {
+    "key": "message#01404",
+    "find": "他將王國陷入黑暗之中",
+    "replace": "他讓黑暗籠罩了整個王國。",
+    "note": "Repair the causal construction while retaining darkness spreading across the kingdom."
+  },
+  {
+    "key": "message#01406",
+    "find": "...身著綠衣的少年挺身而出...",
+    "replace": "...一名身著綠衣的少年，\r\n彷彿憑空出現了。",
+    "note": "Restore the unexpected appearance from nowhere."
+  },
+  {
+    "key": "message#01411",
+    "find": "曾被勇者永遠封印的邪惡之力...",
+    "replace": "眾人以為早已被勇者永遠封印的邪惡...",
+    "note": "Forever sealed was what people believed, not an unqualified fact contradicted by its return."
+  },
+  {
+    "key": "message#01417",
+    "find": "無人知曉此後王國將何去何從…",
+    "replace": "那個王國後來怎麼了……？\r\n已無人知曉。",
+    "note": "The narrator asks what became of the kingdom in the past, not where it will go in the future."
+  },
+  {
+    "key": "message#01419",
+    "find": "在某個島上，依舊有著成人之際的少年",
+    "replace": "在某個島上，人們逐漸有了讓少年",
+    "note": "The custom became established on an island; it is not described as an already-continuing rite."
+  },
+  {
+    "key": "message#01419",
+    "find": "穿上綠衣接受祝福的習俗。",
+    "replace": "成年時穿上綠衣的習俗。",
+    "note": "Remove the added blessing ceremony while preserving coming of age."
+  },
+  {
+    "key": "message#01422",
+    "find": "有一個在民眾間口耳相傳的傳說...",
+    "replace": "這只是民間流傳的眾多傳說之一...",
+    "note": "Restore but one of the legends rather than introducing an unspecified single story."
+  },
+  {
+    "key": "message#01452",
+    "find": "按 ",
+    "replace": "推動 ",
+    "all": true,
+    "note": "Both icons here represent stick directions, not buttons to press."
+  },
+  {
+    "key": "message#01452",
+    "find": "變更旋律",
+    "replace": "變更節拍",
+    "note": "Rhythm is not melody."
+  },
+  {
+    "key": "message#01459",
+    "find": "按 ",
+    "replace": "推動 ",
+    "all": true,
+    "note": "Match the stick instructions in the identical English prompt."
+  },
+  {
+    "key": "message#01459",
+    "find": "變更旋律",
+    "replace": "變更節拍",
+    "note": "Keep the rhythm instruction consistent."
+  },
+  {
+    "key": "message#01460",
+    "find": "按 ",
+    "replace": "推動 ",
+    "note": "Conducting uses stick movement rather than pressing it."
+  },
+  {
+    "key": "message#00602",
+    "find": "抓住 ",
+    "replace": "鉤住 ",
+    "note": "This is the grappling hook attaching to a marked target, not a hand-grab action."
+  },
+  {
+    "key": "message#00602",
+    "find": "， 按{0E:3:11:0}搖動",
+    "replace": "所標示的物體，\r\n推動{0E:3:11:0}擺盪",
+    "note": "Identify the marker's target and move the stick to swing; do not tell the player to press the stick."
+  },
+  {
+    "key": "message#00602",
+    "find": "{0E:0:3:2:0000}\r\n。 按",
+    "replace": "{0E:0:3:2:0000}。\r\n推動",
+    "note": "Keep the sentence end with its action and use stick movement to change swinging direction."
+  },
+  {
+    "key": "message#00602",
+    "find": "變更搖晃方向",
+    "replace": "改變擺盪方向",
+    "note": "The player swings from a rope rather than shakes an object."
+  },
+  {
+    "key": "message#00602",
+    "find": "停止搖晃",
+    "replace": "停止擺盪",
+    "note": "Keep the rope action consistent within this instruction."
+  },
+  {
+    "key": "message#00617",
+    "find": "然後用",
+    "replace": "並用",
+    "note": "Conducting and selecting the meter use different sticks; the original does not impose this reversed sequence."
+  },
+  {
+    "key": "message#00617",
+    "find": "來打",
+    "replace": "選擇拍號：",
+    "note": "The second stick chooses the time signature rather than conducting the notes."
+  },
+  {
+    "key": "message#00619",
+    "find": "這個包的基本功能是能儲存",
+    "replace": "這個袋子最多能儲存",
+    "note": "Eight kinds of spoils is a storage upper bound."
+  },
+  {
+    "key": "message#00620",
+    "find": "依然是十二張",
+    "replace": "上限同樣是十二張",
+    "note": "The camera stores at most twelve pictures, not necessarily exactly twelve."
+  },
+  {
+    "key": "message#00621",
+    "find": "按下你設定了武器的那個鍵",
+    "replace": "按住你設定了武器的那個鍵",
+    "note": "Hold the assigned button to nock the arrow; a tap is not the described input."
+  },
+  {
+    "key": "message#00627",
+    "find": "設定與使用時需要按",
+    "replace": "將這件武器設定到",
+    "note": "Separate assignment to an item button from later use of that assigned button."
+  },
+  {
+    "key": "message#00627",
+    "find": "，並以\r\n",
+    "replace": "，按該鍵即可使用。\r\n以",
+    "note": "Complete the use instruction without leaving the preposition isolated on a line."
+  },
+  {
+    "key": "message#00628",
+    "find": "伸長!收縮!鉤住東西了!",
+    "replace": "能伸長、收縮，還能鉤住物品！",
+    "note": "These are Hookshot capabilities, not commands or a report that something has already been caught."
+  },
+  {
+    "key": "message#00628",
+    "find": "它就會被投擲出去。",
+    "replace": "就會發射鏈鉤。",
+    "note": "Release fires the Hookshot rather than throwing the item."
+  },
+  {
+    "key": "message#00629",
+    "find": "八件",
+    "replace": "八種",
+    "note": "The stated limit concerns kinds of items, not a total of eight individual pieces."
+  },
+  {
+    "key": "message#00629",
+    "find": "不同種類",
+    "replace": "不同",
+    "note": "Complete the eight-different-kinds wording without a duplicated classifier."
+  },
+  {
+    "key": "message#00631",
+    "find": "即可搧出",
+    "replace": "並用該鍵搧出",
+    "note": "Assigning the leaf does not by itself produce a gust; use the assigned button."
+  },
+  {
+    "key": "message#00663",
+    "find": "在船上",
+    "replace": "在船上按",
+    "note": "Restore the button action that hoists the sail."
+  },
+  {
+    "key": "message#00663",
+    "find": "使用就能靠著風力揚帆遠行了。",
+    "replace": "揚帆，就能順著風向航行。",
+    "note": "Restore sailing in the direction the wind blows, not merely using wind power."
+  },
+  {
+    "key": "message#00666",
+    "find": "需按下",
+    "replace": "將它設定到",
+    "note": "The first action is assigning the bait to one of the listed buttons."
+  },
+  {
+    "key": "message#00666",
+    "find": "。來設定與使用。",
+    "replace": "，再按該鍵使用。",
+    "note": "Repair the interrupted assignment/use instruction."
+  },
+  {
+    "key": "message#00681",
+    "find": "真是詭異的東西。看起來太嚇人了。",
+    "replace": "真是古怪。找到適合擺放它的地方後，",
+    "note": "Restore the missing placement condition and remove the invented stronger claim of fear."
+  },
+  {
+    "key": "message#00682",
+    "find": "設定到",
+    "replace": "找到合適的擺放位置後，\r\n設定到",
+    "note": "Restore the condition to find a place for the statue before placing it."
+  },
+  {
+    "key": "message#00683",
+    "find": "設定到",
+    "replace": "找到合適的擺放位置後，\r\n設定到",
+    "note": "Restore the same placement condition for the postman statue."
+  },
+  {
+    "key": "message#00688",
+    "find": "這看起來是一張位於遠海的休閒小屋",
+    "replace": "這似乎是遠方島嶼上一間度假小屋",
+    "note": "The resort cabana is on a distant island, not merely out at sea."
+  },
+  {
+    "key": "message#00688",
+    "find": "的地契。這些文字都寫在一張泛黃的",
+    "replace": "的房契。文字寫在一張泛黃的",
+    "note": "Use the cabana property document's established item category."
+  },
+  {
+    "key": "message#00688",
+    "find": "羊皮上",
+    "replace": "羊皮紙上",
+    "note": "The writing material is parchment."
+  },
+  {
+    "key": "message#00694",
+    "find": "這是兩次份量的奶奶的家常高湯。",
+    "replace": "這是奶奶親手煮的湯，共有兩份。",
+    "note": "Express two helpings as two portions of the homemade soup."
+  },
+  {
+    "key": "message#00695",
+    "find": "這隻小精靈",
+    "replace": "這隻小妖精",
+    "note": "Sprite here is the bottled fairy item, not a different kind of great spirit."
+  },
+  {
+    "key": "message#00696",
+    "find": "這是一次份量的奶奶的家常高湯。",
+    "replace": "這是奶奶親手煮的湯，共有一份。",
+    "note": "Keep the one-helping description distinct from the two-helping bottle."
+  },
+  {
+    "key": "message#00705",
+    "find": "可以在此處變更是否\r\n使用Wii U Pro 控制器。",
+    "replace": "可在此處切換使用 Wii U GamePad\r\n或 Wii U Pro 控制器。",
+    "note": "Restore both controller alternatives instead of describing only a Pro Controller toggle."
+  },
+  {
+    "key": "message#00803",
+    "find": "操縱著火焰的弓箭的人:當你出現時，",
+    "replace": "使用火焰之箭的人啊，當你出現時，",
+    "note": "Address the wielder of the flaming arrow with a clear object and readable grammar."
+  },
+  {
+    "key": "message#00803",
+    "find": "燈塔的信號燈會再一次照亮海面。",
+    "replace": "燈塔的燈光將再度照亮夜晚的海面。",
+    "note": "Restore the nighttime setting of the lighthouse prophecy."
+  },
+  {
+    "key": "message#00809",
+    "find": "風之神殿",
+    "replace": "風之祠",
+    "note": "Wind Shrine is the Dragon Roost shrine, matching message2#06512; it is not the Wind Temple dungeon."
+  },
+  {
+    "key": "message#02411",
+    "find": "，再傾斜",
+    "replace": "，再朝我的方向推動",
+    "note": "Restore toward me: a thrust requires tilting the stick toward the instructor, not in an arbitrary direction."
+  },
+  {
+    "key": "message#02436",
+    "find": "並看準時機按",
+    "replace": "並留意何時出現",
+    "note": "Watch closely for the prompt means waiting for its appearance, not pressing the prompt itself."
+  },
+  {
+    "key": "E3SelectCourse_00#L_Btn_00-T_BtnT_00",
+    "find": "序章",
+    "replace": "島上漫遊",
+    "note": "Island Stroll names the island-exploration demo mode, not a story prologue."
+  },
+  {
+    "key": "MenuMiiverseContent_00#L_BtnYeah_00-T_Btn_00",
+    "find": "沒錯！",
+    "replace": "讚！",
+    "note": "This is Miiverse's social endorsement button, not a statement correcting a fact."
+  },
+  {
+    "key": "MenuMiiverse_00#T_Msg_00_03",
+    "find": "由於家長限制，網路通訊功能受限，",
+    "replace": "家長監護限制了 Miiverse 或遊戲內的",
+    "note": "Restore the two alternative parental-control restrictions instead of claiming all network communication is restricted."
+  },
+  {
+    "key": "MenuMiiverse_00#T_Msg_00_03",
+    "find": "你暫時無法透過Miiverse",
+    "replace": "線上互動，因此目前無法",
+    "note": "Complete the conditional explanation without dropping either restriction."
+  },
+  {
+    "key": "MsgOnly_00#T_Msg_SaveError_01",
+    "find": "照片盒",
+    "replace": "照相機",
+    "note": "Picto Box is the camera item required to save pictures, not a box holding photos."
+  },
+  {
+    "key": "PictographList_00#T_NoData_00",
+    "find": "尚未拍攝過照片",
+    "replace": "目前沒有儲存的照片。",
+    "note": "An empty album describes the current saved pictures, not whether the player has ever taken any."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_03",
+    "find": "上下反轉第一人稱視角時的移動方式。",
+    "replace": "上下反轉第一人稱鏡頭的操作方向。",
+    "note": "The option reverses first-person camera controls, not the character's movement."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_06",
+    "find": "變更庭格爾瓶的接收設定。",
+    "replace": "設定要接收哪些人的庭格爾瓶。",
+    "note": "Restore whose bottles are received, matching Anyone and Friends only."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_07",
+    "find": "變更含劇透的庭格爾瓶的相關設定",
+    "replace": "設定是否排除庭格爾瓶中\r\n含有劇透的訊息。",
+    "note": "State that this setting excludes spoilers rather than referring vaguely to related settings."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_09",
+    "find": "選擇是否顯示動作提示以及螢幕下角的道具提示",
+    "replace": "選擇是否在螢幕角落顯示動作提示\r\n與目前配置的道具。",
+    "note": "Restore currently assigned items and remove the unsupported restriction to the bottom corner."
+  },
+  {
+    "key": "SequenceOption_00#T_Content_01",
+    "find": "視點類型",
+    "replace": "鎖定方式",
+    "note": "Target Type selects hold/switch target locking, not a camera viewpoint."
+  },
+  {
+    "key": "SequenceWindow_00#T_Msg_00_Miiverse_info00",
+    "find": "照片盒",
+    "replace": "照相機",
+    "note": "Use the camera item name consistently in the bottle-message tutorial."
+  },
+  {
+    "key": "SequenceWindow_00#T_Msg_00_Miiverse_info00",
+    "find": "把庭格爾瓶放到",
+    "replace": "將庭格爾瓶設定到",
+    "note": "Set to a button means assigning the item, not moving the bottle to a location."
+  },
+  {
+    "key": "SequenceWindow_00#T_Msg_00_Miiverse_info00",
+    "find": "{0E:3:5:0}、{0E:3:4:0}",
+    "replace": "{0E:3:5:0}或{0E:3:4:0}",
+    "note": "Any one of the listed item buttons may be used; they are alternatives."
+  },
+  {
+    "key": "message#00133",
+    "find": "{0E:3:4:0}、",
+    "replace": "{0E:3:4:0}",
+    "note": "Remove the dangling list separator between the final item button and its postposition."
+  },
+  {
+    "key": "message#00134",
+    "find": "請注意未登入Miiverse時是無法傳送",
+    "replace": "請注意，未連上 Miiverse 時，無法撰寫",
+    "note": "The restriction is on writing letters while disconnected, not merely on sending them."
+  },
+  {
+    "key": "message#00134",
+    "find": "資訊的。",
+    "replace": "信件。",
+    "note": "Complete the letter-writing restriction using the actual object of the action."
+  },
+  {
+    "key": "message#00135",
+    "find": "按{0E:0:3:2:0000}{0E:0:3:2:0000}{0E:3:1B:0}",
+    "replace": "推動{0E:0:3:2:0000}{0E:0:3:2:0000}{0E:3:1B:0}",
+    "note": "Conduct by moving the stick, not pressing it as a button."
+  },
+  {
+    "key": "message#00135",
+    "find": "按住 {0E:0:3:2:0000}{0E:3:F:0}{0E:0:3:2:0000} 來打",
+    "replace": "將搖桿保持在 {0E:0:3:2:0000}{0E:3:F:0}{0E:0:3:2:0000} 所示方向來打",
+    "note": "Hold the indicated stick direction to select the time signature, rather than press an unspecified button."
+  },
+  {
+    "key": "message#00135",
+    "find": "按住 {0E:0:3:2:0000}{0E:3:10:0}{0E:0:3:2:0000} 來打",
+    "replace": "將搖桿保持在 {0E:0:3:2:0000}{0E:3:10:0}{0E:0:3:2:0000} 所示方向來打",
+    "note": "Keep the 6/4 condition parallel to the 4/4 instruction without altering the direction icon or number."
+  },
+  {
+    "key": "message#00136",
+    "find": "相機最多可以拍攝12張照片。",
+    "replace": "相機最多可以儲存12張照片。",
+    "note": "Twelve is the picture storage capacity, not a lifetime limit on taking pictures."
+  },
+  {
+    "key": "message#00139",
+    "find": "成為蘭佐的助手後，他授予你的高階紀念品。",
+    "replace": "這是蘭佐為紀念你成為他的助手，\r\n而贈送的禮物。",
+    "note": "The camera is a gift commemorating becoming Lenzo's assistant, not an unspecified high-grade souvenir."
+  },
+  {
+    "key": "message#00140",
+    "find": "按住那個鍵然後",
+    "replace": "按住該按鍵搭箭上弦，",
+    "note": "Restore the nocking action performed while holding the assigned bow button."
+  },
+  {
+    "key": "message#00140",
+    "find": "再鬆開就可以射箭了。",
+    "replace": "鬆開按鍵即可射出箭矢。",
+    "note": "Separate the hold-to-nock and release-to-shoot actions clearly."
+  },
+  {
+    "key": "message#00140",
+    "find": "你能夠帶",
+    "replace": "你最多能攜帶",
+    "note": "Thirty arrows is an upper bound."
+  },
+  {
+    "key": "message#00148",
+    "find": "還能鎖住東西",
+    "replace": "還能鉤住物品",
+    "note": "Latching refers to the hook attaching to objects, not locking them shut."
+  },
+  {
+    "key": "message#00148",
+    "find": "把鏈鉤甩出去",
+    "replace": "發射鏈鉤",
+    "note": "Releasing the button fires the Hookshot; it is not a throwing action."
+  },
+  {
+    "key": "message#00150",
+    "find": "你能攜帶的數量為",
+    "replace": "你最多能攜帶",
+    "note": "Thirty bombs is a carrying capacity, not a fixed inventory count."
+  },
+  {
+    "key": "message#00152",
+    "find": "錘子敲擊發出的震盪波甚至",
+    "replace": "敲擊地面發出的震盪波甚至",
+    "note": "The stun shock wave comes from pounding the ground; restore that condition."
+  },
+  {
+    "key": "message#00154",
+    "find": "已經注入你的",
+    "replace": "已經附加在你的",
+    "note": "Repair the incompatible into/on construction for powers added to the arrows."
+  },
+  {
+    "key": "message#00155",
+    "find": "當你彎弓待射時",
+    "replace": "拿出弓後",
+    "note": "Arrowhead selection begins after taking out the bow, not only after drawing it to shoot."
+  },
+  {
+    "key": "message#00155",
+    "find": "然後百步穿楊吧",
+    "replace": "然後射擊吧",
+    "note": "Fire away is an instruction to shoot, not a claim of perfect accuracy."
+  },
+  {
+    "key": "message#00155",
+    "find": "能夠淨化邪惡之力",
+    "replace": "能射穿邪惡本身",
+    "note": "The light pierces evil; the original does not describe a purification action."
+  },
+  {
+    "key": "message#00162",
+    "find": "小心別再弄丟了!",
+    "replace": "這下又能大展身手了！\r\n小心別再弄丟了！",
+    "note": "Restore Now you're in business after recovering the sword."
+  },
+  {
+    "key": "message#00170",
+    "find": "但識貨的人會出高價",
+    "replace": "但對識貨的人來說很有價值",
+    "note": "Great worth to the right person does not promise a high cash sale price."
+  },
+  {
+    "key": "message#00186",
+    "find": "而最重要的其實是這湯裡的心意!",
+    "replace": "這可真是一碗滋補的好湯！",
+    "note": "Hearty soup praises its nourishment; retain the grandmother's affection in the following lines without inventing a most-important claim."
+  },
+  {
+    "key": "message#00208",
+    "find": "大地精靈 德庫樹贈與",
+    "replace": "大地精靈德庫樹贈送給你的，",
+    "note": "Repair the gift description so the giver and the goddess who owns the treasure remain distinct."
+  },
+  {
+    "key": "message#00208",
+    "find": "給你的女神寶玉",
+    "replace": "是勇氣女神的寶玉",
+    "note": "Preserve the Farore reference using this localization's established courage correspondence."
+  },
+  {
+    "key": "message#00242",
+    "find": "脆弱的花瓣中散發著大海的氣息，充滿",
+    "replace": "這朵花來自遙遠的異國，",
+    "note": "Restore a complete description of the flower's distant origin without inventing a continent."
+  },
+  {
+    "key": "message#00242",
+    "find": "著異國情調的來自遙遠的大陸的花。",
+    "replace": "嬌嫩的花瓣散發著大海的氣息。",
+    "note": "Complete the original petal-and-scent description in natural word order."
+  },
+  {
+    "key": "message#00249",
+    "find": "這是用變為化石的頭骨做成的",
+    "replace": "這是用奇異生物的頭骨化石做成的",
+    "note": "Restore that the fossilized skulls belong to strange creatures."
+  },
+  {
+    "key": "message#00249",
+    "find": "怪異雕塑。看起來有點嚇人。",
+    "replace": "雕塑，看起來相當古怪。",
+    "note": "Pretty weird describes strangeness, not necessarily fear."
+  },
+  {
+    "key": "message#00252",
+    "find": "這個小雕像能吸引每個商人的目光。",
+    "replace": "這個小雕像是每位商人的心頭寶。",
+    "note": "Apple of someone's eye means a cherished object, not merely an eye-catching one."
+  },
+  {
+    "key": "message#00257",
+    "find": "黃色羊皮紙",
+    "replace": "泛黃的羊皮紙",
+    "note": "Yellowed parchment has aged; it is not simply yellow-colored paper."
+  },
+  {
+    "key": "message#00259",
+    "find": "它能將所有的",
+    "replace": "它能將你持有的",
+    "note": "The coupon refills the player's held items."
+  },
+  {
+    "key": "message#00259",
+    "find": "消耗型物品",
+    "replace": "物品",
+    "note": "Do not replace the stated product exclusions with an invented consumables-only category."
+  },
+  {
+    "key": "message#00259",
+    "find": "效果僅是消耗類物品，而非全部...",
+    "replace": "但並非他店裡的所有商品都適用...",
+    "note": "Restore the explicit caveat that not all of Beedle's products are covered."
+  },
+  {
+    "key": "message#00264",
+    "find": "它像泡過溫水般的溫潤。",
+    "replace": "它散發著陣陣暖意。",
+    "note": "Bubbles over with warmth describes warmth, not soaking in water or a smooth texture."
+  },
+  {
+    "key": "message#00265",
+    "find": "這上面覆蓋著黏黏的東西。",
+    "replace": "它表面覆蓋著黏黏的樹液。",
+    "note": "Identify the sticky material as sap, as the English does."
+  },
+  {
+    "key": "message#00276",
+    "find": "弓箭",
+    "replace": "箭矢",
+    "note": "The upgrade increases arrow capacity, not the number of bows carried."
+  },
+  {
+    "key": "message#00277",
+    "find": "弓箭",
+    "replace": "箭矢",
+    "note": "Keep the second arrow-capacity upgrade consistent with the first."
+  },
+  {
+    "key": "message#00298",
+    "find": "神秘的光環",
+    "replace": "神秘的海上光環",
+    "note": "Restore that the full-moon light rings appear on the sea."
+  },
+  {
+    "key": "message#00300",
+    "find": "現在你知道哪裡有{0E:0:3:2:FFFF}{0E:0:3:2:0001}海圖 {0E:0:3:2:FFFF}{0E:0:3:2:0000}標明\r\n{0E:0:3:2:FFFF}{0E:0:3:2:0001}心之碎片{0E:0:3:2:FFFF}{0E:0:3:2:0000}的位置了吧！",
+    "replace": "現在你知道，標示{0E:0:3:2:FFFF}{0E:0:3:2:0001}心之碎片{0E:0:3:2:FFFF}{0E:0:3:2:0000}位置的\r\n{0E:0:3:2:FFFF}{0E:0:3:2:0001}海圖{0E:0:3:2:FFFF}{0E:0:3:2:0000}藏在哪裡了！",
+    "note": "This chart locates other charts that reveal heart pieces; preserve the nested relationship and all formatting controls."
+  },
+  {
+    "key": "message#00304",
+    "find": "都藏在哪了吧！",
+    "replace": "都藏在哪裡了！\r\n真是太神奇了！",
+    "note": "Restore the omitted IN-credible exclamation using the established chart name's wording."
+  },
+  {
+    "key": "message#00351",
+    "find": "最好找個會破譯的行家。",
+    "replace": "必須找人替你解讀。",
+    "note": "Deciphering is required, not just recommended."
+  },
+  {
+    "key": "message#00353",
+    "find": "憑你的小腦袋是看不懂的，所以",
+    "replace": "你自己看不懂，所以",
+    "note": "Remove the invented insult; the English only says the player cannot read the chart unaided."
+  },
+  {
+    "key": "message#00353",
+    "find": "你最好能找個能破譯的行家。",
+    "replace": "必須找人替你解讀。",
+    "note": "Match the required deciphering step in the identical English description."
+  },
+  {
+    "key": "message#00355",
+    "find": "憑你的小腦袋是看不懂的，所以",
+    "replace": "你自己看不懂，所以",
+    "note": "Remove the same invented insult from the other chart description."
+  },
+  {
+    "key": "message#00355",
+    "find": "你最好能找個能破譯的行家。",
+    "replace": "必須找人替你解讀。",
+    "note": "Match the required deciphering step in the identical English description."
+  }
+]

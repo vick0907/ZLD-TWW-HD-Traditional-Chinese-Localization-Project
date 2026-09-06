@@ -12,7 +12,7 @@ param(
     [string]$Upstream = "work\pack102\release",
     [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
     # Bump this for every release; it names both zips and must match the git tag.
-    [string]$Version = "tw-v1.0.9"
+    [string]$Version = "tw-v1.0.10"
 )
 
 $ErrorActionPreference = "Stop"
@@ -46,6 +46,8 @@ if ($LASTEXITCODE -ne 0) { throw "text\overrides.json has entries that no longer
 if ($LASTEXITCODE -ne 0) { throw "text\review_pass2.json has entries that no longer apply" }
 & $py tools\apply_overrides.py work\tree_zhtw text\readability_pass.json
 if ($LASTEXITCODE -ne 0) { throw "text\readability_pass.json has entries that no longer apply" }
+& $py tools\apply_overrides.py work\tree_zhtw text\semantic_pass.json
+if ($LASTEXITCODE -ne 0) { throw "text\semantic_pass.json has entries that no longer apply" }
 
 Step 2.6 "rebuild the bilingual alignment and run localization QA"
 & $py tools\test_qa_actions.py
@@ -60,26 +62,45 @@ if ($LASTEXITCODE -ne 0) { throw "register audit failed" }
 # Advisory: most hits are fragments that legitimately recur, so a human reads it.
 & $py tools\audit_overrides.py out\bilingual.tsv `
     text\overrides.json text\review_pass2.json text\readability_pass.json `
+    text\semantic_pass.json `
     out\override_audit.txt
 
 Step 3 "work out which glyphs the menu fonts need"
 & $py tools\menu_chars.py "$origFonts\CKingMain_bffnt.szs\CKingMain.bffnt" `
     work\tree work\tree_zhtw out\menu_chars.txt
 
-Step 4 "add glyphs to the three fonts that carry Chinese text"
+Step 4 "reproduce the tested base fonts, then append new glyphs"
 & $py tools\build_font.py "$origFonts\CKingMsg_bffnt.szs\CKingMsg.bffnt" `
-    work\out_font\CKingMsg.bffnt --text-root work\tree_zhtw --ttf $Ttf `
-    --chars-file text\CKingMsg_legacy_chars.txt --report out\font_build_msg.json
-& $py tools\redraw_han_font.py work\out_font\CKingMsg.bffnt `
-    work\out_font\CKingMsg_weight500.bffnt --text-root work\tree_zhtw `
+    work\out_font\CKingMsg_base.bffnt --ttf $Ttf `
+    --chars-file text\CKingMsg_base_v109.txt --report out\font_build_msg_base.json
+if ($LASTEXITCODE -ne 0) { throw "dialogue base font build failed" }
+& $py tools\redraw_han_font.py work\out_font\CKingMsg_base.bffnt `
+    work\out_font\CKingMsg_base500.bffnt --chars-file text\CKingMsg_base_v109.txt `
     --ttf $Ttf --variation 500 --report out\font_redraw_msg.json
 if ($LASTEXITCODE -ne 0) { throw "weight-500 dialogue font redraw failed" }
-Move-Item work\out_font\CKingMsg_weight500.bffnt `
-    work\out_font\CKingMsg.bffnt -Force
+if ((Get-FileHash work\out_font\CKingMsg_base500.bffnt -Algorithm SHA256).Hash -ne `
+    "db1d07073c8898a2156a2951024c44243b8bdcfb0bdebbad4af02b6d1936e051") {
+    throw "dialogue base font differs from tested tw-v1.0.9"
+}
+& $py tools\build_font.py work\out_font\CKingMsg_base500.bffnt `
+    work\out_font\CKingMsg.bffnt --text-root work\tree_zhtw --ttf $Ttf `
+    --variation 500 --chars-file text\CKingMsg_legacy_chars.txt --report out\font_build_msg.json
+if ($LASTEXITCODE -ne 0) { throw "dialogue glyph append failed" }
+Remove-Item work\out_font\CKingMsg_base.bffnt, work\out_font\CKingMsg_base500.bffnt
 foreach ($f in "CKingMain", "CKingMainL") {
     & $py tools\build_font.py "$origFonts\${f}_bffnt.szs\$f.bffnt" `
+        "work\out_font\${f}_base.bffnt" --chars-file text\CKingMain_base_v109.txt --ttf $Ttf `
+        --report "out\font_build_${f}_base.json"
+    if ($LASTEXITCODE -ne 0) { throw "$f base font build failed" }
+    if ((Get-FileHash "work\out_font\${f}_base.bffnt" -Algorithm SHA256).Hash -ne `
+        "8b68bd1a702ed71bb806d2a159b8326a443ecdda0f588b62b68855faead02bed") {
+        throw "$f base font differs from tested tw-v1.0.9"
+    }
+    & $py tools\build_font.py "work\out_font\${f}_base.bffnt" `
         "work\out_font\$f.bffnt" --chars-file out\menu_chars.txt --ttf $Ttf `
         --report "out\font_build_$f.json"
+    if ($LASTEXITCODE -ne 0) { throw "$f glyph append failed" }
+    Remove-Item "work\out_font\${f}_base.bffnt"
 }
 
 Step 5 "install the hand-made title logo artwork"

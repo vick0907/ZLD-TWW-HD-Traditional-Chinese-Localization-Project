@@ -42,7 +42,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=Path)
     parser.add_argument("output", type=Path)
-    parser.add_argument("--text-root", required=True)
+    required_source = parser.add_mutually_exclusive_group(required=True)
+    required_source.add_argument("--text-root")
+    required_source.add_argument("--chars-file", type=Path)
     parser.add_argument("--ttf", default=r"C:\Windows\Fonts\NotoSansTC-VF.ttf")
     parser.add_argument("--variation", default="500")
     parser.add_argument("--size", type=int, default=36)
@@ -58,7 +60,11 @@ def main():
     original = args.source.read_bytes()
     font = bffnt.parse(original)
     atlas = Atlas(font)
-    required = required_han_codes(args.text_root)
+    if args.chars_file:
+        required = {ord(character) for character in args.chars_file.read_text(encoding="utf-8")
+                    if is_han(ord(character))}
+    else:
+        required = required_han_codes(args.text_root)
     missing_mappings = sorted(required - font.charmap.keys())
     if missing_mappings:
         raise ValueError("Required Han characters are not mapped: " +

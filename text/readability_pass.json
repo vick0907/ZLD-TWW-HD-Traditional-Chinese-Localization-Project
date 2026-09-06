@@ -1,5 +1,23 @@
 [
   {
+    "key": "message#02434",
+    "find": "衝我再來一次!",
+    "replace": "再攻過來一次！",
+    "note": "Come at me once more asks for another attack during sword training, not a literal charge."
+  },
+  {
+    "key": "message#02419",
+    "find": "你覺得呢?",
+    "replace": "要試試看嗎？",
+    "note": "Render the standalone What say you as an invitation to try, without inventing a specific drill."
+  },
+  {
+    "key": "message#02423",
+    "find": "你覺得呢?",
+    "replace": "想學劍術嗎？",
+    "note": "Invite the player to learn swordplay, as established in the same message."
+  },
+  {
     "key": "CommandGuide_00#T_ACT_Command_17",
     "find": "抓住邊緣",
     "replace": "抓住",
