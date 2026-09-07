@@ -13,11 +13,19 @@ class ActionLabelTests(unittest.TestCase):
                 key = "CommandGuide_00#T_ACT_Command_" + suffix
                 self.assertIsNone(qa_align.action_label_mismatch(key, english, chinese))
 
+    def test_tingle_bottle_name(self):
+        self.assertEqual(qa_align.EXPECTED_ACTION_LABELS["49"],
+                         ("Tingle Bottle", "\u6c40\u7a7a\u74f6"))
+        self.assertIsNone(qa_align.action_label_mismatch(
+            "CommandGuide_00#T_ACT_Command_49", "Tingle Bottle",
+            "\u6c40\u7a7a\u74f6"))
+
     def test_previous_mistranslations(self):
         for suffix, previous in (
             ("17", "\u6293\u4f4f\u908a\u7de3"),
             ("44", "\u56de\u6536"),
             ("48", "\u5378\u4e0b"),
+            ("49", "\u5ead\u683c\u723e\u74f6"),
         ):
             with self.subTest(suffix=suffix):
                 english, chinese = qa_align.EXPECTED_ACTION_LABELS[suffix]

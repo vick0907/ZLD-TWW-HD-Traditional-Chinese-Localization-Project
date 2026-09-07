@@ -222,7 +222,7 @@ EXPECTED_ACTION_LABELS = {
     "46": ("Normal", "普通"),
     "47": ("Equip", "裝備"),
     "48": ("Get Out", "下船"),
-    "49": ("Tingle Bottle", "庭格爾瓶"),
+    "49": ("Tingle Bottle", "汀空瓶"),
     "50": ("Erase", "刪除"),
 }
 

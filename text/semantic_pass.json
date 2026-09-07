@@ -1,5 +1,11 @@
 [
   {
+    "key": "message#00179",
+    "find": "魔頭鑰匙",
+    "replace": "大鑰匙",
+    "note": "Terminology: adopt the EoW Traditional Chinese name for Big Key, transcribed at https://zeldawiki.wiki/wiki/Data:Translations/EoW/Items/A-F."
+  },
+  {
     "key": "message#01510",
     "find": "天空之魂",
     "replace": "天空精靈",
@@ -5355,5 +5361,586 @@
     "find": "你最好能找個能破譯的行家。",
     "replace": "必須找人替你解讀。",
     "note": "Match the required deciphering step in the identical English description."
+  },
+  {
+    "key": "message#00148",
+    "find": "鏈鉤",
+    "replace": "鉤索",
+    "all": true,
+    "note": "Terminology: adopt Nintendo Taiwan's Hookshot name after the earlier wording corrections."
+  },
+  {
+    "key": "message#00428",
+    "find": "鏈鉤",
+    "replace": "鉤索",
+    "note": "Terminology: keep the Hookshot item label consistent."
+  },
+  {
+    "key": "message#00628",
+    "find": "鏈鉤",
+    "replace": "鉤索",
+    "note": "Terminology: keep the Hookshot description consistent."
+  },
+  {
+    "key": "message2#05428",
+    "find": "鏈鉤",
+    "replace": "鉤索",
+    "note": "Terminology: use the same Hookshot name in Makar's hint."
+  },
+  {
+    "key": "message4#14432",
+    "find": "鏈鉤",
+    "replace": "鉤索",
+    "all": true,
+    "note": "Terminology: keep the Hookshot name consistent in Molgera's profile."
+  },
+  {
+    "key": "message2#04552",
+    "find": "古基利",
+    "replace": "科奇里",
+    "note": "Terminology: adopt Nintendo Taiwan's Kokiri name for Fado's tribe."
+  },
+  {
+    "key": "message4#14397",
+    "find": "古基利",
+    "replace": "科奇里",
+    "all": true,
+    "note": "Terminology: use the same Kokiri name stem for the forest and the sage."
+  },
+  {
+    "key": "message4#14383",
+    "find": "卓拉地區",
+    "replace": "卓拉領地",
+    "note": "Terminology: adopt Zora's Domain from the TotK Traditional Chinese transcription."
+  },
+  {
+    "key": "message4#14418",
+    "find": "蝶蟲怪",
+    "replace": "加摩斯",
+    "note": "Terminology: adopt the EoW Traditional Chinese Mothula name; the Japanese enemy name matches."
+  },
+  {
+    "key": "message4#14412",
+    "find": "飄飄鬼",
+    "replace": "魄",
+    "note": "Terminology: adopt the EoW Traditional Chinese Poe name; the Japanese enemy name matches."
+  },
+  {
+    "key": "message4#14431",
+    "find": "飄飄鬼",
+    "replace": "魄",
+    "all": true,
+    "note": "Terminology: rename Jalhalla's Poe underlings, not Jalhalla himself."
+  },
+  {
+    "key": "message4#14413",
+    "find": "詐屍者",
+    "replace": "死亡殭屍",
+    "note": "Terminology: adopt the EoW Traditional Chinese ReDead name; the Japanese enemy name matches."
+  },
+  {
+    "key": "CommandGuide_00#T_ACT_Command_49",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "MenuMiiverseContent_00#Topic_Tag_place16",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "MenuMiiverse_00#T_Msg_00_01",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "MenuMiiverse_00#T_Msg_00_02",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "MenuMiiverse_00#T_Msg_00_03",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_06",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "SequenceOption_00#T_Msg_00_07",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "SequenceOption_00#T_Content_06",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "SequenceOption_00#T_Content_07",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "SequenceWindow_00#T_Msg_00_Miiverse_info00",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00067",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00134",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00264",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00265",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00266",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00267",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00268",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00280",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00281",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00282",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00283",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00284",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00285",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00321",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00412",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03504",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03505",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03510",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03514",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03521",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03522",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03547",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03550",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03558",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03560",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03562",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03563",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03566",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03575",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03576",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#03579",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04303",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04304",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04306",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04308",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04309",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04311",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04312",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04315",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04316",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04318",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message2#04319",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#12726",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#13043",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#13052",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#14110",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#14349",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#14350",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#14351",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "all": true,
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message4#14352",
+    "find": "庭格爾",
+    "replace": "汀空",
+    "note": "Use Tingle's BotW/TotK Traditional Chinese name consistently."
+  },
+  {
+    "key": "message#00132",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Joy Pendant is a pendant, not an earring; project wording, not an attested official name."
+  },
+  {
+    "key": "message#00416",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message2#03988",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message2#03990",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#07440",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#09952",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#09957",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10003",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10029",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10043",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10046",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10057",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10060",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10061",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10068",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message3#10078",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#11421",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#11511",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#11619",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#13041",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#14324",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
+  },
+  {
+    "key": "message4#14398",
+    "find": "幸福耳墜",
+    "replace": "幸福墜飾",
+    "note": "Keep the Joy Pendant name consistent with its item description."
   }
 ]
