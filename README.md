@@ -9,6 +9,10 @@ Wii U《The Legend of Zelda: The Wind Waker HD》的非官方**繁體中文（�
 **[下載最新版](https://github.com/vick0907/ZLD-TWW-HD-Traditional-Chinese-Localization-Project/releases/latest)**
 ｜[更新紀錄與舊版](https://github.com/vick0907/ZLD-TWW-HD-Traditional-Chinese-Localization-Project/releases)
 
+**tw-v1.0.12：全文校對收尾。** 本次預計是最後一輪大規模文字修訂，
+後續以影響閱讀或遊玩的必要修正為主，不再為同義措辭頻繁改版。
+可從任一舊版直接更新，不需逐版安裝或重新開始遊戲。
+
 | 檔案 | 用途 |
 |---|---|
 | `TWWHD_zhTW_CemuGraphicPack-*.zip` | Cemu 外掛式安裝，不修改遊戲本體 |
@@ -63,6 +67,7 @@ content\Common\Layout\Title_00.szs
 - 5,040 則文字已與美版英文逐句核對，但仍可能有錯字、誤譯或版面問題，**尚未經完整通關測試**。
 - 譯名優先參考任天堂官方繁中用語；未確認者暫沿用既有譯名，仍持續查核。
 - 校對方法與待確認項目見 [語意審查](docs/semantic-review-2026-09-06.md)及[譯名查核](docs/terminology-review-2026-09-07.md)。
+- 本輪套用範圍與驗證見[文字校訂收尾](docs/text-final-review-2026-09-08.md)。
 
 ## 自行建置
 

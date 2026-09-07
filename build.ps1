@@ -12,7 +12,7 @@ param(
     [string]$Upstream = "work\pack102\release",
     [string]$Ttf = "C:\Windows\Fonts\NotoSansTC-VF.ttf",
     # Bump this for every release; it names both zips and must match the git tag.
-    [string]$Version = "tw-v1.0.11"
+    [string]$Version = "tw-v1.0.12"
 )
 
 $ErrorActionPreference = "Stop"
@@ -91,10 +91,18 @@ if ((Get-FileHash work\out_font\CKingMsg_v110.bffnt -Algorithm SHA256).Hash -ne 
     throw "dialogue font differs from published tw-v1.0.10"
 }
 & $py tools\build_font.py work\out_font\CKingMsg_v110.bffnt `
+    work\out_font\CKingMsg_v111.bffnt --chars-file text\CKingMsg_append_v111.txt `
+    --ttf $Ttf --variation 500 --report out\font_build_msg_v111.json
+if ($LASTEXITCODE -ne 0) { throw "dialogue tw-v1.0.11 font build failed" }
+if ((Get-FileHash work\out_font\CKingMsg_v111.bffnt -Algorithm SHA256).Hash -ne `
+    "e09aeaa9cd86717f9c0e0ff520b33a8af148c5ad8be920dd1789538cbf0f3122") {
+    throw "dialogue font differs from published tw-v1.0.11"
+}
+& $py tools\build_font.py work\out_font\CKingMsg_v111.bffnt `
     work\out_font\CKingMsg.bffnt --text-root work\tree_zhtw --ttf $Ttf `
     --variation 500 --chars-file text\CKingMsg_legacy_chars.txt --report out\font_build_msg.json
 if ($LASTEXITCODE -ne 0) { throw "dialogue glyph append failed" }
-Remove-Item work\out_font\CKingMsg_base.bffnt, work\out_font\CKingMsg_base500.bffnt, work\out_font\CKingMsg_v110.bffnt
+Remove-Item work\out_font\CKingMsg_base.bffnt, work\out_font\CKingMsg_base500.bffnt, work\out_font\CKingMsg_v110.bffnt, work\out_font\CKingMsg_v111.bffnt
 foreach ($f in "CKingMain", "CKingMainL") {
     & $py tools\build_font.py "$origFonts\${f}_bffnt.szs\$f.bffnt" `
         "work\out_font\${f}_base.bffnt" --chars-file text\CKingMain_base_v109.txt --ttf $Ttf `
@@ -113,10 +121,18 @@ foreach ($f in "CKingMain", "CKingMainL") {
         throw "$f font differs from published tw-v1.0.10"
     }
     & $py tools\build_font.py "work\out_font\${f}_v110.bffnt" `
+        "work\out_font\${f}_v111.bffnt" --chars-file text\CKingMain_append_v111.txt --ttf $Ttf `
+        --report "out\font_build_${f}_v111.json"
+    if ($LASTEXITCODE -ne 0) { throw "$f tw-v1.0.11 font build failed" }
+    if ((Get-FileHash "work\out_font\${f}_v111.bffnt" -Algorithm SHA256).Hash -ne `
+        "d873a922643cc92e35037ef6d35c939e94d59ce5971a5c277ce082ea5c9eea58") {
+        throw "$f font differs from published tw-v1.0.11"
+    }
+    & $py tools\build_font.py "work\out_font\${f}_v111.bffnt" `
         "work\out_font\$f.bffnt" --chars-file out\menu_chars.txt --ttf $Ttf `
         --report "out\font_build_$f.json"
     if ($LASTEXITCODE -ne 0) { throw "$f glyph append failed" }
-    Remove-Item "work\out_font\${f}_base.bffnt", "work\out_font\${f}_v110.bffnt"
+    Remove-Item "work\out_font\${f}_base.bffnt", "work\out_font\${f}_v110.bffnt", "work\out_font\${f}_v111.bffnt"
 }
 
 Step 5 "install the hand-made title logo artwork"
