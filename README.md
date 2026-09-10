@@ -23,18 +23,24 @@ Wii U《The Legend of Zelda: The Wind Waker HD》的非官方**繁體中文（�
 **僅適用美版（WUP-P-BCZE，title ID `0005000010143500`），主機語言必須設為 English。**
 歐版與日版不適用。以下兩種方式擇一即可。
 
-### Cemu 外掛式安裝
+### Cemu 外掛式安裝（電腦版）
 
-1. 下載 Cemu graphic pack 版，解壓後將 `TWWHD_zhTW` 放進 Cemu 的 `graphicPacks\`。
-2. 重開 Cemu，在 `The Legend of Zelda: The Wind Waker HD → Mods → Traditional Chinese` 勾選啟用。
+1. 關閉遊戲與 Cemu，下載 `TWWHD_zhTW_CemuGraphicPack-*.zip` 並解壓縮。
+2. 將解壓後的整個 `TWWHD_zhTW` 資料夾放進 Cemu 的 `graphicPacks\`，確認檔案層級為 `graphicPacks\TWWHD_zhTW\rules.txt`。
+3. 重新開啟 Cemu，**先不要啟動遊戲**。在主畫面的遊戲清單中，對《The Legend of Zelda: The Wind Waker HD》**按滑鼠右鍵**。
+4. 點選「編輯圖形包」（`Edit graphic packs`），開啟圖形包設定視窗。
+5. 在清單中依序展開 `The Legend of Zelda: The Wind Waker HD`、`Mods`，**勾選 `Traditional Chinese` 前方的方框**。
+6. 關閉圖形包視窗，確認主機語言設為 `English`，再從遊戲清單啟動遊戲。
 
-取消勾選即可恢復英文。**不要放進 `downloadedGraphicPacks\`**，以免被 Cemu 更新覆蓋。
+若找不到 `Traditional Chinese`，先確認 ZIP 已解壓、資料夾沒有多包一層，且遊戲為美版。
+取消勾選並重新啟動遊戲即可停用外掛。**不要放進 `downloadedGraphicPacks\`**，以免被 Cemu 更新覆蓋。
 使用 `.wud` / `.wux` / `.iso` 時，仍需自行提供合法取得的光碟金鑰。
 
 ### 覆蓋遊戲資料夾
 
 1. 關閉遊戲，備份以下兩個原始檔案。
-2. 下載鬆散檔案版，將其中的 `content\` 合併到遊戲資料夾，覆蓋同名檔案。
+2. 下載 `ZLD-TWW-HD-zhTW-*.zip` 並解壓縮。
+3. 開啟遊戲資料夾中可看到 `code`、`content`、`meta` 的那一層，將補丁內的 `content` 資料夾合併到這裡，確認取代同名檔案。**不要再放進原有的 `content` 裡，變成 `content\content\`。**
 
 ```text
 content\Common\Pack\permanent_2d_UsEnglish.pack
