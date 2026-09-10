@@ -25,13 +25,26 @@ Wii U《The Legend of Zelda: The Wind Waker HD》的非官方**繁體中文（�
 
 ### Cemu 外掛式安裝（電腦版）
 
-1. 下載 `TWWHD_zhTW_CemuGraphicPack-*.zip` 並解壓縮；若遊戲正在執行，先關閉遊戲。
+1. 下載 `TWWHD_zhTW_CemuGraphicPack-*.zip` 並解壓縮（Windows 可選「解壓縮全部」）；若遊戲正在執行，先關閉遊戲。
 2. 開啟 Cemu，從上方選單點選 **`File`（檔案）→ `Open Cemu folder`**。這會開啟 Cemu **實際使用的資料目錄，不一定在執行檔旁邊**。
 3. 保留剛開啟的資料夾視窗，關閉 Cemu。將解壓後的整個 `TWWHD_zhTW` 資料夾放進該目錄裡的 `graphicPacks\`；若沒有 `graphicPacks`，就在這裡建立同名資料夾。確認檔案層級為 `graphicPacks\TWWHD_zhTW\rules.txt`。
 4. 重新開啟 Cemu，**先不要啟動遊戲**。在主畫面的遊戲清單中，對《The Legend of Zelda: The Wind Waker HD》**按滑鼠右鍵**。
 5. 點選「編輯圖形包」（`Edit graphic packs`），開啟圖形包設定視窗。
 6. 在清單中依序展開 `The Legend of Zelda: The Wind Waker HD`、`Mods`，**勾選 `Traditional Chinese` 前方的方框**。
 7. 關閉圖形包視窗，確認主機語言設為 `English`，再從遊戲清單啟動遊戲。
+
+解壓後請保留 `TWWHD_zhTW` 原名，放在 `graphicPacks` **最外層，與 `downloadedGraphicPacks` 並排**：
+
+```text
+graphicPacks/
+	downloadedGraphicPacks/
+	TWWHD_zhTW/
+		rules.txt
+		content/
+```
+
+不要直接放 ZIP 檔，也不要放進 `WindWakerHD` 或其他模組資料夾。
+Cemu 依包內的圖形包設定辨識遊戲，不需要將資料夾改名。
 
 Windows 的常見位置是 `%APPDATA%\Cemu\graphicPacks`，可按 `Win + R` 輸入後開啟。
 可攜版或自訂資料目錄可能不同，**以 `Open Cemu folder` 開啟的位置為準**。
